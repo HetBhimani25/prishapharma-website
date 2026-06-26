@@ -1,153 +1,82 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import Header from './components/Header';
-import BrandSection from './components/BrandSection';
-import CategorySection from './components/CategorySection';
-import FilterSidebar from './components/FilterSidebar';
-import ProductGrid from './components/ProductGrid';
+import CatalogueGrid from './components/CatalogueGrid';
 import ProductModal from './components/ProductModal';
-import { Filter } from 'lucide-react';
 
-// Data
 import productsData from './data/products.json';
-import brandsData from './data/brands.json';
 import categoriesData from './data/categories.json';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedBrand, setSelectedBrand] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
-  const [selectedSalt, setSelectedSalt] = useState('');
-  const [sortOption, setSortOption] = useState('default');
-  
   const [selectedProduct, setSelectedProduct] = useState(null);
-  const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
 
-  // Extract unique salts from products
-  const salts = useMemo(() => {
-    const uniqueSalts = new Set(productsData.map(p => p.salt).filter(Boolean));
-    return Array.from(uniqueSalts).sort();
-  }, []);
-
-  // Filter and sort products
   const filteredProducts = useMemo(() => {
     let result = [...productsData];
 
-    // Search filter (name, brand, category, salt)
     if (searchTerm) {
-      const lowerSearch = searchTerm.toLowerCase();
-      result = result.filter(p => 
-        p.name.toLowerCase().includes(lowerSearch) ||
-        p.brand.toLowerCase().includes(lowerSearch) ||
-        p.category.toLowerCase().includes(lowerSearch) ||
-        (p.salt && p.salt.toLowerCase().includes(lowerSearch))
+      const q = searchTerm.toLowerCase();
+      result = result.filter(p =>
+        p.name.toLowerCase().includes(q) ||
+        p.brand.toLowerCase().includes(q) ||
+        p.category.toLowerCase().includes(q) ||
+        (p.salt && p.salt.toLowerCase().includes(q))
       );
     }
 
-    // Brand filter
-    if (selectedBrand) {
-      result = result.filter(p => p.brand === selectedBrand);
-    }
-
-    // Category filter
     if (selectedCategory) {
       result = result.filter(p => p.category === selectedCategory);
     }
 
-    // Salt filter
-    if (selectedSalt) {
-      result = result.filter(p => p.salt === selectedSalt);
-    }
-
-    // Sorting
-    if (sortOption === 'a-z') {
-      result.sort((a, b) => a.name.localeCompare(b.name));
-    } else if (sortOption === 'z-a') {
-      result.sort((a, b) => b.name.localeCompare(a.name));
-    } else {
-      // Default sort (by ID)
-      result.sort((a, b) => a.id - b.id);
-    }
-
     return result;
-  }, [searchTerm, selectedBrand, selectedCategory, selectedSalt, sortOption]);
-
-  const clearFilters = () => {
-    setSearchTerm('');
-    setSelectedBrand('');
-    setSelectedCategory('');
-    setSelectedSalt('');
-    setSortOption('default');
-    setIsMobileFilterOpen(false);
-  };
+  }, [searchTerm, selectedCategory]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-accent">
-      <Header 
-        searchTerm={searchTerm} 
-        onSearchChange={setSearchTerm} 
-      />
+    <div className="min-h-screen bg-gray-200 flex flex-col">
+      <Header searchTerm={searchTerm} onSearchChange={setSearchTerm} />
 
-      <main className="flex-1">
-        <BrandSection 
-          brands={brandsData}
-          selectedBrand={selectedBrand}
-          onSelectBrand={setSelectedBrand}
-        />
-        
-        <CategorySection 
-          categories={categoriesData}
-          selectedCategory={selectedCategory}
-          onSelectCategory={setSelectedCategory}
-        />
+      {/* Category filter strip — constrained to same width as catalogue */}
+      <div className="bg-white border-b border-gray-200 shadow-sm">
+        <div className="max-w-5xl mx-auto px-4 md:px-8 py-3 flex items-center gap-2 overflow-x-auto scrollbar-none">
+          <button
+            onClick={() => setSelectedCategory('')}
+            className={`flex-shrink-0 px-4 py-1.5 rounded-full text-sm font-semibold border transition-all ${
+              selectedCategory === ''
+                ? 'bg-primary text-white border-primary shadow-sm'
+                : 'bg-white text-gray-600 border-gray-300 hover:border-primary hover:text-primary'
+            }`}
+          >
+            All
+          </button>
+          {categoriesData.map(cat => (
+            <button
+              key={cat}
+              onClick={() => setSelectedCategory(selectedCategory === cat ? '' : cat)}
+              className={`flex-shrink-0 px-4 py-1.5 rounded-full text-sm font-semibold border transition-all ${
+                selectedCategory === cat
+                  ? 'bg-primary text-white border-primary shadow-sm'
+                  : 'bg-white text-gray-600 border-gray-300 hover:border-primary hover:text-primary'
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+      </div>
 
-        <div className="container mx-auto px-4 md:px-8 py-8">
-          <div className="flex flex-col lg:flex-row gap-8">
-            
-            <FilterSidebar 
-              isOpen={isMobileFilterOpen}
-              onClose={() => setIsMobileFilterOpen(false)}
-              brands={brandsData}
-              categories={categoriesData}
-              salts={salts}
-              selectedBrand={selectedBrand}
-              onSelectBrand={setSelectedBrand}
-              selectedCategory={selectedCategory}
-              onSelectCategory={setSelectedCategory}
-              selectedSalt={selectedSalt}
-              onSelectSalt={setSelectedSalt}
-              sortOption={sortOption}
-              onSortChange={setSortOption}
-              onClearFilters={clearFilters}
-            />
-
-            <div className="flex-1">
-              <div className="flex justify-between items-center mb-6">
-                <h1 className="text-2xl font-bold text-gray-900">
-                  {searchTerm ? 'Search Results' : 'All Products'}
-                  <span className="text-sm font-normal text-gray-500 ml-2">({filteredProducts.length})</span>
-                </h1>
-                
-                <button 
-                  onClick={() => setIsMobileFilterOpen(true)}
-                  className="lg:hidden flex items-center gap-2 bg-white px-4 py-2 border border-gray-200 rounded-lg text-sm font-medium text-gray-700 shadow-sm"
-                >
-                  <Filter className="h-4 w-4" /> Filters
-                </button>
-              </div>
-
-              <ProductGrid 
-                products={filteredProducts} 
-                onProductClick={setSelectedProduct} 
-              />
-            </div>
-
-          </div>
+      {/* Main catalogue — centered white card */}
+      <main className="flex-1 flex justify-center py-6 px-4">
+        <div className="w-full max-w-5xl bg-white shadow-md rounded-lg overflow-hidden">
+          <CatalogueGrid
+            products={filteredProducts}
+            onProductClick={setSelectedProduct}
+          />
         </div>
       </main>
 
-      <ProductModal 
-        product={selectedProduct} 
-        onClose={() => setSelectedProduct(null)} 
+      <ProductModal
+        product={selectedProduct}
+        onClose={() => setSelectedProduct(null)}
       />
     </div>
   );

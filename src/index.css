@@ -10,63 +10,17 @@
 
 @layer base {
   body {
-    @apply font-sans antialiased text-gray-900 bg-white;
+    @apply font-sans antialiased text-gray-900 bg-gray-100;
     scroll-behavior: smooth;
   }
 }
 
+/* Hide scrollbar on category pill row */
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
+
 /* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background: #F7F9FC;
-}
-::-webkit-scrollbar-thumb {
-  background: #10A84A;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #0D8E3E;
-}
-
-/* ── Marquee / Infinite Scroll ── */
-/* Track is 200% wide (original + clone). -50% = exactly one set = full container. */
-@keyframes marquee-left {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
-@keyframes marquee-right {
-  from { transform: translateX(-50%); }
-  to   { transform: translateX(0); }
-}
-
-.marquee-track {
-  will-change: transform;
-}
-
-.marquee-track-left {
-  animation: marquee-left 30s linear infinite;
-}
-
-.marquee-track-right {
-  animation: marquee-right 30s linear infinite;
-}
-
-.marquee-track-cat-left {
-  animation: marquee-left 38s linear infinite;
-}
-
-.marquee-track-cat-right {
-  animation: marquee-right 38s linear infinite;
-}
-
-.marquee-wrapper {
-  overflow: hidden;
-  width: 100%;
-}
-
-.marquee-wrapper:hover .marquee-track,
-.overflow-hidden:hover .marquee-track {
-  animation-play-state: paused;
-}
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F7F9FC; }
+::-webkit-scrollbar-thumb { background: #10A84A; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #0D8E3E; }
