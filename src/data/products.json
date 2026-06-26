@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Paracetamol 650",
+    "brand": "Sun Pharma",
+    "category": "Tablets",
+    "pack": "15 Tablets",
+    "description": "Pain relief and fever reducer.",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae"
+  },
+  {
+    "id": 2,
+    "name": "Vitamin C Syrup",
+    "brand": "Cipla",
+    "category": "Syrups",
+    "pack": "100 ml",
+    "description": "Immunity booster.",
+    "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2"
+  },
+  {
+    "id": 3,
+    "name": "Calcium Tablets",
+    "brand": "Alkem",
+    "category": "Tablets",
+    "pack": "30 Tablets",
+    "description": "Calcium Supplement.",
+    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88"
+  },
+  {
+    "id": 4,
+    "name": "Protein Powder",
+    "brand": "Torrent Pharma",
+    "category": "Nutrition",
+    "pack": "500 gm",
+    "description": "Nutrition Supplement.",
+    "image": "https://images.unsplash.com/photo-1612538498456-e861df91d4d0"
+  }
+]
