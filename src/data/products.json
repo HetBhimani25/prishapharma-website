@@ -4,6 +4,8 @@
     "name": "Paracetamol 650",
     "brand": "Sun Pharma",
     "category": "Tablets",
+    "salt": "Paracetamol",
+    "strength": "650 mg",
     "pack": "15 Tablets",
     "description": "Pain relief and fever reducer.",
     "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae"
@@ -13,7 +15,9 @@
     "name": "Vitamin C Syrup",
     "brand": "Cipla",
     "category": "Syrups",
-    "pack": "100 ml",
+    "salt": "Vitamin C",
+    "strength": "100 ml",
+    "pack": "Bottle",
     "description": "Immunity booster.",
     "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2"
   },
@@ -22,6 +26,8 @@
     "name": "Calcium Tablets",
     "brand": "Alkem",
     "category": "Tablets",
+    "salt": "Calcium Carbonate",
+    "strength": "500 mg",
     "pack": "30 Tablets",
     "description": "Calcium Supplement.",
     "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88"
@@ -31,8 +37,98 @@
     "name": "Protein Powder",
     "brand": "Torrent Pharma",
     "category": "Nutrition",
-    "pack": "500 gm",
+    "salt": "Protein Blend",
+    "strength": "500 gm",
+    "pack": "Jar",
     "description": "Nutrition Supplement.",
+    "image": "https://images.unsplash.com/photo-1612538498456-e861df91d4d0"
+  },
+  {
+    "id": 5,
+    "name": "Amoxicillin 500",
+    "brand": "Dr. Reddy's",
+    "category": "Capsules",
+    "salt": "Amoxicillin",
+    "strength": "500 mg",
+    "pack": "10 Capsules",
+    "description": "Antibiotic for bacterial infections.",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae"
+  },
+  {
+    "id": 6,
+    "name": "Cough Syrup",
+    "brand": "Zydus Cadila",
+    "category": "Syrups",
+    "salt": "Dextromethorphan",
+    "strength": "100 ml",
+    "pack": "Bottle",
+    "description": "Dry cough relief.",
+    "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2"
+  },
+  {
+    "id": 7,
+    "name": "Diclofenac Gel",
+    "brand": "Lupin",
+    "category": "Ointments",
+    "salt": "Diclofenac Diethylamine",
+    "strength": "1% w/w",
+    "pack": "30 gm",
+    "description": "Pain relief gel for joints and muscles.",
+    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88"
+  },
+  {
+    "id": 8,
+    "name": "B-Complex",
+    "brand": "Glenmark",
+    "category": "Capsules",
+    "salt": "Vitamin B Complex",
+    "strength": "Fortified",
+    "pack": "20 Capsules",
+    "description": "Daily vitamin B supplement.",
+    "image": "https://images.unsplash.com/photo-1612538498456-e861df91d4d0"
+  },
+  {
+    "id": 9,
+    "name": "Cefixime 200",
+    "brand": "Sun Pharma",
+    "category": "Tablets",
+    "salt": "Cefixime",
+    "strength": "200 mg",
+    "pack": "10 Tablets",
+    "description": "Antibiotic for severe infections.",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae"
+  },
+  {
+    "id": 10,
+    "name": "Eye Drops",
+    "brand": "Cipla",
+    "category": "Drops",
+    "salt": "Carboxymethylcellulose",
+    "strength": "0.5%",
+    "pack": "10 ml",
+    "description": "Lubricating eye drops for dry eyes.",
+    "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2"
+  },
+  {
+    "id": 11,
+    "name": "ORS Powder",
+    "brand": "Alkem",
+    "category": "Powders",
+    "salt": "Oral Rehydration Salts",
+    "strength": "Standard",
+    "pack": "21 gm Sachet",
+    "description": "Restores body fluids and electrolytes.",
+    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88"
+  },
+  {
+    "id": 12,
+    "name": "Ashwagandha",
+    "brand": "Torrent Pharma",
+    "category": "Ayurvedic",
+    "salt": "Ashwagandha Extract",
+    "strength": "500 mg",
+    "pack": "60 Capsules",
+    "description": "Natural stress relief and energy booster.",
     "image": "https://images.unsplash.com/photo-1612538498456-e861df91d4d0"
   }
 ]

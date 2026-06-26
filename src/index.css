@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #29b657;
-  --color-secondary: #1a1a1a;
-  --color-accent: #F8F9FA;
+  --color-primary: #10A84A;
+  --color-secondary: #111111;
+  --color-accent: #F7F9FC;
+  --color-card: #FFFFFF;
   --font-sans: "Inter", "Roboto", system-ui, sans-serif;
 }
 
@@ -14,17 +15,58 @@
   }
 }
 
-/* Custom Scrollbar for a premium feel */
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #F8F9FA;
+  background: #F7F9FC;
 }
 ::-webkit-scrollbar-thumb {
-  background: #29b657;
+  background: #10A84A;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #1f9d48;
+  background: #0D8E3E;
+}
+
+/* ── Marquee / Infinite Scroll ── */
+/* Track is 200% wide (original + clone). -50% = exactly one set = full container. */
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes marquee-right {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+.marquee-track {
+  will-change: transform;
+}
+
+.marquee-track-left {
+  animation: marquee-left 30s linear infinite;
+}
+
+.marquee-track-right {
+  animation: marquee-right 30s linear infinite;
+}
+
+.marquee-track-cat-left {
+  animation: marquee-left 38s linear infinite;
+}
+
+.marquee-track-cat-right {
+  animation: marquee-right 38s linear infinite;
+}
+
+.marquee-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-wrapper:hover .marquee-track,
+.overflow-hidden:hover .marquee-track {
+  animation-play-state: paused;
 }

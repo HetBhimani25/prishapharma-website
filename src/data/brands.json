@@ -14,5 +14,21 @@
   {
     "name": "Torrent Pharma",
     "logo": "https://upload.wikimedia.org/wikipedia/en/5/59/Torrent_Pharmaceuticals_logo.png"
+  },
+  {
+    "name": "Dr. Reddy's",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/79/Sun_Pharma_logo.svg"
+  },
+  {
+    "name": "Zydus Cadila",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cipla_logo.svg"
+  },
+  {
+    "name": "Lupin",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/63/Alkem_Laboratories_logo.svg"
+  },
+  {
+    "name": "Glenmark",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/5/59/Torrent_Pharmaceuticals_logo.png"
   }
 ]

@@ -1,11 +1,9 @@
 {
   "name": "Prisha Pharma",
   "logo": "/logo.png",
-  "tagline": "Trusted Partner for Pharmaceutical Distribution",
+  "tagline": "Trusted Pharmaceutical Distribution Partner",
   "experience": "10+ Years",
-  "address": "Surat, Gujarat",
-  "phone": "+91 9876543210",
-  "email": "info@prishapharma.com",
-  "website": null,
-  "whatsapp": "+91 9876543210"
+  "location": "Surat, Gujarat",
+  "contact": "+91 9876543210",
+  "email": "info@prishapharma.com"
 }
