@@ -1,102 +1,101 @@
 import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Package, Pill, Beaker, Tag } from 'lucide-react';
+import { X, Package, Tag, Building2, Layers } from 'lucide-react';
+import agencyData from '../data/agency.json';
 
 const ProductModal = ({ product, onClose }) => {
   useEffect(() => {
-    if (product) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
+    const handleKey = (e) => e.key === 'Escape' && onClose();
+    document.addEventListener('keydown', handleKey);
+    document.body.style.overflow = 'hidden';
     return () => {
-      document.body.style.overflow = 'unset';
+      document.removeEventListener('keydown', handleKey);
+      document.body.style.overflow = '';
     };
-  }, [product]);
+  }, [onClose]);
+
+  if (!product) return null;
 
   return (
     <AnimatePresence>
-      {product && (
-        <>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={onClose}
-            className="fixed inset-0 bg-black/60 z-[60] backdrop-blur-sm"
-          />
-          <div className="fixed inset-0 z-[70] flex items-center justify-center p-4 sm:p-6 pointer-events-none">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95, y: 20 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.95, y: 20 }}
-              className="bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto flex flex-col md:flex-row pointer-events-auto"
-            >
-              <button 
-                onClick={onClose}
-                className="absolute top-4 right-4 z-10 p-2 bg-white/80 hover:bg-gray-100 rounded-full shadow-sm backdrop-blur-md transition-colors"
-              >
-                <X className="h-5 w-5 text-gray-700" />
-              </button>
+      <motion.div
+        className="modal-overlay"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        role="dialog"
+        aria-modal="true"
+        aria-label={`Product details: ${product.name}`}
+      >
+        <motion.div
+          className="modal-backdrop"
+          onClick={onClose}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+        />
+        <motion.div
+          className="modal"
+          initial={{ scale: 0.9, opacity: 0, y: 20 }}
+          animate={{ scale: 1, opacity: 1, y: 0 }}
+          exit={{ scale: 0.9, opacity: 0 }}
+          transition={{ type: 'spring', damping: 20, stiffness: 300 }}
+        >
+          <button className="modal__close" onClick={onClose} aria-label="Close modal">
+            <X size={20} />
+          </button>
 
-              <div className="w-full md:w-1/2 bg-gray-50 p-8 flex items-center justify-center min-h-[300px]">
-                <img 
-                  src={product.image} 
-                  alt={product.name} 
-                  className="max-w-full max-h-[400px] object-contain drop-shadow-xl"
-                />
-              </div>
+          <img src={product.image} alt={product.name} className="modal__image" />
 
-              <div className="w-full md:w-1/2 p-6 md:p-10 flex flex-col">
-                <div className="mb-6">
-                  <div className="flex flex-wrap items-center gap-3 mb-4">
-                    <span className="px-3 py-1 bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider rounded-full">
-                      {product.brand}
-                    </span>
-                    <span className="px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full">
-                      {product.category}
-                    </span>
-                  </div>
-                  <h2 className="text-3xl font-bold text-gray-900 mb-2">{product.name}</h2>
-                </div>
-
-                <div className="space-y-4 mb-8 flex-1">
-                  <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-xl border border-gray-100">
-                    <Beaker className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                    <div>
-                      <p className="text-xs font-semibold text-gray-500 uppercase">Composition / Salt</p>
-                      <p className="text-gray-900 font-medium">{product.salt}</p>
-                    </div>
-                  </div>
-                  
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-xl border border-gray-100">
-                      <Pill className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <div>
-                        <p className="text-xs font-semibold text-gray-500 uppercase">Strength</p>
-                        <p className="text-gray-900 font-medium">{product.strength}</p>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-xl border border-gray-100">
-                      <Package className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <div>
-                        <p className="text-xs font-semibold text-gray-500 uppercase">Pack Size</p>
-                        <p className="text-gray-900 font-medium">{product.pack}</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="pt-4 border-t border-gray-100">
-                    <p className="text-xs font-semibold text-gray-500 uppercase mb-2">Description</p>
-                    <p className="text-gray-700 leading-relaxed">{product.description}</p>
-                  </div>
-                </div>
-
-              </div>
-            </motion.div>
+          <div className="modal__pill-wrap">
+            <span className="modal__pill">{product.category}</span>
           </div>
-        </>
-      )}
+
+          <div className="modal__body">
+            <h2 className="modal__title">{product.name}</h2>
+            <p className="modal__desc">{product.description}</p>
+
+            <div className="modal__meta-grid">
+              <div className="modal__meta-item">
+                <Building2 size={20} className="modal__meta-icon" />
+                <div>
+                  <span className="modal__meta-label">Brand</span>
+                  <span className="modal__meta-value">{product.brand}</span>
+                </div>
+              </div>
+              <div className="modal__meta-item">
+                <Package size={20} className="modal__meta-icon" />
+                <div>
+                  <span className="modal__meta-label">Pack Size</span>
+                  <span className="modal__meta-value">{product.pack}</span>
+                </div>
+              </div>
+              <div className="modal__meta-item">
+                <Layers size={20} className="modal__meta-icon" />
+                <div>
+                  <span className="modal__meta-label">Category</span>
+                  <span className="modal__meta-value">{product.category}</span>
+                </div>
+              </div>
+              <div className="modal__meta-item modal__meta-item--accent">
+                <Tag size={20} className="modal__meta-icon" />
+                <div>
+                  <span className="modal__meta-label">Product ID</span>
+                  <span className="modal__meta-value">#{String(product.id).padStart(4, '0')}</span>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href={`https://wa.me/${agencyData.whatsapp.replace(/\D/g, '')}?text=Hi, I'm interested in ${encodeURIComponent(product.name)} (${product.pack}) from ${product.brand}.`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="modal__cta"
+            >
+              Enquire on WhatsApp
+            </a>
+          </div>
+        </motion.div>
+      </motion.div>
     </AnimatePresence>
   );
 };

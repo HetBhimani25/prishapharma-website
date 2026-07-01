@@ -1,0 +1,38 @@
+[
+  {
+    "section": "Office",
+    "images": [
+      { "id": 1, "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80", "alt": "Modern office workspace" },
+      { "id": 2, "url": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80", "alt": "Office meeting room" },
+      { "id": 3, "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80", "alt": "Office interior" },
+      { "id": 4, "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80", "alt": "Reception area" }
+    ]
+  },
+  {
+    "section": "Warehouse",
+    "images": [
+      { "id": 5, "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80", "alt": "Pharmaceutical warehouse" },
+      { "id": 6, "url": "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=800&q=80", "alt": "Storage shelves" },
+      { "id": 7, "url": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=800&q=80", "alt": "Inventory management" },
+      { "id": 8, "url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80", "alt": "Warehouse operations" }
+    ]
+  },
+  {
+    "section": "Delivery",
+    "images": [
+      { "id": 9, "url": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80", "alt": "Delivery vehicle" },
+      { "id": 10, "url": "https://images.unsplash.com/photo-1532635241-17e820acc59f?auto=format&fit=crop&w=800&q=80", "alt": "Package delivery" },
+      { "id": 11, "url": "https://images.unsplash.com/photo-1583864697784-a0efc8379f70?auto=format&fit=crop&w=800&q=80", "alt": "Delivery team" },
+      { "id": 12, "url": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=800&q=80", "alt": "Logistics" }
+    ]
+  },
+  {
+    "section": "Products",
+    "images": [
+      { "id": 13, "url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80", "alt": "Pharmaceutical products" },
+      { "id": 14, "url": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&q=80", "alt": "Medicine tablets" },
+      { "id": 15, "url": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=800&q=80", "alt": "Syrups and liquids" },
+      { "id": 16, "url": "https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&w=800&q=80", "alt": "Medicine collection" }
+    ]
+  }
+]

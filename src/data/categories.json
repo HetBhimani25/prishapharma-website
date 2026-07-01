@@ -1,12 +1,12 @@
 [
-  "Tablets",
-  "Capsules",
-  "Syrups",
-  "Injectables",
-  "Creams",
-  "Ointments",
-  "Drops",
-  "Powders",
-  "Nutrition",
-  "Ayurvedic"
+  { "id": 1, "name": "Tablets", "icon": "pill", "description": "Oral solid dosage forms for easy administration." },
+  { "id": 2, "name": "Capsules", "icon": "capsules", "description": "Hard and soft gelatin capsules for accurate dosing." },
+  { "id": 3, "name": "Syrups", "icon": "bottle", "description": "Liquid formulations for children and adults." },
+  { "id": 4, "name": "Injectables", "icon": "syringe", "description": "Sterile parenteral formulations for rapid action." },
+  { "id": 5, "name": "Creams", "icon": "cream", "description": "Topical formulations for skin conditions." },
+  { "id": 6, "name": "Ointments", "icon": "tube", "description": "Semi-solid preparations for external application." },
+  { "id": 7, "name": "Drops", "icon": "drops", "description": "Ophthalmic, nasal, and ear drops." },
+  { "id": 8, "name": "Powders", "icon": "powder", "description": "Oral and topical powder formulations." },
+  { "id": 9, "name": "Nutrition", "icon": "nutrition", "description": "Health supplements and nutritional products." },
+  { "id": 10, "name": "Ayurvedic", "icon": "ayurvedic", "description": "Traditional herbal and ayurvedic formulations." }
 ]

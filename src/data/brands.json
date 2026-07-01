@@ -1,34 +1,26 @@
 [
   {
+    "id": 1,
     "name": "Sun Pharma",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/79/Sun_Pharma_logo.svg"
+    "logo": "/src/assets/sunpharma.png",
+    "description": "India's largest pharmaceutical company by market cap, known for quality and innovation."
   },
   {
+    "id": 2,
     "name": "Cipla",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cipla_logo.svg"
+    "logo": "/src/assets/cipla.png",
+    "description": "A global pharmaceutical company focused on making quality medicines accessible."
   },
   {
+    "id": 3,
     "name": "Alkem",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/63/Alkem_Laboratories_logo.svg"
+    "logo": "/src/assets/alkem.png",
+    "description": "A leading Indian pharmaceutical company with strong presence across therapeutic segments."
   },
   {
+    "id": 4,
     "name": "Torrent Pharma",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/5/59/Torrent_Pharmaceuticals_logo.png"
-  },
-  {
-    "name": "Dr. Reddy's",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/79/Sun_Pharma_logo.svg"
-  },
-  {
-    "name": "Zydus Cadila",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cipla_logo.svg"
-  },
-  {
-    "name": "Lupin",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/63/Alkem_Laboratories_logo.svg"
-  },
-  {
-    "name": "Glenmark",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/5/59/Torrent_Pharmaceuticals_logo.png"
+    "logo": "/src/assets/torrentpharma.png",
+    "description": "One of India's top pharmaceutical companies with a strong domestic and international portfolio."
   }
 ]

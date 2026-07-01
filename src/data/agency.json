@@ -1,9 +1,18 @@
 {
   "name": "Prisha Pharma",
   "logo": "/logo.png",
+  "favicon": "/favicon.png",
   "tagline": "Trusted Pharmaceutical Distribution Partner",
+  "description": "Prisha Pharma is a leading pharmaceutical distribution agency based in Surat, Gujarat, committed to delivering quality medicines and healthcare products with reliability and care.",
   "experience": "10+ Years",
-  "location": "Surat, Gujarat",
-  "contact": "+91 9876543210",
-  "email": "info@prishapharma.com"
+  "address": "Surat, Gujarat, India",
+  "phone": "+91 9898860818",
+  "email": "info@prishapharma.com",
+  "whatsapp": "+91 9898860818",
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.8120512527445!2d72.8310857!3d21.1702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e6b60780b4b%3A0xdf7e1bb4a4fbd77!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1690000000000",
+  "socialLinks": {
+    "facebook": null,
+    "instagram": null,
+    "linkedin": null
+  }
 }

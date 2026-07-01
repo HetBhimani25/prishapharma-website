@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Rajesh Mehta",
+    "role": "Pharmacist, Rajesh Medical",
+    "location": "Surat, Gujarat",
+    "review": "Prisha Pharma has been our trusted supplier for over 5 years. Their delivery is always on time and product quality is unmatched. Highly recommended for any medical store.",
+    "rating": 5,
+    "avatar": "RM"
+  },
+  {
+    "id": 2,
+    "name": "Priya Shah",
+    "role": "Manager, Shah Pharmacy",
+    "location": "Vadodara, Gujarat",
+    "review": "Excellent service and a wide range of products. Prisha Pharma's team is very responsive and professional. Our go-to pharmaceutical distributor.",
+    "rating": 5,
+    "avatar": "PS"
+  },
+  {
+    "id": 3,
+    "name": "Amit Patel",
+    "role": "Owner, Patel Drug House",
+    "location": "Ahmedabad, Gujarat",
+    "review": "The product catalogue is comprehensive and well-organized. We've been able to source all our requirements through Prisha Pharma with great consistency.",
+    "rating": 5,
+    "avatar": "AP"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Sunita Joshi",
+    "role": "Clinical Pharmacist",
+    "location": "Bharuch, Gujarat",
+    "review": "Reliable, efficient, and trustworthy. Prisha Pharma understands the needs of medical professionals and always delivers the right products at the right time.",
+    "rating": 5,
+    "avatar": "SJ"
+  }
+]

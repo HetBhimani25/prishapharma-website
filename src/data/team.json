@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Vikram Patel",
+    "role": "Founder & Managing Director",
+    "experience": "20+ Years in Pharma",
+    "avatar": "VP",
+    "bio": "Visionary leader with deep expertise in pharmaceutical distribution and healthcare supply chains."
+  },
+  {
+    "id": 2,
+    "name": "Nisha Shah",
+    "role": "Head of Operations",
+    "experience": "12+ Years",
+    "avatar": "NS",
+    "bio": "Operations expert ensuring seamless logistics, inventory management and timely delivery."
+  },
+  {
+    "id": 3,
+    "name": "Rohan Mehta",
+    "role": "Sales Manager",
+    "experience": "8+ Years",
+    "avatar": "RM",
+    "bio": "Customer-focused sales professional building strong partnerships with pharmacies and hospitals."
+  }
+]
