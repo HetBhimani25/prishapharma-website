@@ -1,26 +1,14 @@
 [
-  {
-    "id": 1,
-    "name": "Sun Pharma",
-    "logo": "/src/assets/sunpharma.png",
-    "description": "India's largest pharmaceutical company by market cap, known for quality and innovation."
-  },
-  {
-    "id": 2,
-    "name": "Cipla",
-    "logo": "/src/assets/cipla.png",
-    "description": "A global pharmaceutical company focused on making quality medicines accessible."
-  },
-  {
-    "id": 3,
-    "name": "Alkem",
-    "logo": "/src/assets/alkem.png",
-    "description": "A leading Indian pharmaceutical company with strong presence across therapeutic segments."
-  },
-  {
-    "id": 4,
-    "name": "Torrent Pharma",
-    "logo": "/src/assets/torrentpharma.png",
-    "description": "One of India's top pharmaceutical companies with a strong domestic and international portfolio."
-  }
+  { "id": 1,  "name": "Sun Pharma",     "logo": "/src/assets/sunpharma.png",    "description": "India's largest pharmaceutical company by market cap, known for quality and innovation.", "colorKey": "sun" },
+  { "id": 2,  "name": "Cipla",          "logo": "/src/assets/cipla.png",        "description": "A global pharmaceutical company focused on making quality medicines accessible to all.", "colorKey": "cipla" },
+  { "id": 3,  "name": "Alkem",          "logo": "/src/assets/alkem.png",        "description": "A leading Indian pharma company with strong presence across all therapeutic segments.", "colorKey": "alkem" },
+  { "id": 4,  "name": "Torrent Pharma", "logo": "/src/assets/torrentpharma.png","description": "One of India's top pharmaceutical companies with a strong domestic and international portfolio.", "colorKey": "torrent" },
+  { "id": 5,  "name": "Lupin",          "logo": "/src/assets/sunpharma.png",    "description": "A multinational pharma company known for anti-TB and cardiovascular drug manufacturing.", "colorKey": "lupin" },
+  { "id": 6,  "name": "Abbott India",   "logo": "/src/assets/cipla.png",        "description": "Abbott India is one of the fastest-growing pharmaceutical companies operating in India.", "colorKey": "abbott" },
+  { "id": 7,  "name": "Mankind Pharma", "logo": "/src/assets/alkem.png",        "description": "One of India's fastest-growing pharma companies with a broad consumer product portfolio.", "colorKey": "mankind" },
+  { "id": 8,  "name": "Dr. Reddy's",    "logo": "/src/assets/torrentpharma.png","description": "A leading multinational pharmaceutical company headquartered in Hyderabad, India.", "colorKey": "drreddy" },
+  { "id": 9,  "name": "Zydus",          "logo": "/src/assets/sunpharma.png",    "description": "Zydus Lifesciences is a global healthcare company operating in 50+ countries worldwide.", "colorKey": "zydus" },
+  { "id": 10, "name": "Cadila",         "logo": "/src/assets/cipla.png",        "description": "Cadila Pharmaceuticals focuses on complex generics and active pharmaceutical ingredients.", "colorKey": "cadila" },
+  { "id": 11, "name": "Emcure",         "logo": "/src/assets/alkem.png",        "description": "Emcure Pharmaceuticals is a research-driven global pharma company based in Pune, India.", "colorKey": "emcure" },
+  { "id": 12, "name": "IPCA",           "logo": "/src/assets/torrentpharma.png","description": "IPCA Laboratories is known for anti-malarial and cardiovascular pharmaceutical products.", "colorKey": "ipca" }
 ]

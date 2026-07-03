@@ -1,110 +1,142 @@
 [
   {
-    "id": 1,
-    "name": "Paracetamol 650",
-    "brand": "Sun Pharma",
-    "category": "Tablets",
-    "pack": "15 Tablets",
-    "description": "Effective pain relief and fever reducer. Suitable for adults and children above 12 years. Provides fast relief from headache, mild to moderate pain and fever.",
-    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80"
+    "id": 1, "name": "Antiseptic Cream", "brand": "Sun Pharma", "category": "Creams",
+    "description": "Broad-spectrum antiseptic cream for minor wounds, cuts and burns. Prevents infection and promotes faster healing.",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=400&q=70",
+    "pack": "30 gm", "mrp": "85.00",
+    "composition": ["Chlorhexidine Gluconate 0.5%", "Cetrimide 0.5%"]
   },
   {
-    "id": 2,
-    "name": "Vitamin C Syrup",
-    "brand": "Cipla",
-    "category": "Syrups",
-    "pack": "100 ml",
-    "description": "Immunity booster enriched with Vitamin C. Ideal for daily nutritional supplementation for children and adults. Pleasant orange flavor.",
-    "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=600&q=80"
+    "id": 2, "name": "Paracetamol Tablet", "brand": "Sun Pharma", "category": "Tablets",
+    "description": "Effective analgesic and antipyretic tablet for fever, headache and mild to moderate pain relief.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "12.50",
+    "composition": ["Paracetamol 500mg"]
   },
   {
-    "id": 3,
-    "name": "Calcium Tablets",
-    "brand": "Alkem",
-    "category": "Tablets",
-    "pack": "30 Tablets",
-    "description": "Premium Calcium supplement for strong bones and teeth. Formulated with Vitamin D3 for better calcium absorption. Suitable for adults and senior citizens.",
-    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=600&q=80"
+    "id": 3, "name": "Amlodipine Tablet", "brand": "Sun Pharma", "category": "Tablets",
+    "description": "Calcium channel blocker used in the treatment of hypertension and angina pectoris.",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "45.00",
+    "composition": ["Amlodipine Besylate 5mg"]
   },
   {
-    "id": 4,
-    "name": "Protein Powder",
-    "brand": "Torrent Pharma",
-    "category": "Nutrition",
-    "pack": "500 gm",
-    "description": "High-quality whey protein nutrition supplement. Ideal for post-workout recovery and daily protein needs. Rich in essential amino acids.",
-    "image": "https://images.unsplash.com/photo-1612538498456-e861df91d4d0?auto=format&fit=crop&w=600&q=80"
+    "id": 4, "name": "Atorvastatin Capsule", "brand": "Sun Pharma", "category": "Capsules",
+    "description": "Statin medication used to prevent cardiovascular disease and treat abnormal lipid levels.",
+    "image": "https://images.unsplash.com/photo-1626285861696-9f0bf5a49c6d?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "65.00",
+    "composition": ["Atorvastatin Calcium 10mg"]
   },
   {
-    "id": 5,
-    "name": "Amoxicillin 500mg",
-    "brand": "Sun Pharma",
-    "category": "Capsules",
-    "pack": "10 Capsules",
-    "description": "Broad-spectrum antibiotic for bacterial infections. Effective against a wide range of gram-positive and gram-negative bacteria.",
-    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80"
+    "id": 5, "name": "Metformin Tablet", "brand": "Sun Pharma", "category": "Tablets",
+    "description": "Oral antihyperglycemic drug used in the management of type 2 diabetes mellitus.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "35.00",
+    "composition": ["Metformin Hydrochloride 500mg"]
   },
   {
-    "id": 6,
-    "name": "Cough Syrup",
-    "brand": "Cipla",
-    "category": "Syrups",
-    "pack": "200 ml",
-    "description": "Effective cough suppressant and expectorant. Provides relief from dry and productive cough. Non-drowsy formula for daytime use.",
-    "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=600&q=80"
+    "id": 6, "name": "Zinc Syrup", "brand": "Cipla", "category": "Syrups",
+    "description": "Zinc supplement for children. Supports immune function, growth and development in paediatric patients.",
+    "image": "https://images.unsplash.com/photo-1583912267550-d974b8b5a7bf?auto=format&fit=crop&w=400&q=70",
+    "pack": "60 ml", "mrp": "65.00",
+    "composition": ["Zinc Sulphate Monohydrate 20mg/5ml"]
   },
   {
-    "id": 7,
-    "name": "Multivitamin Tablets",
-    "brand": "Alkem",
-    "category": "Tablets",
-    "pack": "60 Tablets",
-    "description": "Complete daily multivitamin with essential vitamins and minerals. Supports overall health, energy levels and immune function.",
-    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=600&q=80"
+    "id": 7, "name": "Salbutamol Tablet", "brand": "Cipla", "category": "Tablets",
+    "description": "Short-acting beta-2 adrenergic receptor agonist used for relief of bronchospasm in asthma.",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "18.00",
+    "composition": ["Salbutamol Sulphate 2mg"]
   },
   {
-    "id": 8,
-    "name": "Omega-3 Capsules",
-    "brand": "Torrent Pharma",
-    "category": "Capsules",
-    "pack": "30 Capsules",
-    "description": "Premium fish oil Omega-3 fatty acid supplement. Supports heart health, brain function and reduces inflammation.",
-    "image": "https://images.unsplash.com/photo-1612538498456-e861df91d4d0?auto=format&fit=crop&w=600&q=80"
+    "id": 8, "name": "Ciprofloxacin Tablet", "brand": "Cipla", "category": "Tablets",
+    "description": "Fluoroquinolone antibiotic used to treat a number of bacterial infections including urinary tract infections.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "72.00",
+    "composition": ["Ciprofloxacin Hydrochloride 500mg"]
   },
   {
-    "id": 9,
-    "name": "Antiseptic Cream",
-    "brand": "Sun Pharma",
-    "category": "Creams",
-    "pack": "30 gm",
-    "description": "Broad-spectrum antiseptic cream for minor wounds, cuts and burns. Prevents infection and promotes healing.",
-    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80"
+    "id": 9, "name": "Cetirizine Tablet", "brand": "Cipla", "category": "Tablets",
+    "description": "Second generation antihistamine used for relief of hay fever, urticaria and allergic rhinitis.",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "22.00",
+    "composition": ["Cetirizine Hydrochloride 10mg"]
   },
   {
-    "id": 10,
-    "name": "Zinc Syrup",
-    "brand": "Cipla",
-    "category": "Syrups",
-    "pack": "60 ml",
-    "description": "Zinc supplement for children. Supports immune function, growth and development. Suitable for children above 6 months.",
-    "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=600&q=80"
+    "id": 10, "name": "Montelukast Tablet", "brand": "Cipla", "category": "Tablets",
+    "description": "Leukotriene receptor antagonist and antihistamine combination for allergic rhinitis and asthma.",
+    "image": "https://images.unsplash.com/photo-1626285861696-9f0bf5a49c6d?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "95.00",
+    "composition": ["Montelukast 10mg", "Levocetirizine 5mg"]
   },
   {
-    "id": 11,
-    "name": "Iron & Folic Acid",
-    "brand": "Alkem",
-    "category": "Tablets",
-    "pack": "30 Tablets",
-    "description": "Essential Iron and Folic acid supplement for treating and preventing anemia. Especially recommended during pregnancy.",
-    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=600&q=80"
+    "id": 11, "name": "Iron & Folic Acid", "brand": "Alkem", "category": "Tablets",
+    "description": "Essential iron and folic acid supplement for treating and preventing anemia in pregnancy and general use.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "55.00",
+    "composition": ["Ferrous Ascorbate 100mg", "Folic Acid 1.5mg"]
   },
   {
-    "id": 12,
-    "name": "Ayurvedic Churna",
-    "brand": "Torrent Pharma",
-    "category": "Ayurvedic",
-    "pack": "100 gm",
-    "description": "Traditional ayurvedic powder formulation for digestive health. Made from natural herbs with no side effects.",
-    "image": "https://images.unsplash.com/photo-1612538498456-e861df91d4d0?auto=format&fit=crop&w=600&q=80"
+    "id": 12, "name": "Omeprazole Capsule", "brand": "Alkem", "category": "Capsules",
+    "description": "Proton pump inhibitor used in the treatment of gastric acid-related conditions and peptic ulcers.",
+    "image": "https://images.unsplash.com/photo-1626285861696-9f0bf5a49c6d?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "38.00",
+    "composition": ["Omeprazole 20mg"]
+  },
+  {
+    "id": 13, "name": "Amoxicillin + Clavulanate", "brand": "Alkem", "category": "Tablets",
+    "description": "Penicillin-type antibiotic combination used to treat various bacterial infections including respiratory.",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=400&q=70",
+    "pack": "6×1×6", "mrp": "125.00",
+    "composition": ["Amoxicillin 500mg", "Clavulanate Potassium 125mg"]
+  },
+  {
+    "id": 14, "name": "Metronidazole Tablet", "brand": "Alkem", "category": "Tablets",
+    "description": "Antibiotic and antiprotozoal medication used to treat bacterial vaginosis, pelvic inflammatory disease.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "28.00",
+    "composition": ["Metronidazole 400mg"]
+  },
+  {
+    "id": 15, "name": "Azithromycin Tablet", "brand": "Alkem", "category": "Tablets",
+    "description": "Macrolide antibiotic used for treatment of respiratory tract, skin and sexually transmitted infections.",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=400&q=70",
+    "pack": "1×3", "mrp": "85.00",
+    "composition": ["Azithromycin Dihydrate 500mg"]
+  },
+  {
+    "id": 16, "name": "Ayurvedic Churna", "brand": "Torrent Pharma", "category": "Ayurvedic",
+    "description": "Traditional ayurvedic powder formulation for digestive health. Made from natural herbs and botanicals.",
+    "image": "https://images.unsplash.com/photo-1583912267550-d974b8b5a7bf?auto=format&fit=crop&w=400&q=70",
+    "pack": "100 gm", "mrp": "115.00",
+    "composition": ["Triphala Extract 200mg", "Haritaki 100mg", "Bibhitaki 100mg"]
+  },
+  {
+    "id": 17, "name": "Telmisartan Tablet", "brand": "Torrent Pharma", "category": "Tablets",
+    "description": "Angiotensin II receptor blocker (ARB) used in the treatment of hypertension and cardiovascular risk reduction.",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "78.00",
+    "composition": ["Telmisartan 40mg"]
+  },
+  {
+    "id": 18, "name": "Vitamin D3 Sachet", "brand": "Torrent Pharma", "category": "Nutritional",
+    "description": "High-dose Vitamin D3 supplement for treating Vitamin D deficiency and supporting bone health.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1×4", "mrp": "48.00",
+    "composition": ["Cholecalciferol 60000 IU"]
+  },
+  {
+    "id": 19, "name": "Pantoprazole Tablet", "brand": "Torrent Pharma", "category": "Tablets",
+    "description": "Proton pump inhibitor used for the treatment of erosive esophagitis and gastroesophageal reflux disease.",
+    "image": "https://images.unsplash.com/photo-1626285861696-9f0bf5a49c6d?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "42.00",
+    "composition": ["Pantoprazole Sodium 40mg"]
+  },
+  {
+    "id": 20, "name": "Calcium + D3 Tablet", "brand": "Torrent Pharma", "category": "Nutritional",
+    "description": "Combined calcium and Vitamin D3 supplement for the prevention and treatment of osteoporosis.",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=400&q=70",
+    "pack": "10×10", "mrp": "95.00",
+    "composition": ["Calcium Carbonate 500mg", "Vitamin D3 250 IU", "Magnesium 40mg"]
   }
 ]

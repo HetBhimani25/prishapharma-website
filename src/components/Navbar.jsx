@@ -5,10 +5,9 @@ import agencyData from '../data/agency.json';
 
 const navLinks = [
   { to: '/', label: 'Home' },
-  { to: '/about', label: 'About' },
   { to: '/brands', label: 'Brands' },
   { to: '/products', label: 'Products' },
-  { to: '/categories', label: 'Categories' },
+  { to: '/catalogues', label: 'Catalogues' },
   { to: '/gallery', label: 'Gallery' },
   { to: '/contact', label: 'Contact' },
 ];
@@ -65,14 +64,12 @@ const Navbar = () => {
         </div>
       </header>
 
-      {/* Mobile overlay */}
       <div
         className={`mobile-overlay${isOpen ? '' : ' hidden'}`}
         onClick={() => setIsOpen(false)}
         aria-hidden="true"
       />
 
-      {/* Mobile drawer */}
       <div className={`mobile-drawer${isOpen ? ' open' : ''}`} role="dialog" aria-modal="true" aria-label="Navigation menu">
         <div className="mobile-drawer__header">
           <img src={agencyData.logo} alt={agencyData.name} />
