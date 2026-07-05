@@ -8,14 +8,14 @@ import brandsData from '../data/brands.json';
 const Brands = () => (
   <div>
     <PageHeader
-      title="Our Brands"
+      title="Our Companies"
       subtitle="We are proud to distribute products from India's most trusted and certified pharmaceutical companies."
-      breadcrumbs={[{ label: 'Brands' }]}
+      breadcrumbs={[{ label: 'Companies' }]}
     />
 
     <section className="section section--gray">
       <div className="container">
-        <SectionHeading label="Partner Brands" title="Trusted Pharmaceutical Companies" subtitle="Click on any brand to browse their products in our catalogue." />
+        <SectionHeading label="Partner Companies" title="Trusted Pharmaceutical Companies" subtitle="Click on any company to browse their products in our catalogue." />
         <div className="brands-grid">
           {brandsData.map((brand, i) => (
             <motion.div key={brand.id} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}>
@@ -26,14 +26,14 @@ const Brands = () => (
       </div>
     </section>
 
-    <section className="section section--white">
+    <section className="section">
       <div className="container" style={{ textAlign: 'center' }}>
-        <SectionHeading label="Our Standards" title="Why We Choose These Partners" subtitle="Every brand in our portfolio meets our strict quality, compliance and reliability criteria." />
+        <SectionHeading label="Our Standards" title="Why We Choose These Partners" subtitle="Every company in our portfolio meets our strict quality, compliance and reliability criteria." />
         <div className="brands-standards-grid">
           {[
             { title: 'GMP Certified', desc: 'All partner manufacturers comply with Good Manufacturing Practice standards.' },
             { title: 'Quality Tested', desc: 'Products are tested and verified before being added to our catalogue.' },
-            { title: 'Regulatory Approved', desc: 'All brands hold valid Drug License and regulatory approvals from CDSCO.' },
+            { title: 'Regulatory Approved', desc: 'All companies hold valid Drug License and regulatory approvals from CDSCO.' },
           ].map((item, i) => (
             <div key={i} className="brand-standard-card">
               <h3 className="brand-standard-card__title">{item.title}</h3>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ShieldCheck, ArrowRight, CheckCircle2, Phone } from 'lucide-react';
+import { ShieldCheck, ArrowRight, CheckCircle2, Phone, ChevronRight } from 'lucide-react';
 import agencyData from '../data/agency.json';
 import brandsData from '../data/brands.json';
 import SectionHeading from '../components/SectionHeading';
@@ -10,7 +10,7 @@ import BrandCard from '../components/BrandCard';
 const stats = [
   { value: '10+', label: 'Years Experience' },
   { value: '1400+', label: 'Products Listed' },
-  { value: '12+', label: 'Partner Brands' },
+  { value: '27', label: 'Partner Companies' },
   { value: '10k+', label: 'Satisfied Clients' },
 ];
 
@@ -38,8 +38,8 @@ const Home = () => (
               <Link to="/products" className="btn btn-primary">
                 Browse Products <ArrowRight size={16} />
               </Link>
-              <Link to="/catalogues" className="btn btn-outline">
-                View Catalogues
+              <Link to="/companies" className="btn btn-outline">
+                View Companies
               </Link>
             </div>
             <div className="hero__checks">
@@ -99,16 +99,16 @@ const Home = () => (
       </div>
     </section>
 
-    {/* ── Partner Brands (12) ── */}
+    {/* ── Partner Companies (featured 8) ── */}
     <section className="section section--gray">
       <div className="container">
         <SectionHeading
           label="Our Partners"
-          title="Trusted Pharmaceutical Brands"
-          subtitle="We are the authorised Gujarat distributor for 12 leading Indian pharmaceutical companies."
+          title="Trusted Pharmaceutical Companies"
+          subtitle="We are the authorised Gujarat distributor for 27 leading Indian pharmaceutical companies."
         />
         <div className="brands-home-grid">
-          {brandsData.map((brand, i) => (
+          {brandsData.slice(0, 8).map((brand, i) => (
             <motion.div
               key={brand.id}
               initial={{ opacity: 0, y: 16 }}
@@ -120,6 +120,19 @@ const Home = () => (
             </motion.div>
           ))}
         </div>
+
+        {/* View All button */}
+        <motion.div
+          style={{ textAlign: 'center', marginTop: '2.5rem' }}
+          initial={{ opacity: 0, y: 12 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.4 }}
+        >
+          <Link to="/companies" className="btn btn-outline" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+            View All 27 Companies <ChevronRight size={16} />
+          </Link>
+        </motion.div>
       </div>
     </section>
 

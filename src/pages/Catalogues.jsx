@@ -27,7 +27,7 @@ const Catalogues = () => {
           <p className="cat-page-hero__eyebrow">Product Catalogues</p>
           <h1 className="cat-page-hero__title">Company-wise Product Lists</h1>
           <p className="cat-page-hero__sub">
-            Download or view PDF catalogues for all {cataloguesData.length} pharmaceutical divisions we distribute.
+            Download or view PDF catalogues for all {cataloguesData.length} pharmaceutical companies we distribute.
             Ideal for quick reference and sharing with your team.
           </p>
 

@@ -15,13 +15,14 @@ function App() {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
-          <Route path="brands" element={<Brands />} />
+          <Route path="companies" element={<Brands />} />
           <Route path="products" element={<Products />} />
           <Route path="catalogues" element={<Catalogues />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="contact" element={<Contact />} />
           {/* Legacy redirects */}
           <Route path="about" element={<Navigate to="/" replace />} />
+          <Route path="brands" element={<Navigate to="/companies" replace />} />
           <Route path="categories" element={<Navigate to="/catalogues" replace />} />
           <Route path="*" element={<NotFound />} />
         </Route>

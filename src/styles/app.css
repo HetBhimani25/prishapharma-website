@@ -2510,6 +2510,36 @@ a.contact-card__value:hover { color: var(--color-primary); }
 .badge-ipca    { background: #F0FDF4; color: #14532D; }
 .badge-default { background: var(--color-accent); color: var(--color-primary); }
 
+/* ── 27 real company badges ── */
+.badge-alkem    { background: #D1FAE5; color: #065F46; }
+.badge-abbott   { background: #CFFAFE; color: #164E63; }
+.badge-cipla    { background: #DBEAFE; color: #1E3A8A; }
+.badge-alembic  { background: #E0F2FE; color: #0369A1; }
+.badge-drreddy  { background: #FFEDD5; color: #9A3412; }
+.badge-ajanta   { background: #EDE9FE; color: #5B21B6; }
+.badge-aristo   { background: #FEE2E2; color: #991B1B; }
+.badge-lupin    { background: #E0E7FF; color: #3730A3; }
+.badge-mankind  { background: #F3E8FF; color: #6B21A8; }
+.badge-wallace  { background: #DBEAFE; color: #1D4ED8; }
+.badge-hetero   { background: #D1FAE5; color: #059669; }
+.badge-healing  { background: #FDF2F8; color: #9D174D; }
+.badge-albert   { background: #FFEDD5; color: #C2410C; }
+.badge-meditek  { background: #F1F5F9; color: #475569; }
+.badge-prevego  { background: #EDE9FE; color: #6D28D9; }
+.badge-luxica   { background: #FEF9C3; color: #A16207; }
+.badge-curetech { background: #FFE4E6; color: #BE123C; }
+.badge-german   { background: #E0F2FE; color: #0C4A6E; }
+.badge-pil      { background: #EDE9FE; color: #4C1D95; }
+.badge-spl      { background: #FEE2E2; color: #7F1D1D; }
+.badge-cadila   { background: #FCE7F3; color: #9D174D; }
+.badge-intas    { background: #CCFBF1; color: #0F766E; }
+.badge-troikaa  { background: #FFEDD5; color: #92400E; }
+.badge-corona   { background: #FEE2E2; color: #9A3412; }
+.badge-otsuka   { background: #DBEAFE; color: #1E40AF; }
+.badge-helios   { background: #FEF3C7; color: #78350F; }
+.badge-jbchem   { background: #FCE7F3; color: #831843; }
+
+
 /* -------------------------------------------------------
    35. COMPOSITION CHIPS (Salt chips)
 ------------------------------------------------------- */
@@ -2834,21 +2864,36 @@ a.contact-card__value:hover { color: var(--color-primary); }
 }
 .cat-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); border-color: var(--color-gray-300); }
 
-/* Brand color bars */
+/* Brand color bars — all 27 companies */
 .cat-bar { height: 5px; flex-shrink: 0; }
-.bar-sun     { background: linear-gradient(90deg, #d97706, #fbbf24); }
-.bar-cipla   { background: linear-gradient(90deg, #1e40af, #60a5fa); }
-.bar-alkem   { background: linear-gradient(90deg, #15803d, #4ade80); }
-.bar-torrent { background: linear-gradient(90deg, #991b1b, #f87171); }
-.bar-lupin   { background: linear-gradient(90deg, #4338ca, #818cf8); }
-.bar-abbott  { background: linear-gradient(90deg, #0e7490, #22d3ee); }
-.bar-mankind { background: linear-gradient(90deg, #7c3aed, #c084fc); }
-.bar-drreddy { background: linear-gradient(90deg, #9a3412, #fb923c); }
-.bar-zydus   { background: linear-gradient(90deg, #0f766e, #2dd4bf); }
-.bar-cadila  { background: linear-gradient(90deg, #9d174d, #f472b6); }
-.bar-emcure  { background: linear-gradient(90deg, #1d4ed8, #60a5fa); }
-.bar-ipca    { background: linear-gradient(90deg, #166534, #4ade80); }
-.bar-default { background: linear-gradient(90deg, var(--color-primary), #4ade80); }
+.bar-alkem    { background: linear-gradient(90deg, #15803d, #4ade80); }
+.bar-abbott   { background: linear-gradient(90deg, #0e7490, #22d3ee); }
+.bar-cipla    { background: linear-gradient(90deg, #1e40af, #60a5fa); }
+.bar-alembic  { background: linear-gradient(90deg, #0369a1, #38bdf8); }
+.bar-drreddy  { background: linear-gradient(90deg, #9a3412, #fb923c); }
+.bar-ajanta   { background: linear-gradient(90deg, #5b21b6, #a78bfa); }
+.bar-aristo   { background: linear-gradient(90deg, #991b1b, #f87171); }
+.bar-lupin    { background: linear-gradient(90deg, #3730a3, #818cf8); }
+.bar-mankind  { background: linear-gradient(90deg, #6b21a8, #c084fc); }
+.bar-wallace  { background: linear-gradient(90deg, #1d4ed8, #60a5fa); }
+.bar-hetero   { background: linear-gradient(90deg, #059669, #34d399); }
+.bar-healing  { background: linear-gradient(90deg, #9d174d, #f472b6); }
+.bar-albert   { background: linear-gradient(90deg, #c2410c, #fb923c); }
+.bar-meditek  { background: linear-gradient(90deg, #475569, #94a3b8); }
+.bar-prevego  { background: linear-gradient(90deg, #6d28d9, #a78bfa); }
+.bar-luxica   { background: linear-gradient(90deg, #a16207, #fbbf24); }
+.bar-curetech { background: linear-gradient(90deg, #be123c, #fb7185); }
+.bar-german   { background: linear-gradient(90deg, #0c4a6e, #38bdf8); }
+.bar-pil      { background: linear-gradient(90deg, #4c1d95, #8b5cf6); }
+.bar-spl      { background: linear-gradient(90deg, #7f1d1d, #f87171); }
+.bar-cadila   { background: linear-gradient(90deg, #9d174d, #f472b6); }
+.bar-intas    { background: linear-gradient(90deg, #0f766e, #2dd4bf); }
+.bar-troikaa  { background: linear-gradient(90deg, #92400e, #fbbf24); }
+.bar-corona   { background: linear-gradient(90deg, #9a3412, #f97316); }
+.bar-otsuka   { background: linear-gradient(90deg, #1e40af, #3b82f6); }
+.bar-helios   { background: linear-gradient(90deg, #78350f, #fbbf24); }
+.bar-jbchem   { background: linear-gradient(90deg, #831843, #fb7185); }
+.bar-default  { background: linear-gradient(90deg, var(--color-primary), #4ade80); }
 
 .cat-card-body { padding: 1.25rem; flex: 1; }
 .cat-card-head { display: flex; align-items: flex-start; gap: 0.875rem; margin-bottom: 0.875rem; }
@@ -2858,20 +2903,36 @@ a.contact-card__value:hover { color: var(--color-primary); }
   flex-shrink: 0; font-weight: 800; font-size: 1.125rem; color: #fff;
 }
 
-/* Brand icon backgrounds */
-.ic-sun     { background: linear-gradient(135deg, #d97706, #f59e0b); }
-.ic-cipla   { background: linear-gradient(135deg, #1e40af, #3b82f6); }
-.ic-alkem   { background: linear-gradient(135deg, #15803d, #22c55e); }
-.ic-torrent { background: linear-gradient(135deg, #991b1b, #ef4444); }
-.ic-lupin   { background: linear-gradient(135deg, #4338ca, #818cf8); }
-.ic-abbott  { background: linear-gradient(135deg, #0e7490, #06b6d4); }
-.ic-mankind { background: linear-gradient(135deg, #7c3aed, #a855f7); }
-.ic-drreddy { background: linear-gradient(135deg, #9a3412, #f97316); }
-.ic-zydus   { background: linear-gradient(135deg, #0f766e, #14b8a6); }
-.ic-cadila  { background: linear-gradient(135deg, #9d174d, #ec4899); }
-.ic-emcure  { background: linear-gradient(135deg, #1d4ed8, #3b82f6); }
-.ic-ipca    { background: linear-gradient(135deg, #166534, #16a34a); }
-.ic-default { background: var(--color-primary); }
+/* Brand icon backgrounds — all 27 companies */
+.ic-alkem    { background: linear-gradient(135deg, #15803d, #22c55e); }
+.ic-abbott   { background: linear-gradient(135deg, #0e7490, #06b6d4); }
+.ic-cipla    { background: linear-gradient(135deg, #1e40af, #3b82f6); }
+.ic-alembic  { background: linear-gradient(135deg, #0369a1, #0ea5e9); }
+.ic-drreddy  { background: linear-gradient(135deg, #9a3412, #f97316); }
+.ic-ajanta   { background: linear-gradient(135deg, #5b21b6, #8b5cf6); }
+.ic-aristo   { background: linear-gradient(135deg, #991b1b, #ef4444); }
+.ic-lupin    { background: linear-gradient(135deg, #3730a3, #818cf8); }
+.ic-mankind  { background: linear-gradient(135deg, #6b21a8, #a855f7); }
+.ic-wallace  { background: linear-gradient(135deg, #1d4ed8, #60a5fa); }
+.ic-hetero   { background: linear-gradient(135deg, #059669, #10b981); }
+.ic-healing  { background: linear-gradient(135deg, #9d174d, #ec4899); }
+.ic-albert   { background: linear-gradient(135deg, #c2410c, #f97316); }
+.ic-meditek  { background: linear-gradient(135deg, #475569, #64748b); }
+.ic-prevego  { background: linear-gradient(135deg, #6d28d9, #7c3aed); }
+.ic-luxica   { background: linear-gradient(135deg, #a16207, #d97706); }
+.ic-curetech { background: linear-gradient(135deg, #be123c, #e11d48); }
+.ic-german   { background: linear-gradient(135deg, #0c4a6e, #0369a1); }
+.ic-pil      { background: linear-gradient(135deg, #4c1d95, #6d28d9); }
+.ic-spl      { background: linear-gradient(135deg, #7f1d1d, #b91c1c); }
+.ic-cadila   { background: linear-gradient(135deg, #9d174d, #be185d); }
+.ic-intas    { background: linear-gradient(135deg, #0f766e, #0d9488); }
+.ic-troikaa  { background: linear-gradient(135deg, #92400e, #b45309); }
+.ic-corona   { background: linear-gradient(135deg, #9a3412, #c2410c); }
+.ic-otsuka   { background: linear-gradient(135deg, #1e40af, #2563eb); }
+.ic-helios   { background: linear-gradient(135deg, #78350f, #92400e); }
+.ic-jbchem   { background: linear-gradient(135deg, #831843, #9d174d); }
+.ic-default  { background: var(--color-primary); }
+
 
 .cat-card-company { font-weight: 800; font-size: 1rem; color: var(--color-gray-900); margin-bottom: 0.125rem; }
 .cat-card-division { font-size: 0.75rem; color: var(--color-gray-400); font-weight: 500; }

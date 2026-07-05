@@ -7,7 +7,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
   const quickLinks = [
     { to: '/', label: 'Home' },
-    { to: '/brands', label: 'Our Brands' },
+    { to: '/companies', label: 'Our Companies' },
     { to: '/products', label: 'Products' },
     { to: '/catalogues', label: 'Catalogues' },
     { to: '/gallery', label: 'Gallery' },

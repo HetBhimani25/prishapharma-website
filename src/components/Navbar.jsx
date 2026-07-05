@@ -5,7 +5,7 @@ import agencyData from '../data/agency.json';
 
 const navLinks = [
   { to: '/', label: 'Home' },
-  { to: '/brands', label: 'Brands' },
+  { to: '/companies', label: 'Companies' },
   { to: '/products', label: 'Products' },
   { to: '/catalogues', label: 'Catalogues' },
   { to: '/gallery', label: 'Gallery' },
