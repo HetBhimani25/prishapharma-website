@@ -1,14 +1,130 @@
 import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
-import { Search, X, ChevronUp, ChevronDown, ChevronsUpDown, MessageCircle } from 'lucide-react';
+import {
+  Search, X, ChevronUp, ChevronDown, ChevronsUpDown,
+  MessageCircle, ChevronLeft, ChevronRight,
+  ChevronsLeft, ChevronsRight,
+} from 'lucide-react';
 import productsData from '../data/products.json';
 import agencyData from '../data/agency.json';
 import { getBrandConfig } from '../data/brandConfig';
 
-/* ─────────────────────────────────────────
-   Inline Product Detail Modal
-───────────────────────────────────────── */
+function buildPageRange(current, total) {
+  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+  const pages = [];
+  const DELTA = 2;
+
+  const left  = Math.max(2, current - DELTA);
+  const right = Math.min(total - 1, current + DELTA);
+
+  pages.push(1);
+  if (left > 2)         pages.push('…l');
+  for (let p = left; p <= right; p++) pages.push(p);
+  if (right < total - 1) pages.push('…r');
+  pages.push(total);
+
+  return pages;
+}
+
+const Pagination = ({
+  currentPage, totalPages, onPageChange,
+  perPage, onPerPageChange,
+  totalItems, startItem, endItem,
+}) => {
+  if (totalPages <= 1 && totalItems <= Math.min(...[25, 50, 100])) return null;
+
+  const pageRange = buildPageRange(currentPage, totalPages);
+
+  return (
+    <div className="pg-bar">
+      {/* Left — showing info + per-page */}
+      <div className="pg-info">
+        <span className="pg-info__text">
+          Showing <strong>{startItem}</strong>–<strong>{endItem}</strong> of{' '}
+          <strong>{totalItems}</strong> products
+        </span>
+        <span className="pg-info__sep">|</span>
+        <span className="pg-info__label">Per page:</span>
+        <select
+          className="pg-per-page"
+          value={perPage}
+          onChange={(e) => onPerPageChange(Number(e.target.value))}
+          aria-label="Products per page"
+        >
+          {[25, 50, 100].map((n) => (
+            <option key={n} value={n}>{n}</option>
+          ))}
+        </select>
+      </div>
+
+      {/* Right — page buttons */}
+      <div className="pg-pages" role="navigation" aria-label="Pagination">
+        {/* First */}
+        <button
+          className="pg-btn pg-btn--icon"
+          onClick={() => onPageChange(1)}
+          disabled={currentPage === 1}
+          aria-label="First page"
+          title="First page"
+        >
+          <ChevronsLeft size={15} />
+        </button>
+
+        {/* Prev */}
+        <button
+          className="pg-btn pg-btn--icon"
+          onClick={() => onPageChange(currentPage - 1)}
+          disabled={currentPage === 1}
+          aria-label="Previous page"
+          title="Previous page"
+        >
+          <ChevronLeft size={15} />
+        </button>
+
+        {/* Page numbers */}
+        {pageRange.map((p, i) =>
+          typeof p === 'string' ? (
+            <span key={p} className="pg-ellipsis">…</span>
+          ) : (
+            <button
+              key={p}
+              className={`pg-btn${p === currentPage ? ' pg-btn--active' : ''}`}
+              onClick={() => onPageChange(p)}
+              aria-label={`Page ${p}`}
+              aria-current={p === currentPage ? 'page' : undefined}
+            >
+              {p}
+            </button>
+          )
+        )}
+
+        {/* Next */}
+        <button
+          className="pg-btn pg-btn--icon"
+          onClick={() => onPageChange(currentPage + 1)}
+          disabled={currentPage === totalPages}
+          aria-label="Next page"
+          title="Next page"
+        >
+          <ChevronRight size={15} />
+        </button>
+
+        {/* Last */}
+        <button
+          className="pg-btn pg-btn--icon"
+          onClick={() => onPageChange(totalPages)}
+          disabled={currentPage === totalPages}
+          aria-label="Last page"
+          title="Last page"
+        >
+          <ChevronsRight size={15} />
+        </button>
+      </div>
+    </div>
+  );
+};
+
 const ProductDetailModal = ({ product, onClose }) => {
   const cfg = getBrandConfig(product.brand);
 
@@ -58,12 +174,10 @@ const ProductDetailModal = ({ product, onClose }) => {
               <span className="prod-modal__cat">{product.category}</span>
               <span className={`co-badge ${cfg.badgeClass}`}>{product.brand}</span>
             </div>
-
             <h2 className="prod-modal__name">{product.name}</h2>
             <p style={{ fontSize: '0.875rem', color: 'var(--color-gray-500)', lineHeight: 1.65, marginBottom: '0.5rem' }}>
               {product.description}
             </p>
-
             <div className="prod-modal__meta-row">
               <div className="prod-modal__meta-item">
                 <span className="prod-modal__meta-label">Pack Size</span>
@@ -78,7 +192,6 @@ const ProductDetailModal = ({ product, onClose }) => {
                 <span className="prod-modal__meta-value">#{String(product.id).padStart(4, '0')}</span>
               </div>
             </div>
-
             {product.composition && product.composition.length > 0 && (
               <div>
                 <p className="prod-modal__comp-title">Composition</p>
@@ -89,7 +202,6 @@ const ProductDetailModal = ({ product, onClose }) => {
                 </div>
               </div>
             )}
-
             <a
               href={`https://wa.me/${whatsappNum}?text=${whatsappMsg}`}
               target="_blank" rel="noopener noreferrer"
@@ -116,7 +228,7 @@ const SortArrow = ({ field, sortField, sortDir }) => {
 };
 
 /* ─────────────────────────────────────────
-   Highlight helper — wraps matched text in <mark>
+   Highlight helper
 ───────────────────────────────────────── */
 const highlight = (text, query) => {
   if (!query) return text;
@@ -132,27 +244,35 @@ const highlight = (text, query) => {
 };
 
 /* ─────────────────────────────────────────
+   Scroll-to-table helper ref
+───────────────────────────────────────── */
+const SCROLL_OFFSET = 140; // height of sticky toolbar
+
+/* ─────────────────────────────────────────
    Main Products Page
 ───────────────────────────────────────── */
 const Products = () => {
-  const location = useLocation();
+  const location  = useLocation();
   const searchRef = useRef(null);
+  const tableRef  = useRef(null);
 
-  // State
-  const [search, setSearch] = useState('');
-  const [activeTab, setActiveTab] = useState('All');
-  const [sortField, setSortField] = useState('name');
-  const [sortDir, setSortDir] = useState('asc');
+  // ── State ──────────────────────────────
+  const [search,          setSearch]          = useState('');
+  const [activeTab,       setActiveTab]       = useState('All');
+  const [sortField,       setSortField]       = useState('name');
+  const [sortDir,         setSortDir]         = useState('asc');
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const [currentPage,     setCurrentPage]     = useState(1);
+  const [perPage,         setPerPage]         = useState(25);
 
-  // Pick up ?brand= URL param on load
+  // Pick up ?brand= URL param
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     const brand = params.get('brand');
     if (brand) setActiveTab(brand);
   }, [location.search]);
 
-  // Keyboard shortcut: press / to focus search
+  // Keyboard shortcut: / → focus search
   useEffect(() => {
     const handler = (e) => {
       if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName)) {
@@ -164,10 +284,13 @@ const Products = () => {
     return () => document.removeEventListener('keydown', handler);
   }, []);
 
+  // Reset to page 1 when filters/sort/perPage change
+  useEffect(() => { setCurrentPage(1); }, [search, activeTab, sortField, sortDir, perPage]);
+
   // Brands list
   const brands = useMemo(() => ['All', ...new Set(productsData.map((p) => p.brand))], []);
 
-  // Tab counts (ignores search — just per brand)
+  // Tab counts (unaffected by search)
   const brandCounts = useMemo(() => {
     const counts = { All: productsData.length };
     brands.slice(1).forEach((b) => {
@@ -176,14 +299,10 @@ const Products = () => {
     return counts;
   }, [brands]);
 
-  // Filtered + sorted products
-  const displayProducts = useMemo(() => {
+  // Full filtered + sorted list
+  const allFiltered = useMemo(() => {
     let result = productsData;
-
-    if (activeTab !== 'All') {
-      result = result.filter((p) => p.brand === activeTab);
-    }
-
+    if (activeTab !== 'All') result = result.filter((p) => p.brand === activeTab);
     if (search.trim()) {
       const q = search.trim().toLowerCase();
       result = result.filter(
@@ -194,46 +313,63 @@ const Products = () => {
           (p.composition || []).some((c) => c.toLowerCase().includes(q))
       );
     }
-
     return [...result].sort((a, b) => {
       let av, bv;
-      if (sortField === 'name') { av = a.name.toLowerCase(); bv = b.name.toLowerCase(); }
-      else if (sortField === 'mrp') { av = parseFloat(a.mrp) || 0; bv = parseFloat(b.mrp) || 0; }
-      else { av = a[sortField]; bv = b[sortField]; }
+      if (sortField === 'name')      { av = a.name.toLowerCase(); bv = b.name.toLowerCase(); }
+      else if (sortField === 'mrp')  { av = parseFloat(a.mrp) || 0; bv = parseFloat(b.mrp) || 0; }
+      else                           { av = a[sortField]; bv = b[sortField]; }
       if (av < bv) return sortDir === 'asc' ? -1 : 1;
-      if (av > bv) return sortDir === 'asc' ? 1 : -1;
+      if (av > bv) return sortDir === 'asc' ?  1 : -1;
       return 0;
     });
   }, [search, activeTab, sortField, sortDir]);
+
+  // Pagination derived values
+  const totalItems = allFiltered.length;
+  const totalPages = Math.max(1, Math.ceil(totalItems / perPage));
+  const safePage   = Math.min(currentPage, totalPages);
+  const startIdx   = (safePage - 1) * perPage;
+  const endIdx     = startIdx + perPage;
+  const pageItems  = allFiltered.slice(startIdx, endIdx);
+  const startItem  = totalItems === 0 ? 0 : startIdx + 1;
+  const endItem    = Math.min(endIdx, totalItems);
+
+  // Scroll table into view when page changes
+  const scrollToTable = useCallback(() => {
+    if (!tableRef.current) return;
+    const top = tableRef.current.getBoundingClientRect().top + window.scrollY - SCROLL_OFFSET;
+    window.scrollTo({ top, behavior: 'smooth' });
+  }, []);
+
+  const handlePageChange = useCallback((page) => {
+    setCurrentPage(page);
+    scrollToTable();
+  }, [scrollToTable]);
 
   const handleSort = useCallback((field) => {
     if (['name', 'mrp'].includes(field)) {
       setSortField((prev) => {
         if (prev === field) setSortDir((d) => (d === 'asc' ? 'desc' : 'asc'));
-        else { setSortDir('asc'); }
+        else setSortDir('asc');
         return field;
       });
     }
   }, []);
 
-  const clearAll = () => { setSearch(''); setActiveTab('All'); };
+  const clearAll  = () => { setSearch(''); setActiveTab('All'); };
   const hasFilter = search.trim() !== '' || activeTab !== 'All';
 
   return (
     <div className="prod-page">
+
       {/* ── Page Title ── */}
-      <div style={{ background: '#fff', borderBottom: '1px solid var(--color-gray-200)', padding: '1.5rem 0 0' }}>
+      <div className="prod-page-header">
         <div className="container">
-          <div style={{ marginBottom: '0.5rem' }}>
-            <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--color-primary)', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-              PRODUCTS
-            </span>
-          </div>
-          <h1 style={{ fontSize: '1.75rem', fontWeight: 900, color: 'var(--color-gray-900)', marginBottom: '0.25rem' }}>
-            Product Catalogue
-          </h1>
-          <p style={{ fontSize: '0.9375rem', color: 'var(--color-gray-400)', marginBottom: '1rem' }}>
-            Browse {productsData.length}+ pharmaceutical products from 4 trusted brands. Click any row for full details.
+          <span className="prod-page-eyebrow">PRODUCTS</span>
+          <h1 className="prod-page-title">Product Catalogue</h1>
+          <p className="prod-page-sub">
+            Browse {productsData.length.toLocaleString()}+ pharmaceutical products from{' '}
+            {brands.length - 1} trusted companies. Click any row for full details.
           </p>
         </div>
       </div>
@@ -241,6 +377,7 @@ const Products = () => {
       {/* ── Sticky Toolbar ── */}
       <div className="prod-sticky">
         <div className="container">
+
           {/* Search row */}
           <div className="prod-search-row">
             <div className="prod-search-wrap">
@@ -250,7 +387,7 @@ const Products = () => {
                 ref={searchRef}
                 type="search"
                 className="prod-search-input"
-                placeholder="Search by product name, composition or brand…"
+                placeholder="Search by product name, composition or company…"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 aria-label="Search products"
@@ -261,7 +398,6 @@ const Products = () => {
                 </button>
               )}
             </div>
-
             <div className="prod-kbd-hint">
               Press <kbd className="prod-kbd">/</kbd> to search
             </div>
@@ -269,25 +405,19 @@ const Products = () => {
 
           {/* Summary strip */}
           <div className="prod-summary">
-            <span className="prod-summary__count">{displayProducts.length}</span>
+            <span className="prod-summary__count">{totalItems.toLocaleString()}</span>
             <span className="prod-summary__label">
-              {displayProducts.length === 1 ? 'product' : 'products'} found
+              {totalItems === 1 ? 'product' : 'products'} found
             </span>
-            {activeTab !== 'All' && (
-              <span className="prod-summary__tag">{activeTab}</span>
-            )}
-            {search && (
-              <span className="prod-summary__tag">"{search}"</span>
-            )}
+            {activeTab !== 'All' && <span className="prod-summary__tag">{activeTab}</span>}
+            {search && <span className="prod-summary__tag">"{search}"</span>}
             {hasFilter && (
-              <button className="prod-summary__clear" onClick={clearAll}>
-                Clear filters
-              </button>
+              <button className="prod-summary__clear" onClick={clearAll}>Clear filters</button>
             )}
           </div>
 
           {/* Company Tabs */}
-          <div className="prod-tabs-bar" role="tablist" aria-label="Filter by brand">
+          <div className="prod-tabs-bar" role="tablist" aria-label="Filter by company">
             {brands.map((brand) => (
               <button
                 key={brand}
@@ -304,15 +434,31 @@ const Products = () => {
         </div>
       </div>
 
-      {/* ── Table ── */}
-      <div className="container" style={{ paddingTop: '1.5rem', paddingBottom: '4rem' }}>
-        {displayProducts.length === 0 ? (
-          <div className="prod-table-outer">
+      {/* ── Table + Pagination ── */}
+      <div ref={tableRef} className="container" style={{ paddingTop: '1.5rem', paddingBottom: '6rem' }}>
+
+        {/* ── Top Pagination bar ── */}
+        {totalItems > 0 && (
+          <Pagination
+            currentPage={safePage}
+            totalPages={totalPages}
+            onPageChange={handlePageChange}
+            perPage={perPage}
+            onPerPageChange={setPerPage}
+            totalItems={totalItems}
+            startItem={startItem}
+            endItem={endItem}
+          />
+        )}
+
+        {/* ── Table ── */}
+        {pageItems.length === 0 ? (
+          <div className="prod-table-outer" style={{ marginTop: '1rem' }}>
             <div className="prod-empty">
               <div className="prod-empty__icon">🔍</div>
               <p className="prod-empty__title">No products found</p>
               <p className="prod-empty__sub">
-                {search ? `No results for "${search}"` : 'No products in this brand yet.'}
+                {search ? `No results for "${search}"` : 'No products in this company yet.'}
               </p>
               {hasFilter && (
                 <button className="prod-empty__btn" onClick={clearAll}>Clear all filters</button>
@@ -320,7 +466,7 @@ const Products = () => {
             </div>
           </div>
         ) : (
-          <div className="prod-table-outer">
+          <div className="prod-table-outer" style={{ marginTop: '1rem' }}>
             <div className="prod-table-scroll">
               <table className="prod-table">
                 <thead>
@@ -345,8 +491,8 @@ const Products = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  {displayProducts.map((product, index) => {
-                    const cfg = getBrandConfig(product.brand);
+                  {pageItems.map((product, index) => {
+                    const cfg     = getBrandConfig(product.brand);
                     const compStr = (product.composition || []).join(' + ');
                     return (
                       <tr
@@ -356,21 +502,16 @@ const Products = () => {
                         onKeyDown={(e) => e.key === 'Enter' && setSelectedProduct(product)}
                         aria-label={`View details for ${product.name}`}
                       >
-                        <td className="col-sr">{index + 1}</td>
+                        {/* Global serial number across pages */}
+                        <td className="col-sr">{startIdx + index + 1}</td>
                         <td className="col-prod">
-                          <div className="prod-name">
-                            {highlight(product.name, search)}
-                          </div>
+                          <div className="prod-name">{highlight(product.name, search)}</div>
                           {compStr && (
-                            <div className="prod-comp">
-                              {highlight(compStr, search)}
-                            </div>
+                            <div className="prod-comp">{highlight(compStr, search)}</div>
                           )}
                         </td>
                         <td className="col-co">
-                          <span className={`co-badge ${cfg.badgeClass}`}>
-                            {product.brand}
-                          </span>
+                          <span className={`co-badge ${cfg.badgeClass}`}>{product.brand}</span>
                         </td>
                         <td className="col-pack">
                           <span className="pack-tag">{product.pack}</span>
@@ -382,6 +523,22 @@ const Products = () => {
                 </tbody>
               </table>
             </div>
+          </div>
+        )}
+
+        {/* ── Bottom Pagination bar ── */}
+        {totalItems > 0 && (
+          <div style={{ marginTop: '1.5rem' }}>
+            <Pagination
+              currentPage={safePage}
+              totalPages={totalPages}
+              onPageChange={handlePageChange}
+              perPage={perPage}
+              onPerPageChange={setPerPage}
+              totalItems={totalItems}
+              startItem={startItem}
+              endItem={endItem}
+            />
           </div>
         )}
       </div>
