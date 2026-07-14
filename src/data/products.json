@@ -9196,5 +9196,4341 @@
       "METHYL SALYCYLATE IP 10.0% w/w",
       "EXCIPIENTS & PROPELLANT Q.S TO 100 % w/w"
     ]
+  },
+  {
+    "id": 672,
+    "name": "ACLOMET XL 3D TAB 25/12.5/40,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "ACLOMET XL 3D TAB 25/12.5/40,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "23.00",
+    "composition": [
+      "Chlorthalidone 12.5mg",
+      "Metoprolol Succinate 25 mg",
+      "Telmisartan 40mg tablets"
+    ]
+  },
+  {
+    "id": 673,
+    "name": "ACLOMET XL 3D TAB 50/12.5/40,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "ACLOMET XL 3D TAB 50/12.5/40,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "25.00",
+    "composition": [
+      "Chlorthalidone 12.5mg",
+      "Metoprolol Succinate 50 mg",
+      "Telmisartan 40mg tablets"
+    ]
+  },
+  {
+    "id": 674,
+    "name": "ACLOMET-XL TAB 25MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "ACLOMET-XL TAB 25MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "9.60",
+    "composition": [
+      "Metoprolol Succinate 25 mg Extended Release Tablet"
+    ]
+  },
+  {
+    "id": 675,
+    "name": "ACLOMET-XL TAB 50MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "ACLOMET-XL TAB 50MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "11.11",
+    "composition": [
+      "Metoprolol Succinate 50 mg Extended Release Tablet"
+    ]
+  },
+  {
+    "id": 676,
+    "name": "ADVENTOR PLUS 10 TAB 10/50MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "ADVENTOR PLUS 10 TAB 10/50MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10x15'S",
+    "mrp": "46.00",
+    "composition": [
+      "Toresamide",
+      "Spironolactone"
+    ]
+  },
+  {
+    "id": 677,
+    "name": "AJALINCTUS-DX SYRUP 2/10MG, 100ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "AJALINCTUS-DX SYRUP 2/10MG, 100ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X100ML",
+    "mrp": "23.00",
+    "composition": [
+      "Chlorpheniramine 2mg",
+      "Dextromethorphan 10mg Syrup /5ML"
+    ]
+  },
+  {
+    "id": 678,
+    "name": "AJALINCTUS-L SUSP 35.4MG,100ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "AJALINCTUS-L SUSP 35.4MG,100ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ml",
+    "mrp": "44.72",
+    "composition": [
+      "Each 5ml suspension : Levocloperastine 35.4mg"
+    ]
+  },
+  {
+    "id": 679,
+    "name": "AJANDOL-P TAB 37.5/325MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "AJANDOL-P TAB 37.5/325MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "13.50",
+    "composition": [
+      "Tramadol Hydrochloride 37.5mg",
+      "Paracetamol 325mg Tablets"
+    ]
+  },
+  {
+    "id": 680,
+    "name": "AJANTACITI PLUS TAB 800/500MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Neurology",
+    "description": "AJANTACITI PLUS TAB 800/500MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "173.04",
+    "composition": [
+      "Piracetam 800Mg",
+      "Citicoline Sodium 500Mg Tablets"
+    ]
+  },
+  {
+    "id": 681,
+    "name": "AJANTAFFIN PLUS SYP 170ML (MINT)",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "AJANTAFFIN PLUS SYP 170ML (MINT) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "170ml",
+    "mrp": "34.00",
+    "composition": [
+      "Sodium Picosulfate 3.33mg",
+      "Liquid Paraffin 1.25ml",
+      "Milk Of Magnesia 3.75ml per 5ml syrup"
+    ]
+  },
+  {
+    "id": 682,
+    "name": "AJANTAPRED TAB 4MG,10’S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "AJANTAPRED TAB 4MG,10’S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "12.88",
+    "composition": [
+      "Methylprednisolone 4mg Tab"
+    ]
+  },
+  {
+    "id": 683,
+    "name": "AJANTAPRED TAB 8MG,10’S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "AJANTAPRED TAB 8MG,10’S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "21.11",
+    "composition": [
+      "Methylprednisolone 8mg Tab"
+    ]
+  },
+  {
+    "id": 684,
+    "name": "AJANTA RICH SG CAP,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "AJANTA RICH SG CAP,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X2X15",
+    "mrp": "18.54",
+    "composition": [
+      "Calcium Pantothenate 1 Mg",
+      "Elemental Calcium 75 Mg",
+      "Elemental Copper 0.45 Mg",
+      "Elemental Magnesium 3 Mg",
+      "Elemental Manganese 0.5 Mg",
+      "Elemental Zinc 0.5 Mg",
+      "Folic Acid 50 Mcg",
+      "Iodine 0.75 Mg",
+      "Molybdenum 0.1 Mg",
+      "Niacinamide 15 Mg",
+      "Phosphorus 58 Mg",
+      "Potassium 3 Mg",
+      "Vitamin A 1600 Iu",
+      "Vitamin B1 1 Mg",
+      "Vitamin B12 0.5 Mcg",
+      "Vitamin B2 1 Mg",
+      "Vitamin B6 0.5 Mg",
+      "Vitamin C 25 Mg",
+      "Vitamin D3 100 Iu",
+      "Vitamin E 5 Iu Hgc"
+    ]
+  },
+  {
+    "id": 685,
+    "name": "AJANTA VITA 5G SOFT GEL CAP,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "AJANTA VITA 5G SOFT GEL CAP,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10",
+    "mrp": "32.64",
+    "composition": [
+      "Omega 3 fatty Acid, Ginseng, Gincogo Biloba Extract, Garlic, Grape Seed Extract, Ginger Root, Green tree Extract, Citrus Bioflavonoids, Lactic Acid Bacillus, Wheat Germ oil, Biotin, Luten,  Multi mineral and Multivitamins"
+    ]
+  },
+  {
+    "id": 686,
+    "name": "AJANTAVITA-L SYRUP,200ML",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "AJANTAVITA-L SYRUP,200ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "200ml",
+    "mrp": "26.00",
+    "composition": [
+      "L-Lysin 37.5 mg",
+      "Vitamin B12 2mcg",
+      "Vitamin B6 0.75mg",
+      "Niacinamide 15 mg /Each 5 ml"
+    ]
+  },
+  {
+    "id": 687,
+    "name": "AJATRAX SYRUP 10MG/5ML,100ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "AJATRAX SYRUP 10MG/5ML,100ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X100ml",
+    "mrp": "20.59",
+    "composition": [
+      "Hydroxyzine 10mg per 5ml syrup"
+    ]
+  },
+  {
+    "id": 688,
+    "name": "AJATRAX TAB 25MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "AJATRAX TAB 25MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10x15'S",
+    "mrp": "11.11",
+    "composition": [
+      "Each film coated tablet contains:Hydroxyzine Hydrochloride IP 25mg"
+    ]
+  },
+  {
+    "id": 689,
+    "name": "AJFENAC COLD & FLU TAB,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "AJFENAC COLD & FLU TAB,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20x10",
+    "mrp": "13.00",
+    "composition": [
+      "Aceclofenac 100 mg",
+      "Pcm 325 mg",
+      "Phenylephrine 5 mg",
+      "Cetirizine 10 mg",
+      "Caffeine 25 mg"
+    ]
+  },
+  {
+    "id": 690,
+    "name": "ALAMO-AT TAB 5/50MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "ALAMO-AT TAB 5/50MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X15",
+    "mrp": "7.50",
+    "composition": [
+      "Amlodipine 5 mg & Atenolol 50 mg Tablet"
+    ]
+  },
+  {
+    "id": 691,
+    "name": "ALLNAT INJECTION 120MG,1'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-malerial",
+    "description": "ALLNAT INJECTION 120MG,1'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15X1's",
+    "mrp": "36.00",
+    "composition": [
+      "Artesunate Injection 120mg"
+    ]
+  },
+  {
+    "id": 692,
+    "name": "ALLNAT INJECTION 60MG,1'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-malerial",
+    "description": "ALLNAT INJECTION 60MG,1'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15X1's",
+    "mrp": "26.00",
+    "composition": [
+      "Artesunate Injection 60mg"
+    ]
+  },
+  {
+    "id": 693,
+    "name": "APCARMINE RAFT SUSPENSION 200ML",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "APCARMINE RAFT SUSPENSION 200ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "200ML",
+    "mrp": "68.00",
+    "composition": [
+      "Each 5ml suspension contains Sodium Alginate 250 mg",
+      "Sodium Bicarbonate 133.5 mg",
+      "Calcium Carbonate 80 mg"
+    ]
+  },
+  {
+    "id": 694,
+    "name": "APCARMINE REFLUX TAB 500/100MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "APCARMINE REFLUX TAB 500/100MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "36.40",
+    "composition": [
+      "Sodium Alginate 500mg",
+      "Potassium Bicarbonate 100mg Chewable Tablets"
+    ]
+  },
+  {
+    "id": 695,
+    "name": "APCITROL D3 GRANULES,60000 I.U.,1GM",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "APCITROL D3 GRANULES,60000 I.U.,1GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20x1's",
+    "mrp": "5.50",
+    "composition": [
+      "Each 1 g contains:\r\nCholecalciferol ( Vitamin D3) IP -60000 IU (as stabilized form)"
+    ]
+  },
+  {
+    "id": 696,
+    "name": "APCITROL D3 NANO SHOT SYP,60000 I.U.,5ML",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "APCITROL D3 NANO SHOT SYP,60000 I.U.,5ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1x4's",
+    "mrp": "17.50",
+    "composition": [
+      "Each 5ml contains Cholecalciferol Concentrate (AS Stabilized) eq to Cholecalciferol 60,000IU"
+    ]
+  },
+  {
+    "id": 697,
+    "name": "APCITROL-CT SOFT GEL CAP,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "APCITROL-CT SOFT GEL CAP,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "17.50",
+    "composition": [
+      "Calcitriol BP 0.25mcg",
+      "Elemental Calcium 200mg",
+      "Zinc 7.5mg SoftGel Capsules"
+    ]
+  },
+  {
+    "id": 698,
+    "name": "APCITROL-CT SOFT GEL CAP,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "APCITROL-CT SOFT GEL CAP,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "5X2X15",
+    "mrp": "20.80",
+    "composition": [
+      "Calcitriol BP 0.25mcg",
+      "Calcium Carbonate  500mg",
+      "Elemental Calcium 200mg",
+      "Zinc 7.5mg SoftGel Capsules"
+    ]
+  },
+  {
+    "id": 699,
+    "name": "APCOSULE Z SYRUP,200ML",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "APCOSULE Z SYRUP,200ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X225ml",
+    "mrp": "36.00",
+    "composition": [
+      "L-Lysin With Multivitamin, Multimineral Syrup"
+    ]
+  },
+  {
+    "id": 700,
+    "name": "APCOSULE Z TAB,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "APCOSULE Z TAB,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X15",
+    "mrp": "18.02",
+    "composition": [
+      "L-Lysine Hcl 10mg",
+      "Vitamin C 25mg",
+      "Vitamin B3 12mg",
+      "Vitamin E 8mg",
+      "Pantothenic Acid 3mg",
+      "Vitamin B 61.50mg",
+      "Vitamin B 20.90mg",
+      "Vitamin B10 80mg",
+      "Vitamin A 350mcg",
+      "Folic Acid 60mcg",
+      "Vitamin B12 0.60mcg",
+      "Zinc Oxide Eq. To Zinc 9mgc",
+      "Upric Gluconate Eq. To Copper 0.618mg",
+      "Manganese Chloride Eq. To Manganese 2mg",
+      "Sodium Selenate Eq. To Selenium 30mcg"
+    ]
+  },
+  {
+    "id": 701,
+    "name": "APECTROLYTE ORS GRANULES,21.8GM,ORG",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "APECTROLYTE ORS GRANULES,21.8GM,ORG — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "30 X 21.8",
+    "mrp": "6.40",
+    "composition": [
+      "Contents: 21.8 g\r\nEach sachet (21.8 g) contains\r\nSodium Chloride I.P 2.6g\r\nPotassium Chloride I.P. 1.50g\r\nSodium Citrate I.P. 2.9g\r\nDextrose (Anhydrous) I.P. 13.5 g\r\nExcipients q.s."
+    ]
+  },
+  {
+    "id": 702,
+    "name": "APHALER RESPULES 0.5MG,2ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "APHALER RESPULES 0.5MG,2ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X1's",
+    "mrp": "8.00",
+    "composition": [
+      "Each 2ml contains :\r\nBudesonide (0.5mg) Respule"
+    ]
+  },
+  {
+    "id": 703,
+    "name": "APHALER-LS RESPULES 1.25/0.5MG,2ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "APHALER-LS RESPULES 1.25/0.5MG,2ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X1's",
+    "mrp": "12.00",
+    "composition": [
+      "Each 2ml contains :\r\nLevosalbutamol (1.25mg)",
+      "Budesonide (0.5mg) Respule"
+    ]
+  },
+  {
+    "id": 704,
+    "name": "AJANTA’S APLANSO GR CAP 30MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "AJANTA’S APLANSO GR CAP 30MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "16.00",
+    "composition": [
+      "Lansoprazole 30 mg Gastro Resistant Capsules"
+    ]
+  },
+  {
+    "id": 705,
+    "name": "JUNIOR APLANSO TAB 15MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "JUNIOR APLANSO TAB 15MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10x15",
+    "mrp": "32.50",
+    "composition": [
+      "Lansoprazole 15mg Dispersible tablets (Strawberry Flavour)"
+    ]
+  },
+  {
+    "id": 706,
+    "name": "APMON-LC TAB 5/10MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "APMON-LC TAB 5/10MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X2X15",
+    "mrp": "23.00",
+    "composition": [
+      "Each Film Coated Tablet contains: Montelukast Sodium IP Equi. To Montelukast  10mg",
+      "Levocetirizine Hydrochloride 5mg Excipients q.s."
+    ]
+  },
+  {
+    "id": 707,
+    "name": "APMOX CAP 500MG,10'S (M/DY)",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "APMOX CAP 500MG,10'S (M/DY) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "26.00",
+    "composition": [
+      "Amoxicillin 500mg Capsules (Maroon/ Dark Yellow)"
+    ]
+  },
+  {
+    "id": 708,
+    "name": "APMOX CAP 500MG,10'S(ORANGE/ORANGE)",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "APMOX CAP 500MG,10'S(ORANGE/ORANGE) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "26.00",
+    "composition": [
+      "Amoxicillin 500mg Capsules (Orange/ Orange)"
+    ]
+  },
+  {
+    "id": 709,
+    "name": "APNICID INJ 40MG,1'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "APNICID INJ 40MG,1'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "25 X 1's",
+    "mrp": "13.00",
+    "composition": [
+      "Pantoprazole for Injection (Lyophilized) 40mg"
+    ]
+  },
+  {
+    "id": 710,
+    "name": "APNICID TAB 40MG,15",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "APNICID TAB 40MG,15 — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X15",
+    "mrp": "13.39",
+    "composition": [
+      "Pantoprazole 40mg tablets"
+    ]
+  },
+  {
+    "id": 711,
+    "name": "APNICID-DSR CAP 40/30MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "APNICID-DSR CAP 40/30MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "22.66",
+    "composition": [
+      "Pantoprazole 40mg Ec Pellets",
+      "Domperidone 30mg Sr Pellets Hgc"
+    ]
+  },
+  {
+    "id": 712,
+    "name": "APNICID-DSR CAP 40/30MG,15'S (ALU-ALU)",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "APNICID-DSR CAP 40/30MG,15'S (ALU-ALU) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "23.69",
+    "composition": [
+      "Pantoprazole 40mg Ec Pellets",
+      "Domperidone 30mg Sr Pellets Hgc"
+    ]
+  },
+  {
+    "id": 713,
+    "name": "APNITO TAB 2.6MG,30'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "APNITO TAB 2.6MG,30'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X30's",
+    "mrp": "30.00",
+    "composition": [
+      "Nitroglycerin 2.6mg Tablets"
+    ]
+  },
+  {
+    "id": 714,
+    "name": "APPECIA BF TAB 5MG/5MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "APPECIA BF TAB 5MG/5MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10 x 10",
+    "mrp": "15.45",
+    "composition": [
+      "Biotin 5Mg",
+      "Folic Acid 5Mg Tab Tablets"
+    ]
+  },
+  {
+    "id": 715,
+    "name": "APPECIA-F TOPICAL SOLUTION5/0.1%W/V,60ML",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "APPECIA-F TOPICAL SOLUTION5/0.1%W/V,60ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ml",
+    "mrp": "171.60",
+    "composition": [
+      "Minoxidil & Finasteride Solution 5/0.1%"
+    ]
+  },
+  {
+    "id": 716,
+    "name": "APTRAPIL TAB 500MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Neurology",
+    "description": "APTRAPIL TAB 500MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "30.00",
+    "composition": [
+      "Levetiracetam 500mg"
+    ]
+  },
+  {
+    "id": 717,
+    "name": "APSONE INJ 100MG,1 VL WITH WFI",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "APSONE INJ 100MG,1 VL WITH WFI — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "25 x 1 x 1",
+    "mrp": "18.00",
+    "composition": [
+      "Hydrocortisone sodium Succinate 100mg Injection IP"
+    ]
+  },
+  {
+    "id": 718,
+    "name": "ARADIM CREAM 0.25%,30GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "ARADIM CREAM 0.25%,30GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X30GM",
+    "mrp": "59.59",
+    "composition": [
+      "Amrololfine Cream 0.25%"
+    ]
+  },
+  {
+    "id": 719,
+    "name": "BESIFLAM SUSP 100/162.5MG,60ML",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "BESIFLAM SUSP 100/162.5MG,60ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ML",
+    "mrp": "13.50",
+    "composition": [
+      "Ibuprofen 100mg",
+      "Paracetamol 162.5mg (Orange Flavour)"
+    ]
+  },
+  {
+    "id": 720,
+    "name": "BESIFLAM TAB 400/325MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "BESIFLAM TAB 400/325MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10x15'S",
+    "mrp": "18.00",
+    "composition": [
+      "Ibuprofen 400mg",
+      "Paracetamol 325mg Tablets"
+    ]
+  },
+  {
+    "id": 721,
+    "name": "BISOZAC 5 TAB 5MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "BISOZAC 5 TAB 5MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10 X 10",
+    "mrp": "9.27",
+    "composition": [
+      "Bisoprolol Fumarate Tab 5Mg"
+    ]
+  },
+  {
+    "id": 722,
+    "name": "BISOZAC T TAB 5MG/40MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "BISOZAC T TAB 5MG/40MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "24.24",
+    "composition": [
+      "Bisoprolol 5mg",
+      "Telmisartan 40mg Tab"
+    ]
+  },
+  {
+    "id": 723,
+    "name": "BISOZAC-AM 5 TABS,5mg/5mg,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "BISOZAC-AM 5 TABS,5mg/5mg,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "11.11",
+    "composition": [
+      "Amlodipine 5mg",
+      "Bisoprolol 5mg tablets"
+    ]
+  },
+  {
+    "id": 724,
+    "name": "AJANTA'S CALAMINE LOTION 8/10%W/V,100ML",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "AJANTA'S CALAMINE LOTION 8/10%W/V,100ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X100ml",
+    "mrp": "43.00",
+    "composition": [
+      "Calamine 8% w/v",
+      "LLP 10% w/v in Aloe Vera Base lotion"
+    ]
+  },
+  {
+    "id": 725,
+    "name": "CLODOSPIN MOUTH PAINT 1%,15ML",
+    "brand": "Ajanta Pharma",
+    "category": "ENT",
+    "description": "CLODOSPIN MOUTH PAINT 1%,15ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15ML",
+    "mrp": "18.00",
+    "composition": [
+      "Clotrimazole 1% Gum Paint"
+    ]
+  },
+  {
+    "id": 726,
+    "name": "CLODOSPIN VG GEL 2%W/W,30GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "CLODOSPIN VG GEL 2%W/W,30GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "30gm",
+    "mrp": "24.00",
+    "composition": [
+      "Clotrimazole 2% Vaginal Gel"
+    ]
+  },
+  {
+    "id": 727,
+    "name": "COLICA MF TAB 250/10MG,10'S (CLEAR PVC)",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "COLICA MF TAB 250/10MG,10'S (CLEAR PVC) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X3X10",
+    "mrp": "7.00",
+    "composition": [
+      "MEFENEMIC ACID 250MG",
+      "DICYCLOMINE 10MG TABS"
+    ]
+  },
+  {
+    "id": 728,
+    "name": "COLICA SPAS CAP 10/50/250MG,8'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "COLICA SPAS CAP 10/50/250MG,8'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X3X8",
+    "mrp": "17.00",
+    "composition": [
+      "Dicyclomine 10mg",
+      "Tramadol 50mg",
+      "Paracetamol 325mg",
+      "Capsule"
+    ]
+  },
+  {
+    "id": 729,
+    "name": "COLICA SUSP 10/40MG,30ML",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "COLICA SUSP 10/40MG,30ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X30ml",
+    "mrp": "13.50",
+    "composition": [
+      "Dicyclomine & Simethicone Syrup 10/40Mg"
+    ]
+  },
+  {
+    "id": 730,
+    "name": "COLICA SUSP 10/40MG,60ML",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "COLICA SUSP 10/40MG,60ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X60ml",
+    "mrp": "22.66",
+    "composition": [
+      "Dicyclomine 10mg",
+      "Simethicone 40mg Suspension"
+    ]
+  },
+  {
+    "id": 731,
+    "name": "DECABOOST INJ 50MG,1'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gynaecology",
+    "description": "DECABOOST INJ 50MG,1'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X1ml",
+    "mrp": "16.64",
+    "composition": [
+      "Nandrolone Decanoate 50mg Inj."
+    ]
+  },
+  {
+    "id": 732,
+    "name": "AJANTA’S DEXA INJ 4MG/ML,2ML(VIAL IN BL)",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "AJANTA’S DEXA INJ 4MG/ML,2ML(VIAL IN BL) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "5 x 8 x 2ML",
+    "mrp": "5.51",
+    "composition": [
+      "Each ml contains:\r\nDexamethasone Sodium Phosphate IP 4mg Inj."
+    ]
+  },
+  {
+    "id": 733,
+    "name": "DEXLURON FORTE INJ 1000MCG/100/100MG,2ML",
+    "brand": "Ajanta Pharma",
+    "category": "Neurology",
+    "description": "DEXLURON FORTE INJ 1000MCG/100/100MG,2ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X5X2ML",
+    "mrp": "8.24",
+    "composition": [
+      "Injection of Methylcobalamin, Vit B6 & Nicotinamide"
+    ]
+  },
+  {
+    "id": 734,
+    "name": "DEXLURON INJ 1000MCG/100/100MG,2ML",
+    "brand": "Ajanta Pharma",
+    "category": "Neurology",
+    "description": "DEXLURON INJ 1000MCG/100/100MG,2ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "2X5X2ML",
+    "mrp": "7.72",
+    "composition": [
+      "Injection of Methylcobalamin, Vit B6 & Nicotinamide\r\nEach 2ml contains:-\r\nMethylcobalamin 1000mcg\r\nPyridoxine Hydrochloride  IP 100mg\r\nNicotinamide  IP 100mg\r\nBenzyl Alcohol  IP 2% w/v\r\n(as preservative)\r\nWater for Injections IP QS"
+    ]
+  },
+  {
+    "id": 735,
+    "name": "DIASAX-LB CAP 100MG/5BIL,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "DIASAX-LB CAP 100MG/5BIL,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "36.56",
+    "composition": [
+      "Doxycycline 10mg",
+      "Lactobacillus 5 Billion Spores"
+    ]
+  },
+  {
+    "id": 736,
+    "name": "DOROTEA-M TAB 80/250MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "DOROTEA-M TAB 80/250MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "13.60",
+    "composition": [
+      "Drotaverin HCL IP 80mg",
+      "Mefenamic Acid IP 250mg"
+    ]
+  },
+  {
+    "id": 737,
+    "name": "DUASAFE 625 TAB 500/125MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "DUASAFE 625 TAB 500/125MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10",
+    "mrp": "75.00",
+    "composition": [
+      "Amoxycillin 500 Mg",
+      "Clavulanic Acid 125 Mg Tablet"
+    ]
+  },
+  {
+    "id": 738,
+    "name": "DUASAFE 625 TAB 500/125MG,10'S (DUAL BL)",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "DUASAFE 625 TAB 500/125MG,10'S (DUAL BL) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "5X2X10",
+    "mrp": "74.00",
+    "composition": [
+      "Amoxycillin 500 Mg",
+      "Clavulanic Acid 125 Mg Tablet"
+    ]
+  },
+  {
+    "id": 739,
+    "name": "DUASAFE DS DRY SYP 200/28.5MG,30ML,WFI",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "DUASAFE DS DRY SYP 200/28.5MG,30ML,WFI — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X30ML",
+    "mrp": "29.50",
+    "composition": [
+      "Amoxycillin 200 Mg",
+      "Clavulanic 28.5 Mg Dry Syrup With Wfi"
+    ]
+  },
+  {
+    "id": 740,
+    "name": "DUASAFE FORTE DS D SYP400/57MG,30ML-SWFI",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "DUASAFE FORTE DS D SYP400/57MG,30ML-SWFI — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1's",
+    "mrp": "41.00",
+    "composition": [
+      "Amoxacillin 400mg & Clavunic Potassium 57mg syrup"
+    ]
+  },
+  {
+    "id": 741,
+    "name": "DYDROACT TAB 10MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gynecology",
+    "description": "DYDROACT TAB 10MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "151.50",
+    "composition": [
+      "Dydrogesterone IP 10 mg Film coated tablet"
+    ]
+  },
+  {
+    "id": 742,
+    "name": "ECHIGERMINA ORAL SUSP 5ML,BFS",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "ECHIGERMINA ORAL SUSP 5ML,BFS — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X5ml",
+    "mrp": "13.00",
+    "composition": [
+      "Bacillus clausii 2 billion spores"
+    ]
+  },
+  {
+    "id": 743,
+    "name": "ECHINORM GRANULES SACHET,1GM",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "ECHINORM GRANULES SACHET,1GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X1g",
+    "mrp": "7.07",
+    "composition": [
+      "Saccharomyces boulardii CNCM I-745 (250mg): Each sachet contains: Lyophillized Saccharomyces boulardii CMCM I-745 250 mg granules"
+    ]
+  },
+  {
+    "id": 744,
+    "name": "ECOTRATE CHRONO TAB 300MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Neurology",
+    "description": "ECOTRATE CHRONO TAB 300MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "20.80",
+    "composition": [
+      "Sodium Valproate 200mg",
+      "Valproic Acid 87mg Tab"
+    ]
+  },
+  {
+    "id": 745,
+    "name": "ECOTRATE CHRONO TAB 500MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Neurology",
+    "description": "ECOTRATE CHRONO TAB 500MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "30.16",
+    "composition": [
+      "Sodium Valproate 333mg",
+      "Valproic Acid 145mg tab"
+    ]
+  },
+  {
+    "id": 746,
+    "name": "EDICOOL PRICKLY HEAT POWDER,150GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "EDICOOL PRICKLY HEAT POWDER,150GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "150gm",
+    "mrp": "38.76",
+    "composition": [
+      "Lemon oil, Talc, Starch, Menthol, Camphor, Aloe Vera Extract, Zinc Oxide Prickly Heat Powder"
+    ]
+  },
+  {
+    "id": 747,
+    "name": "ELTINA CREAM 1% w/w, 15GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "ELTINA CREAM 1% w/w, 15GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15 gm",
+    "mrp": "44.29",
+    "composition": [
+      "Eberconazole Ointment 1% w/w"
+    ]
+  },
+  {
+    "id": 748,
+    "name": "ERIPEN DRY SYP 50MG,30ML,WFI",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "ERIPEN DRY SYP 50MG,30ML,WFI — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X5gm",
+    "mrp": "86.70",
+    "composition": [
+      "Faropenem 50mg/5ml Dry Syrup"
+    ]
+  },
+  {
+    "id": 749,
+    "name": "ERIPEN ER TAB 300MG,6'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "ERIPEN ER TAB 300MG,6'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X6",
+    "mrp": "306.00",
+    "composition": [
+      "Faropenem 300mg ER Tablets"
+    ]
+  },
+  {
+    "id": 750,
+    "name": "ERIPEN TAB 200MG,6'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "ERIPEN TAB 200MG,6'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X6",
+    "mrp": "212.10",
+    "composition": [
+      "Faropenem Tab 200Mg"
+    ]
+  },
+  {
+    "id": 751,
+    "name": "ERIPEN-CV 325 TAB 200/125MG,6'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "ERIPEN-CV 325 TAB 200/125MG,6'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X6",
+    "mrp": "257.50",
+    "composition": [
+      "Faropenem 200mg",
+      "Potassium Clavulanate 125mg Tab"
+    ]
+  },
+  {
+    "id": 752,
+    "name": "AJANTA’S FIXIM FORTE-DS 100MG,30ML(SWFI)",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "AJANTA’S FIXIM FORTE-DS 100MG,30ML(SWFI) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X30ml + (SWFR)",
+    "mrp": "33.28",
+    "composition": [
+      "Cefexime Trihydrate eq to Cefixime Anhydrous 100mg Oral Suspension"
+    ]
+  },
+  {
+    "id": 753,
+    "name": "AJANTA’S FIXIM-DS DRY SYP 50MG/5ML,30ML",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "AJANTA’S FIXIM-DS DRY SYP 50MG/5ML,30ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X30ml + (SWFR)",
+    "mrp": "25.44",
+    "composition": [
+      "Cefixime Oral Suspension with Sterile Water For Reconstitution"
+    ]
+  },
+  {
+    "id": 754,
+    "name": "AJANTA’S FIXIM-DT TAB 200MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "AJANTA’S FIXIM-DT TAB 200MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10",
+    "mrp": "43.00",
+    "composition": [
+      "Cefixime 200 Mg Dispersible Tablet"
+    ]
+  },
+  {
+    "id": 755,
+    "name": "AJANTA’S FIXIM-DT TAB 200MG,10'S(WO/M)",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "AJANTA’S FIXIM-DT TAB 200MG,10'S(WO/M) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10x10",
+    "mrp": "36.00",
+    "composition": [
+      "Cefixime 200 mg Dispersible Tablet"
+    ]
+  },
+  {
+    "id": 756,
+    "name": "AJANTA’S FIXIM-OF TAB 200/200MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "AJANTA’S FIXIM-OF TAB 200/200MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10",
+    "mrp": "55.12",
+    "composition": [
+      "Cefixime 200 Mg",
+      "Ofloxacin 200Mg"
+    ]
+  },
+  {
+    "id": 757,
+    "name": "FLUFUR TAB 150MG,2'S",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "FLUFUR TAB 150MG,2'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X1X2",
+    "mrp": "7.72",
+    "composition": [
+      "Fluconazole 150 Mg Tablets"
+    ]
+  },
+  {
+    "id": 758,
+    "name": "FLUFUR TAB 200MG,2'S",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "FLUFUR TAB 200MG,2'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X1X2",
+    "mrp": "9.79",
+    "composition": [
+      "Fluconazole 200 Mg Tablets"
+    ]
+  },
+  {
+    "id": 759,
+    "name": "FOLIVIA TAB 5MG,30'S",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "FOLIVIA TAB 5MG,30'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X3X30",
+    "mrp": "9.79",
+    "composition": [
+      "Each uncoated tablet contains:\r\nFolic Acid IP 5mg\r\nExcipients   Q.S\r\nApproved colour used \r\nAppropriate overages of vitamins added to compensate the losses during storage"
+    ]
+  },
+  {
+    "id": 760,
+    "name": "FUMACID CREAM 2%,10GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "FUMACID CREAM 2%,10GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10 GM",
+    "mrp": "34.51",
+    "composition": [
+      "Fusidic Acid 2% W/W Cream"
+    ]
+  },
+  {
+    "id": 761,
+    "name": "FUMACID-B CREAM 2/0.025%W/W,10GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "FUMACID-B CREAM 2/0.025%W/W,10GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10 GM",
+    "mrp": "37.59",
+    "composition": [
+      "Fusidic Acid 2% & Beclomethasone Dipropionate Cream 0.025%"
+    ]
+  },
+  {
+    "id": 762,
+    "name": "GAMUNE NT 300 TAB,300MG/10MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Neurology",
+    "description": "GAMUNE NT 300 TAB,300MG/10MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10",
+    "mrp": "23.92",
+    "composition": [
+      "Gabapentin 300mg",
+      "Nortriptyline 10mg Tab"
+    ]
+  },
+  {
+    "id": 763,
+    "name": "GAMUNE-M TAB 500MCG/300MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Neurology",
+    "description": "GAMUNE-M TAB 500MCG/300MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "25.23",
+    "composition": [
+      "Methylcobalamine 750 Mcg",
+      "Gabapentin 300 Mg Tablets"
+    ]
+  },
+  {
+    "id": 764,
+    "name": "GUTBAC PRO BIOTIC CAP,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "GUTBAC PRO BIOTIC CAP,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10",
+    "mrp": "22.14",
+    "composition": [
+      "Lidocaine Hydrochloride IP … 5% W/W"
+    ]
+  },
+  {
+    "id": 765,
+    "name": "GUTBAC RICH PRE & PRO BIOTIC CAP,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "GUTBAC RICH PRE & PRO BIOTIC CAP,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "36.05",
+    "composition": [
+      "Each hard gelatin capsule contains:\r\nLactobacillus acidophilus  0.48 billion\r\nLactobacillus rhamnosus  0.48 billion\r\nBifidobacterium longum  0.48 billion\r\nBifidobacterium bifidum  0.48 billion\r\nStreptococcus thermophilus  0.48 billion\r\nSaccharomyces boulardii  0.10 billion\r\nFructo Oligo Saccharides (FOS) 300 mg"
+    ]
+  },
+  {
+    "id": 766,
+    "name": "AJANTA'S HUNGER XTRA SYP,200ML",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "AJANTA'S HUNGER XTRA SYP,200ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X200ML",
+    "mrp": "27.04",
+    "composition": [
+      "Cyproheptadine 2mg",
+      "Tricholine Citrate 275mg",
+      "Sorbitol 2gm Syrup (with PINEAPPLE Flav)"
+    ]
+  },
+  {
+    "id": 767,
+    "name": "AJANTA'S HUNGER XTRA SYP,200ML,ORANGE",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "AJANTA'S HUNGER XTRA SYP,200ML,ORANGE — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X200ML",
+    "mrp": "27.04",
+    "composition": [
+      "Cyproheptadine 2mg",
+      "Tricholine Citrate 275mg",
+      "Sorbitol 2gm Syrup (with ORANGE Flav)"
+    ]
+  },
+  {
+    "id": 768,
+    "name": "AJANTA'S HUNGER XTRA TAB 4MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "AJANTA'S HUNGER XTRA TAB 4MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "50X10",
+    "mrp": "3.50",
+    "composition": [
+      "Cyproheptadine 4 mg tablet"
+    ]
+  },
+  {
+    "id": 769,
+    "name": "IMULAC CREAM,100GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "IMULAC CREAM,100GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1x100GM",
+    "mrp": "47.38",
+    "composition": [
+      "Methylparaben IP …0.10 % W/W"
+    ]
+  },
+  {
+    "id": 770,
+    "name": "IMULAC MOISTURIZING LOTION,100ML",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "IMULAC MOISTURIZING LOTION,100ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100 ML",
+    "mrp": "41.20",
+    "composition": [
+      "In a Aqueous Base Gel ..Q.S."
+    ]
+  },
+  {
+    "id": 771,
+    "name": "INVISEC TAB 5MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "INVISEC TAB 5MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10 X 10",
+    "mrp": "41.41",
+    "composition": [
+      "Solifenacin Succinate Tab 5Mg"
+    ]
+  },
+  {
+    "id": 772,
+    "name": "ITAPRO CAP 100MG,10'S (ALU-ALU)",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "ITAPRO CAP 100MG,10'S (ALU-ALU) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "43.26",
+    "composition": [
+      "Itraconazole 100 mg Capsules"
+    ]
+  },
+  {
+    "id": 773,
+    "name": "ITAPRO CAP 100MG,10'S (ALU-ALU)WITH MONO",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "ITAPRO CAP 100MG,10'S (ALU-ALU)WITH MONO — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10",
+    "mrp": "47.38",
+    "composition": [
+      "Itraconazole 100 mg Capsules"
+    ]
+  },
+  {
+    "id": 774,
+    "name": "ITAPRO CAP 200MG,10'S (ALU-ALU)WITH MONO",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "ITAPRO CAP 200MG,10'S (ALU-ALU)WITH MONO — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10",
+    "mrp": "64.89",
+    "composition": [
+      "Itraconazole 200mg Capsules"
+    ]
+  },
+  {
+    "id": 775,
+    "name": "ITAPRO CAP 200MG,10'S(ALU-ALU)",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "ITAPRO CAP 200MG,10'S(ALU-ALU) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "60.77",
+    "composition": [
+      "Itraconazole 200mg Capsules"
+    ]
+  },
+  {
+    "id": 776,
+    "name": "KAMAGRA-FX JELY 100MG/5GM,7,PAAN",
+    "brand": "Ajanta Pharma",
+    "category": "Erectile Dysfunction",
+    "description": "KAMAGRA-FX JELY 100MG/5GM,7,PAAN — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "7X5gm Sachet",
+    "mrp": "11.11",
+    "composition": [
+      "Sildenafil Jelly"
+    ]
+  },
+  {
+    "id": 777,
+    "name": "KETOLOCIL 10MG DT TABS 15,S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "KETOLOCIL 10MG DT TABS 15,S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "13.90",
+    "composition": [
+      "Ketorolac Tromethamine 10 mg Dispersible Tablets"
+    ]
+  },
+  {
+    "id": 778,
+    "name": "KETOLOCIL-DT TAB 10MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "KETOLOCIL-DT TAB 10MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "9.27",
+    "composition": [
+      "Ketorolac Tromethamine 10 mg"
+    ]
+  },
+  {
+    "id": 779,
+    "name": "KODICALM-T SYP 10/1.25MG,100ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "KODICALM-T SYP 10/1.25MG,100ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100 ML",
+    "mrp": "53.04",
+    "composition": [
+      "Codeine Phosphate 10mg",
+      "Triprolidine Hcl 1.25mg Syrup"
+    ]
+  },
+  {
+    "id": 780,
+    "name": "KODICALM-T SYP 10/1.25MG,100ML (SF)",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "KODICALM-T SYP 10/1.25MG,100ML (SF) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100 ML",
+    "mrp": "53.56",
+    "composition": [
+      "Codeine Phosphate 10mg",
+      "Triprolidine Hcl 1.25mg Syrup"
+    ]
+  },
+  {
+    "id": 781,
+    "name": "LAMISTA-DT 100MG TAB",
+    "brand": "Ajanta Pharma",
+    "category": "Neurology",
+    "description": "LAMISTA-DT 100MG TAB — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10 X 15",
+    "mrp": "23.32",
+    "composition": [
+      "Lamotrigine 100mg DT Tab"
+    ]
+  },
+  {
+    "id": 782,
+    "name": "LEVOTOP TAB 500MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "LEVOTOP TAB 500MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "32.96",
+    "composition": [
+      "Livofloxacin 500mg"
+    ]
+  },
+  {
+    "id": 783,
+    "name": "LINOBENZ 600MG IV, 300ML",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "LINOBENZ 600MG IV, 300ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X300ml",
+    "mrp": "74.20",
+    "composition": [
+      "Linezolid & Dextrose Inj IP 600mg/5% W/V (WFI)"
+    ]
+  },
+  {
+    "id": 784,
+    "name": "LINOBENZ TAB 600MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "LINOBENZ TAB 600MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10x1x10'S",
+    "mrp": "97.00",
+    "composition": [
+      "Linezolide 600mg"
+    ]
+  },
+  {
+    "id": 785,
+    "name": "NEW LIVO PLUS SYRUP,225ML",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "NEW LIVO PLUS SYRUP,225ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "225ml",
+    "mrp": "27.81",
+    "composition": [
+      "Herbal- Liver Syrup"
+    ]
+  },
+  {
+    "id": 786,
+    "name": "AJANTA'S LYCO Q10 SOFT GEL CAP'10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "AJANTA'S LYCO Q10 SOFT GEL CAP'10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10",
+    "mrp": "84.00",
+    "composition": [
+      "Each Softgel Capsule contains\r\nCOENZYME Q10 100MG",
+      "Lycopene (6%) 10MG",
+      "Vitamin E 8 MG",
+      "Vitamin B6 - 1.62 MG",
+      "Vitamin B2  1.575 MG",
+      "Vitamin B1 1.275 MG"
+    ]
+  },
+  {
+    "id": 787,
+    "name": "AJANTA'S LYCO SOFT GEL CAP,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "AJANTA'S LYCO SOFT GEL CAP,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10",
+    "mrp": "20.15",
+    "composition": [
+      "Lycopene (6%)...1000mg*\r\nMagnesium as Magnesium Sulphate...253mg\r\nZinc as Zinc Oxide...15mg\r\nVitamin E (Acetate)...15 IU\r\nCopper as Copper Sulphate...1mg\r\nChromium Picolinate...200mcg\r\nSelinium as Sodium Selanate...75mcg"
+    ]
+  },
+  {
+    "id": 788,
+    "name": "AJANTA'S LYCO SYRUP,225ML",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "AJANTA'S LYCO SYRUP,225ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X225ml",
+    "mrp": "38.00",
+    "composition": [
+      "Multivitamin syrup with Lycopene and Zinc Syrup"
+    ]
+  },
+  {
+    "id": 789,
+    "name": "MAGPOT-MPS SUSP 400/20MG,200ML",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "MAGPOT-MPS SUSP 400/20MG,200ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "200ml",
+    "mrp": "23.92",
+    "composition": [
+      "Each 5ml contains Magaldrate IP 400mg",
+      "Simethicone IP 20mgIn a flavored base"
+    ]
+  },
+  {
+    "id": 790,
+    "name": "MEFLAM FORTE SUSP 50MG,125MG/5ML,60ML",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "MEFLAM FORTE SUSP 50MG,125MG/5ML,60ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ml",
+    "mrp": "12.48",
+    "composition": [
+      "Mefenamic 50mg",
+      "Paracetamol 125/5ml"
+    ]
+  },
+  {
+    "id": 791,
+    "name": "MEFLAM FORTE TAB 500MG/325MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "MEFLAM FORTE TAB 500MG/325MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "12.36",
+    "composition": [
+      "Mefenamic 500mg",
+      "Paracetamol 325"
+    ]
+  },
+  {
+    "id": 792,
+    "name": "MIRACT TAB 25MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "MIRACT TAB 25MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10 X 10",
+    "mrp": "48.48",
+    "composition": [
+      "Mirabegron Tab 25Mg"
+    ]
+  },
+  {
+    "id": 793,
+    "name": "MIRACT TAB 50MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "MIRACT TAB 50MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10 X 10",
+    "mrp": "68.68",
+    "composition": [
+      "Mirabegron Tab 50Mg"
+    ]
+  },
+  {
+    "id": 794,
+    "name": "MUCLOP OINTMENT 2%W/W,5GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "MUCLOP OINTMENT 2%W/W,5GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X5gm",
+    "mrp": "25.50",
+    "composition": [
+      "Mupirocin 2% w/w Ointment"
+    ]
+  },
+  {
+    "id": 795,
+    "name": "MUCLOP OINTMENT 2%w/w,5GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "MUCLOP OINTMENT 2%w/w,5GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X5gm",
+    "mrp": "26.52",
+    "composition": [
+      "Mupirocin 2% w/w Ointment"
+    ]
+  },
+  {
+    "id": 796,
+    "name": "MUCOFORM-AB FORTE TAB 600/100MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "MUCOFORM-AB FORTE TAB 600/100MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "51.50",
+    "composition": [
+      "Acetylcysteine 600 mg",
+      "Acebrophylline 100 mg Tabs"
+    ]
+  },
+  {
+    "id": 797,
+    "name": "MUCOFORM-AB TAB 200MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "MUCOFORM-AB TAB 200MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "25.75",
+    "composition": [
+      "Acebrophylline SR Tab 200Mg"
+    ]
+  },
+  {
+    "id": 798,
+    "name": "MUCOXL GEL SYP 10MG/0.291GM/98MG,200ML",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "MUCOXL GEL SYP 10MG/0.291GM/98MG,200ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1x200ML",
+    "mrp": "30.00",
+    "composition": [
+      "Oxetacaine 10Mg",
+      "Aluminium Hydroxide 0.291Gm",
+      "Milk Of Magnesia 98Mg (Orange) Oral Gel (Syrup)"
+    ]
+  },
+  {
+    "id": 799,
+    "name": "MUGARD DG GEL 20GM",
+    "brand": "Ajanta Pharma",
+    "category": "ENT",
+    "description": "MUGARD DG GEL 20GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20GM",
+    "mrp": "14.42",
+    "composition": [
+      "Chlorhexidine Gluconate 0.5% w/w",
+      "Metronidazole 1.5% w/w oral gel"
+    ]
+  },
+  {
+    "id": 800,
+    "name": "MUGARD FORTE GEL 2/1/1%W/W,15GM",
+    "brand": "Ajanta Pharma",
+    "category": "ENT",
+    "description": "MUGARD FORTE GEL 2/1/1%W/W,15GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15gm",
+    "mrp": "13.39",
+    "composition": [
+      "LIDOCAINE 2% ,CHXDIN GLU 1% & METRO ORL GEL 2/1/1%W/W"
+    ]
+  },
+  {
+    "id": 801,
+    "name": "NAFTOP LB TAB 400MG/12MN,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "NAFTOP LB TAB 400MG/12MN,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X5X10",
+    "mrp": "24.91",
+    "composition": [
+      "Norfloxacin 400Mg",
+      "Lactic Acid bacillus 120 million Spores"
+    ]
+  },
+  {
+    "id": 802,
+    "name": "NAFTOP TZ TAB 400/600MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "NAFTOP TZ TAB 400/600MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X2X10",
+    "mrp": "26.50",
+    "composition": [
+      "Norfloxacin 400Mg",
+      "Tinidazole 600Mg"
+    ]
+  },
+  {
+    "id": 803,
+    "name": "NASOFLUT NASAL SPRAY 0.05%,10ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "NASOFLUT NASAL SPRAY 0.05%,10ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X10ml",
+    "mrp": "61.80",
+    "composition": [
+      "Fluticasone Propionate 0.05%"
+    ]
+  },
+  {
+    "id": 804,
+    "name": "NASOFLUT-AZ NASAL SPRAY 0.05/0.14%,10ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "NASOFLUT-AZ NASAL SPRAY 0.05/0.14%,10ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X10ml",
+    "mrp": "72.10",
+    "composition": [
+      "Fluticasone Propionate 0.05% & Azelastine Hydrochloride 0.14% Nasal Spray"
+    ]
+  },
+  {
+    "id": 805,
+    "name": "NASOSTAR NASAL SPRAY,20ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "NASOSTAR NASAL SPRAY,20ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1x20ml",
+    "mrp": "13.39",
+    "composition": [
+      "Sodium Chloride 0.65%  Nasal Solution"
+    ]
+  },
+  {
+    "id": 806,
+    "name": "NAXOS TAB 500MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "NAXOS TAB 500MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15's",
+    "mrp": "52.00",
+    "composition": [
+      "Naproxen Sodium 500 mg"
+    ]
+  },
+  {
+    "id": 807,
+    "name": "NAXOS-D TAB 250/10MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "NAXOS-D TAB 250/10MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "30.00",
+    "composition": [
+      "Naproxen Sodium 250 Mg",
+      "Domperidone 10 Mg Tab"
+    ]
+  },
+  {
+    "id": 808,
+    "name": "NAXOS-D TAB 500/10MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "NAXOS-D TAB 500/10MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "42.00",
+    "composition": [
+      "Naproxen Sodium 500 mg",
+      "Domperidone 10 mg tab"
+    ]
+  },
+  {
+    "id": 809,
+    "name": "NETANEO POWDER 10GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "NETANEO POWDER 10GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20*10GM",
+    "mrp": "20.00",
+    "composition": [
+      "Neomycin",
+      "Bacitracin",
+      "Sulphacetamide Dusting Powder"
+    ]
+  },
+  {
+    "id": 810,
+    "name": "NEUROLOGIX FORTE TAB,30'S",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "NEUROLOGIX FORTE TAB,30'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20x1x30",
+    "mrp": "26.78",
+    "composition": [
+      "Calcium Pantothenate 50mg",
+      "Cyanocobalamin 15mcg",
+      "Niacinamide 45mg",
+      "Pyridoxine 3mg",
+      "Thiamine (Vit B1) 10mg"
+    ]
+  },
+  {
+    "id": 811,
+    "name": "NIMATEX-P TAB 100/325MG,15",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "NIMATEX-P TAB 100/325MG,15 — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X15",
+    "mrp": "11.00",
+    "composition": [
+      "Nimesulide 100mg",
+      "Paracetamol 325"
+    ]
+  },
+  {
+    "id": 812,
+    "name": "NITAXAN SR TAB 100MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "NITAXAN SR TAB 100MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "36.40",
+    "composition": [
+      "Nitrofurantoin 100mg Sustained Release (SR) tablets (As per Sano Cito PL)"
+    ]
+  },
+  {
+    "id": 813,
+    "name": "NITAXAN TAB 100MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "NITAXAN TAB 100MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "24.72",
+    "composition": [
+      "Nitrofurantoin 100mg tablets"
+    ]
+  },
+  {
+    "id": 814,
+    "name": "OMEPRESS TAB 40MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "OMEPRESS TAB 40MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "35.35",
+    "composition": [
+      "Olmesartan Medoxomil 40mg Tablets"
+    ]
+  },
+  {
+    "id": 815,
+    "name": "OMEPRESS-H TAB 40/12.5MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "OMEPRESS-H TAB 40/12.5MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "45.45",
+    "composition": [
+      "Olmesartan Medoxomil 40mg & Hydrochlorothiazide 12.5mg Tablets"
+    ]
+  },
+  {
+    "id": 816,
+    "name": "AJANTA’S ONDAPLUS MD TAB 4MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "AJANTA’S ONDAPLUS MD TAB 4MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "5.36",
+    "composition": [
+      "Ondansetron 4 Mg (Mouth Dissolving) Tablets"
+    ]
+  },
+  {
+    "id": 817,
+    "name": "AJANTA'S ONDAPLUS INJ 2MG/ML,2ML",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "AJANTA'S ONDAPLUS INJ 2MG/ML,2ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "2ml",
+    "mrp": "3.64",
+    "composition": [
+      "Ondansetron 2mg/ ml Injection"
+    ]
+  },
+  {
+    "id": 818,
+    "name": "AJANTA'S ONDAPLUS SYP 2MG/5ML,30ML",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "AJANTA'S ONDAPLUS SYP 2MG/5ML,30ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X30ml",
+    "mrp": "13.00",
+    "composition": [
+      "Ondansetron 2Mg/ 5Ml Syrup"
+    ]
+  },
+  {
+    "id": 819,
+    "name": "OPTIFENAC INJ 25MG/ML,3ML",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "OPTIFENAC INJ 25MG/ML,3ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X5X3ml",
+    "mrp": "3.39",
+    "composition": [
+      "Diclofenac Sodium 25mg/ml Injection"
+    ]
+  },
+  {
+    "id": 820,
+    "name": "OPTIFENAC INJ 75MG/ML",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "OPTIFENAC INJ 75MG/ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1ML",
+    "mrp": "2.76",
+    "composition": [
+      "Diclofenac Sodium IP 75 mg per ml Injections"
+    ]
+  },
+  {
+    "id": 821,
+    "name": "OPTIFENAC MR TAB 50/250/325MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "OPTIFENAC MR TAB 50/250/325MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10'S",
+    "mrp": "12.48",
+    "composition": [
+      "Diclofenac 50mg",
+      "Chlorzoxazone 250mg",
+      "Paracetamol 325mg"
+    ]
+  },
+  {
+    "id": 822,
+    "name": "OPTIFENAC PLUS 50/325MG TAB, 10's (CLEAR BLISTER)",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "OPTIFENAC PLUS 50/325MG TAB, 10's (CLEAR BLISTER) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "7.00",
+    "composition": [
+      "Diclofenac Potassium 50mg",
+      "Paracetamol 325mg Tablets"
+    ]
+  },
+  {
+    "id": 823,
+    "name": "OPTIFENAC SP TAB 50/325/15MG,10'S(AMB BL)",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "OPTIFENAC SP TAB 50/325/15MG,10'S(AMB BL) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X2X10",
+    "mrp": "18.54",
+    "composition": [
+      "Diclofenac 50mg",
+      "Paracetamol 325mg",
+      "Serratiopeptidase 15mg"
+    ]
+  },
+  {
+    "id": 824,
+    "name": "OPTIFENAC-PLUS TAB 50/325MG,10'S (GREEN BLISTER)",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "OPTIFENAC-PLUS TAB 50/325MG,10'S (GREEN BLISTER) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "7.00",
+    "composition": [
+      "Diclofenac 50mg",
+      "Paracetamol 325mg tablets (GREEN BLISTER)"
+    ]
+  },
+  {
+    "id": 825,
+    "name": "OPTIFENAC-PLUS TAB 50/325MG,10'S-OPA PVC",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "OPTIFENAC-PLUS TAB 50/325MG,10'S-OPA PVC — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "7.00",
+    "composition": [
+      "Diclofenac 50mg",
+      "Paracetamol 325mg tablets (WHITE BLISTER)"
+    ]
+  },
+  {
+    "id": 826,
+    "name": "OPTIFENAC-TBR TAB 48/90/100/50MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "OPTIFENAC-TBR TAB 48/90/100/50MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "28.84",
+    "composition": [
+      "Trypsin 48Mg",
+      "Bromelain 90Mg",
+      "Rutoside 100Mg",
+      "Diclofenac 50Mg Tab"
+    ]
+  },
+  {
+    "id": 827,
+    "name": "ORIXO M 50/120/10mg SUSP,30ML",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "ORIXO M 50/120/10mg SUSP,30ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X30ml",
+    "mrp": "12.48",
+    "composition": [
+      "Ofloxacin 50 mg",
+      "Metronidazole 120 mg",
+      "Simethicone 10 mg Suspension 30 ml"
+    ]
+  },
+  {
+    "id": 828,
+    "name": "ORIXO M 50/120/10MG SUSP,60ML",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "ORIXO M 50/120/10MG SUSP,60ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X60ml",
+    "mrp": "18.20",
+    "composition": [
+      "Ofloxacin 50 mg",
+      "Metronidazole 120 mg",
+      "Simethicone 10 mg Suspension"
+    ]
+  },
+  {
+    "id": 829,
+    "name": "ORIXO TAB 200MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "ORIXO TAB 200MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "12.48",
+    "composition": [
+      "Ofloxacin 200Mg Tablets (Blister)"
+    ]
+  },
+  {
+    "id": 830,
+    "name": "ORIXO-OZ TAB 200/500MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "ORIXO-OZ TAB 200/500MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "19.00",
+    "composition": [
+      "Ofloxacin 200Mg",
+      "Ornidazole 500Mg"
+    ]
+  },
+  {
+    "id": 831,
+    "name": "PALOMBA CAP 2MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "PALOMBA CAP 2MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "45.90",
+    "composition": [
+      "Polmacoxib 2mg Capsule"
+    ]
+  },
+  {
+    "id": 832,
+    "name": "PALOMBA-P CAP 2/325MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "PALOMBA-P CAP 2/325MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "49.44",
+    "composition": [
+      "Polmacoxib 2mg Capsule",
+      "Paracetamol 325MG"
+    ]
+  },
+  {
+    "id": 833,
+    "name": "PARIPLAR-TZ INJ 4GM/500MG,1'S,WITH SWFI",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "PARIPLAR-TZ INJ 4GM/500MG,1'S,WITH SWFI — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1 VL + 20ML SWFI",
+    "mrp": "88.00",
+    "composition": [
+      "Piperacilin 4gm",
+      "Tazobactum 500mg Inj with SWFI"
+    ]
+  },
+  {
+    "id": 834,
+    "name": "PLOCARE CREAM,30GM",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "PLOCARE CREAM,30GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "30gm",
+    "mrp": "31.31",
+    "composition": [
+      "Ayurvedic Piles Care Cream"
+    ]
+  },
+  {
+    "id": 835,
+    "name": "PLOCARE TAB,60'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "PLOCARE TAB,60'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60's",
+    "mrp": "49.92",
+    "composition": [
+      "Ayurvedic Piles Care Tablets"
+    ]
+  },
+  {
+    "id": 836,
+    "name": "POLIZAC SOFT GEL CAP 200MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gynecology",
+    "description": "POLIZAC SOFT GEL CAP 200MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "77.25",
+    "composition": [
+      "Progesterone 200Mg Soft Gel Caps"
+    ]
+  },
+  {
+    "id": 837,
+    "name": "PROLIDON GARGLES SOLUTION 2%,100ML",
+    "brand": "Ajanta Pharma",
+    "category": "ENT",
+    "description": "PROLIDON GARGLES SOLUTION 2%,100ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ML.",
+    "mrp": "26.78",
+    "composition": [
+      "Povidone-Iodine Ip 2% W/V (Available Iodine 0.2% W/V)",
+      "In A Mint Flavour Aqueous Base Q.S Gargles"
+    ]
+  },
+  {
+    "id": 838,
+    "name": "RABEPROT-DSR CAP 20/30MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "RABEPROT-DSR CAP 20/30MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "23.69",
+    "composition": [
+      "Rabeprazole 20 Mg (As Enteric Coated)",
+      "Domperidone 30 Mg (As Sustained Release) Capsules"
+    ]
+  },
+  {
+    "id": 839,
+    "name": "RABEPROT-DSR CAP20/30MG,15'S  (ALU-ALU)",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "RABEPROT-DSR CAP20/30MG,15'S  (ALU-ALU) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "24.72",
+    "composition": [
+      "Rabeprazole 20 Mg (As Enteric Coated)",
+      "Domperidone 30 Mg (As Sustained Release) Capsules"
+    ]
+  },
+  {
+    "id": 840,
+    "name": "RASAC CAP 100MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "RASAC CAP 100MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "38.11",
+    "composition": [
+      "Racecadotril 100mg Capsule"
+    ]
+  },
+  {
+    "id": 841,
+    "name": "RIFANORM TAB 400MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "RIFANORM TAB 400MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "114.40",
+    "composition": [
+      "Rifaximin 400mg"
+    ]
+  },
+  {
+    "id": 842,
+    "name": "RIFANORM TAB 550MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "RIFANORM TAB 550MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "144.20",
+    "composition": [
+      "Rifaximin 500mg"
+    ]
+  },
+  {
+    "id": 843,
+    "name": "SELVITA DUSTING POWDER 100GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "SELVITA DUSTING POWDER 100GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100 Gm",
+    "mrp": "29.36",
+    "composition": [
+      "Clotrimazole 1% Powder"
+    ]
+  },
+  {
+    "id": 844,
+    "name": "SELVITA-SN CREAM 0.025%/3500U/1G/1%,10GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "SELVITA-SN CREAM 0.025%/3500U/1G/1%,10GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10GM",
+    "mrp": "11.50",
+    "composition": [
+      "Beclometasone 0.025% W/W",
+      "Neomycin 3500U/1G",
+      "Clotrimazole 1% W/W"
+    ]
+  },
+  {
+    "id": 845,
+    "name": "SENOSIAN MOUTH WASH,150ML",
+    "brand": "Ajanta Pharma",
+    "category": "ENT",
+    "description": "SENOSIAN MOUTH WASH,150ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "150ml",
+    "mrp": "36.05",
+    "composition": [
+      "Chlorhexidine",
+      "sodium fluoride"
+    ]
+  },
+  {
+    "id": 846,
+    "name": "SENOSIAN TOOTH PASTE 100GM",
+    "brand": "Ajanta Pharma",
+    "category": "ENT",
+    "description": "SENOSIAN TOOTH PASTE 100GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X100GM",
+    "mrp": "40.50",
+    "composition": [
+      "Potassium Nitrate",
+      "Sodium Monoflurophosphate",
+      "Triclosan Tooth Paste"
+    ]
+  },
+  {
+    "id": 847,
+    "name": "SILHOLIFE CAP 8MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "SILHOLIFE CAP 8MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "72.72",
+    "composition": [
+      "Silodosin 8mg Capsules"
+    ]
+  },
+  {
+    "id": 848,
+    "name": "SILHOLIFE-D CAP 0.5/8MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "SILHOLIFE-D CAP 0.5/8MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10x1x10",
+    "mrp": "89.76",
+    "composition": [
+      "Dutasteride 0.5Mg",
+      "Silidosin 8Mg Capsules"
+    ]
+  },
+  {
+    "id": 849,
+    "name": "SITANIA SYRUP,100ML",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "SITANIA SYRUP,100ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ml",
+    "mrp": "17.34",
+    "composition": [
+      "Each 5 ml Syrup contains: Di Sodium Hydrogen Citrate BP : 1.4 gm"
+    ]
+  },
+  {
+    "id": 850,
+    "name": "SITANIA UTI SUSPENSION,100ML",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "SITANIA UTI SUSPENSION,100ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100",
+    "mrp": "40.00",
+    "composition": [
+      "Potassium Magnesium Citrate 978 mg",
+      "Cranberry Extract 200.0 mg",
+      "D-Mannose 300.0 mg suspension"
+    ]
+  },
+  {
+    "id": 851,
+    "name": "SPASONIX TAB 200MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "SPASONIX TAB 200MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "35.53",
+    "composition": [
+      "Flavoxate 200 mg."
+    ]
+  },
+  {
+    "id": 852,
+    "name": "AJANTA'S TERBILIFE TAB 250MG,7'S (ROUND)",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "AJANTA'S TERBILIFE TAB 250MG,7'S (ROUND) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X7",
+    "mrp": "26.00",
+    "composition": [
+      "Each Tablet contains Terbenafine 250mg"
+    ]
+  },
+  {
+    "id": 853,
+    "name": "AJANTA’S TERBILIFE OC CREAM,15GM",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "AJANTA’S TERBILIFE OC CREAM,15GM — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X15gm",
+    "mrp": "14.00",
+    "composition": [
+      "Itraconazole 1% w/w",
+      "Clobetasol 0.05% w/w",
+      "Ofloxacin 0.75% w/w",
+      "Ornidazole 2% w/w cream"
+    ]
+  },
+  {
+    "id": 854,
+    "name": "AJANTA'S TOFAZAC TAB 5MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "AJANTA'S TOFAZAC TAB 5MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10 X 10",
+    "mrp": "73.73",
+    "composition": [
+      "Tofacitinib Tablets 5mg"
+    ]
+  },
+  {
+    "id": 855,
+    "name": "ULCIZONE RD TAB 20/10MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "ULCIZONE RD TAB 20/10MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "16.33",
+    "composition": [
+      "Omeprazole Magnesium 20Mg",
+      "Domperidone 10Mg Tab"
+    ]
+  },
+  {
+    "id": 856,
+    "name": "UNISUDIL 300MG TAB,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "UNISUDIL 300MG TAB,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "110.21",
+    "composition": [
+      "Ursodeoxycholic Acid (300Mg) Tab"
+    ]
+  },
+  {
+    "id": 857,
+    "name": "UNISUDIL 300MG TAB,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "UNISUDIL 300MG TAB,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "163.77",
+    "composition": [
+      "Ursodeoxycholic Acid (300Mg) Tab"
+    ]
+  },
+  {
+    "id": 858,
+    "name": "UROMAG TAB 0.4MG, 15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "UROMAG TAB 0.4MG, 15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "18.02",
+    "composition": [
+      "Tamsulosin Hydrochloride IP    0.4mg\r\nColour: Titanium Dioxide IP"
+    ]
+  },
+  {
+    "id": 859,
+    "name": "UROMAG-D TAB 0.4/0.5MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "UROMAG-D TAB 0.4/0.5MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X15",
+    "mrp": "21.93",
+    "composition": [
+      "Tamsulosin Extended Release 0.4mg & Dutasteride 0.5mg Tablets"
+    ]
+  },
+  {
+    "id": 860,
+    "name": "UROMAG-DFZ CAP 0.4/30MG, 10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Urology",
+    "description": "UROMAG-DFZ CAP 0.4/30MG, 10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "82.40",
+    "composition": [
+      "Tamsulosin 0.4mg",
+      "Deflazacort 30mg Cap"
+    ]
+  },
+  {
+    "id": 861,
+    "name": "VABCARD TAB 5MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "VABCARD TAB 5MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "56.56",
+    "composition": [
+      "Ivabradine 5mg Film coated Tablets"
+    ]
+  },
+  {
+    "id": 862,
+    "name": "VABCARD TAB 7.5MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Cardiology",
+    "description": "VABCARD TAB 7.5MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "78.00",
+    "composition": [
+      "Ivabradine 7.5mg Film coated Tablets"
+    ]
+  },
+  {
+    "id": 863,
+    "name": "VONOZAN TAB 10MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "VONOZAN TAB 10MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "35.35",
+    "composition": [
+      "Vonoprazan Tab 10mg"
+    ]
+  },
+  {
+    "id": 864,
+    "name": "VONOZAN TAB 20MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Gastroenterology",
+    "description": "VONOZAN TAB 20MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "65.65",
+    "composition": [
+      "Vonoprazan Tab 20mg"
+    ]
+  },
+  {
+    "id": 865,
+    "name": "XITHROCIN TAB 250MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "XITHROCIN TAB 250MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10'S",
+    "mrp": "55.20",
+    "composition": [
+      "Azitromycin 250 Tablets"
+    ]
+  },
+  {
+    "id": 866,
+    "name": "XITHROCIN TAB 500MG,5'S",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "XITHROCIN TAB 500MG,5'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X5'S",
+    "mrp": "55.20",
+    "composition": [
+      "Azitromycin 500 Tablets"
+    ]
+  },
+  {
+    "id": 867,
+    "name": "XITHROCIN XL SUSP 200MG/5ML,30ML",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "XITHROCIN XL SUSP 200MG/5ML,30ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X30ml",
+    "mrp": "42.40",
+    "composition": [
+      "Azithromycin 200mg/ml Suspension"
+    ]
+  },
+  {
+    "id": 868,
+    "name": "XITHROCIN TAB 250MG,4X10'S (COMBI)",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "XITHROCIN TAB 250MG,4X10'S (COMBI) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "5x4x10",
+    "mrp": "50.00",
+    "composition": [
+      "Azithromycin 250 Tablets"
+    ]
+  },
+  {
+    "id": 869,
+    "name": "XITHROCIN TAB 500MG,4X5'S (COMBI)",
+    "brand": "Ajanta Pharma",
+    "category": "Anti-Infectives",
+    "description": "XITHROCIN TAB 500MG,4X5'S (COMBI) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "5x4x5",
+    "mrp": "50.00",
+    "composition": [
+      "Azithromycin 500 Tablets"
+    ]
+  },
+  {
+    "id": 870,
+    "name": "X YCLEAR NASAL SPRAY,20ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "X YCLEAR NASAL SPRAY,20ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20ml",
+    "mrp": "22.22",
+    "composition": [
+      "Xylometazoline Hcl IP 0.1%"
+    ]
+  },
+  {
+    "id": 871,
+    "name": "ZEFRID-10 TAB 10MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "ZEFRID-10 TAB 10MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X6X10",
+    "mrp": "1.98",
+    "composition": [
+      "Cetirizine 10mg"
+    ]
+  },
+  {
+    "id": 872,
+    "name": "ZEFRID-AM SYP 5/30MG,60ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "ZEFRID-AM SYP 5/30MG,60ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ml",
+    "mrp": "17.68",
+    "composition": [
+      "Cetirizine 5 Mg",
+      "Ambroxol 30Mg Syp"
+    ]
+  },
+  {
+    "id": 873,
+    "name": "ZEFRID-D KIDS SYRUP 5/5/2.5MG,60ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "ZEFRID-D KIDS SYRUP 5/5/2.5MG,60ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ml",
+    "mrp": "12.36",
+    "composition": [
+      "Cetirizine Hydrochloride- 5Mg",
+      "Dextromethorphan Hydrobromide 5Mg",
+      "Phenylephrine Hydrochloride- 2.5Mg Kids Syrup"
+    ]
+  },
+  {
+    "id": 874,
+    "name": "ZEFRID COLD TAB 2/500/10MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "ZEFRID COLD TAB 2/500/10MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "9.00",
+    "composition": [
+      "Chlorpheniramine Maleate (2mg)",
+      "Paracetamol (500mg)",
+      "Phenylephrine (10mg)"
+    ]
+  },
+  {
+    "id": 875,
+    "name": "ZEFRID COLD DS SUSP 2/250/5MG,60ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "ZEFRID COLD DS SUSP 2/250/5MG,60ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1X60ML",
+    "mrp": "17.00",
+    "composition": [
+      "Chlorpheniramine Maleate (2mg)",
+      "Paracetamol (250mg)",
+      "Phenylephrine (5mg)’"
+    ]
+  },
+  {
+    "id": 876,
+    "name": "ZOARB-500 TAB,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "ZOARB-500 TAB,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X10",
+    "mrp": "59.36",
+    "composition": [
+      "Griseofulvin 500mg Tablet"
+    ]
+  },
+  {
+    "id": 877,
+    "name": "SERSYL-S SHAMPOO 1%/3%,100ML",
+    "brand": "Ajanta Pharma",
+    "category": "Dermatology",
+    "description": "SERSYL-S SHAMPOO 1%/3%,100ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ml",
+    "mrp": "52.00",
+    "composition": [
+      "Selenium sulphide 1%",
+      "Salicylic Acid 3% Shampoo",
+      "Conditioner"
+    ]
+  },
+  {
+    "id": 878,
+    "name": "APRAMOL TAB 500MG,15'S",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "APRAMOL TAB 500MG,15'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X15",
+    "mrp": "9.30",
+    "composition": [
+      "Paracetamol 500mg tabs"
+    ]
+  },
+  {
+    "id": 879,
+    "name": "MEFLAM FORTE DS 100/250MG,60ML",
+    "brand": "Ajanta Pharma",
+    "category": "Pain Management",
+    "description": "MEFLAM FORTE DS 100/250MG,60ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ML",
+    "mrp": "18.50",
+    "composition": [
+      "Mefenamic Acid 100Mg",
+      "Paracetamol 250Mg"
+    ]
+  },
+  {
+    "id": 880,
+    "name": "MUCOFORM TAB 600MG,10'S",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "MUCOFORM TAB 600MG,10'S — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10X1X10",
+    "mrp": "66.00",
+    "composition": [
+      "Each Effervescent Tablet Contains Acetylcysteine B.P 600 Mg | Flavour-Orange"
+    ]
+  },
+  {
+    "id": 881,
+    "name": "APMON-LC SYRUP 2.5/4MG,30ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "APMON-LC SYRUP 2.5/4MG,30ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "30ML",
+    "mrp": "16.00",
+    "composition": [
+      "Levocetirizine 2.5mg",
+      "Montelukast 4mg Syrup"
+    ]
+  },
+  {
+    "id": 882,
+    "name": "APMON-LC SYRUP 2.5/4MG,60ML",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "APMON-LC SYRUP 2.5/4MG,60ML — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ML",
+    "mrp": "23.00",
+    "composition": [
+      "Levocetirizine 2.5mg",
+      "Montelukast 4mg Syrup"
+    ]
+  },
+  {
+    "id": 883,
+    "name": "ZEFRID COLD TAB 2/500/10MG,10'S (CLBL)",
+    "brand": "Ajanta Pharma",
+    "category": "Respiratory",
+    "description": "ZEFRID COLD TAB 2/500/10MG,10'S (CLBL) — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20X10",
+    "mrp": "9.00",
+    "composition": [
+      "Chlorpheniramine Maleate (2mg)",
+      "Paracetamol (500mg)",
+      "Phenylephrine (10mg)"
+    ]
+  },
+  {
+    "id": 884,
+    "name": "APCITROL D3 NANO SHOT 60000IU,5ML-LITCHI",
+    "brand": "Ajanta Pharma",
+    "category": "Nutraceuticals",
+    "description": "APCITROL D3 NANO SHOT 60000IU,5ML-LITCHI — Ajanta Pharma pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "4X5ML",
+    "mrp": "17.34",
+    "composition": [
+      "Each 5ml contains: Cholecalciferol IP 60,000 IU (In Nano Droplets Form)"
+    ]
+  },
+  {
+    "id": 885,
+    "name": "ALERGIN - L TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "ALERGIN - L TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "5.05",
+    "composition": [
+      "LEVOCETIRIZINE HYDROCHLORIDE IP 5 MG"
+    ]
+  },
+  {
+    "id": 886,
+    "name": "AZOMYCIN 100 ORAL SUSPN",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "AZOMYCIN 100 ORAL SUSPN — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15ML",
+    "mrp": "18.95",
+    "composition": [
+      "EACH 5 ML CONTAINS: AZITHROMYCIN IP (AS DIHYDRATE) EQUIVALENT TO AZITHROMYCIN ANHYDROUS 100 MG FLAVOURED SYRUPY BASE\nQ.S."
+    ]
+  },
+  {
+    "id": 887,
+    "name": "AZOMYCIN 200 ORAL SUSPN",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "AZOMYCIN 200 ORAL SUSPN — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15ML",
+    "mrp": "25.85",
+    "composition": [
+      "EACH 5 ML CONTAINS: AZITHROMYCIN IP (AS DIHYDRATE) EQUIVALENT TO AZITHROMYCIN ANHYDROUS 200 MG FLAVOURED SYRUPY BASE\nQ.S."
+    ]
+  },
+  {
+    "id": 888,
+    "name": "AZOMYCIN 250 TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "AZOMYCIN 250 TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "6",
+    "mrp": "37.75",
+    "composition": [
+      "EACH FILM-COATED TABLET CONTAINS:\nAZITHROMYCIN (ANHYDROUS)…250 MG (AS AZITHROMYCIN DIHYDRATE IP)"
+    ]
+  },
+  {
+    "id": 889,
+    "name": "AZOMYCIN 500",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "AZOMYCIN 500 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "3",
+    "mrp": "37.75",
+    "composition": [
+      "AZITHROMYCIN (ANHYDROUS) 500 MG (AS\nAZITHROMYCIN DIHYDRATE IP)"
+    ]
+  },
+  {
+    "id": 890,
+    "name": "BETASALIC OINTMENT\n20GM",
+    "brand": "Cipla Vital Care",
+    "category": "Creams, Ointments, Gels & Lotions",
+    "description": "BETASALIC OINTMENT\n20GM — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20GM",
+    "mrp": "25.30",
+    "composition": [
+      "BECLOMETHASONE DIPROPIONATE 0.1% W/W.\nSALICYLIC ACID I.P. BASE QS. 3% W/W OINTMENT"
+    ]
+  },
+  {
+    "id": 891,
+    "name": "BILACIP 40 TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "BILACIP 40 TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "51.90",
+    "composition": [
+      "EACH UNCOATED TABLET CONTAINS BILASTINE IP\n40 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 892,
+    "name": "BILACIP M TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "BILACIP M TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "60.60",
+    "composition": [
+      "EACH FILM-COATED TABLET CONTAINS; BILASTINE\n20 MG MONTELUKAST SODIUM IP EQUIVALENT TO MONTELUKAST 10 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 893,
+    "name": "BILACIP TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "BILACIP TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "52.50",
+    "composition": [
+      "EACH FILM COATED TABLET CONTAINS BILASTINE\n20 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 894,
+    "name": "BO-LAX TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "BO-LAX TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "4.15",
+    "composition": [
+      "BISACODYL IP 5 MG ENTERIC COATED TABLET"
+    ]
+  },
+  {
+    "id": 895,
+    "name": "CEFRAX 100 TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CEFRAX 100 TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "27.85",
+    "composition": [
+      "CEFIXIME I.P.(TRIHYDRATE EQUIVALENT TO\nANHYDROUS CEFIXIME 100 MG) 100 MG TABLET"
+    ]
+  },
+  {
+    "id": 896,
+    "name": "CEFRAX 200",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CEFRAX 200 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "42.00",
+    "composition": [
+      "CEFIXIME IP (AS TRIHYDRATE) EQUIVALENT TO\nANHYDROUS CEFIXIME 200 MG"
+    ]
+  },
+  {
+    "id": 897,
+    "name": "CEFRAX CV TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CEFRAX CV TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "80.10",
+    "composition": [
+      "CEFIXIME IP AS TRIHYDRATE EQUIVALENT TO ANHYDROUS CEFIXIME 200 MG POTASSIUM CLAVULANATE DILUTED IP EQUIVALENT TO\nCLAVULANIC ACID 125 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 898,
+    "name": "CEFRAX O TABS 10'S",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CEFRAX O TABS 10'S — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "63.20",
+    "composition": [
+      "CEFIXIME I.P.(TRIHYDRATE EQUIVALENT TO\nANHYDROUS CEFIXIME 200 MG) 200 MG TABLET"
+    ]
+  },
+  {
+    "id": 899,
+    "name": "CHESTON DX SYRUP\n100ML",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "CHESTON DX SYRUP\n100ML — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ML",
+    "mrp": "34.95",
+    "composition": [
+      "DEXTROMETHORPHAN HYDROBROMIDE 10 MG\nCHLORPHENIRAMINE MALEATE 2 MG"
+    ]
+  },
+  {
+    "id": 900,
+    "name": "CHESTON EXPT 100ML(N",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "CHESTON EXPT 100ML(N — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ML",
+    "mrp": "33.50",
+    "composition": [
+      "BROMHEXINE HYDROCHLORIDE 4 MG GUAIPHENESIN 50 MG CHLORPHENIRAMINE\nMALEATE 2 MG (IN FLAVOURED BASE)"
+    ]
+  },
+  {
+    "id": 901,
+    "name": "CHESTON EXPT 60ML(NE",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "CHESTON EXPT 60ML(NE — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ML",
+    "mrp": "23.10",
+    "composition": [
+      "BROMHEXINE HYDROCHLORIDE 4 MG\nGUAIPHENESIN 50 MG CHLORPHENIRAMINE MALEATE 2 MG (IN FLAVOURED BASE)"
+    ]
+  },
+  {
+    "id": 902,
+    "name": "CHESTON PLUS EXPECTO",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "CHESTON PLUS EXPECTO — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ML",
+    "mrp": "29.30",
+    "composition": [
+      "AMBROXOL HYDROCHLORIDE 15 MG TERBUTALINE\nSULPHATE 1.25 MG GUAIPHENESIN 50 MG FLAVOURED SYRUP BASE Q.S."
+    ]
+  },
+  {
+    "id": 903,
+    "name": "CILOGARD 10 MG TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CILOGARD 10 MG TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "10.30",
+    "composition": [
+      "CILNIDIPINE 10 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 904,
+    "name": "CILOGARD 5 MG TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CILOGARD 5 MG TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "7.05",
+    "composition": [
+      "CILNIDIPINE 5 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 905,
+    "name": "CILOGARD CT TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CILOGARD CT TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "24.70",
+    "composition": [
+      "EACH FILM COATED TABLET CONTAINS:\nCILNIDIPINE IP 10 MG TELMISARTAN IP 40 MG CHLORTHALIDONE IP 6.25 MG"
+    ]
+  },
+  {
+    "id": 906,
+    "name": "CILOGARD T TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CILOGARD T TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15",
+    "mrp": "25.75",
+    "composition": [
+      "EACH FILM COATED TABLET CONTAINS:\nCILNIDIPINE IP 10 MG TELMISARTAN IP 40 MG"
+    ]
+  },
+  {
+    "id": 907,
+    "name": "CILOGARD TM TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CILOGARD TM TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "41.20",
+    "composition": [
+      "EACH FILM COATED TABLET CONTAINS: METOPROLOL SUCCINATE IP 47.5 MG EQ. TO METOPROLOL TARTRATE 50 MG (AS EXTENDED RELEASE) CILNIDIPINE IP 10 MG TELMISARTAN IP\n40 MGEXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 908,
+    "name": "CIPMOL 500",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CIPMOL 500 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "7.30",
+    "composition": [
+      "PARACETAMOL IP 500 MG TABLET"
+    ]
+  },
+  {
+    "id": 909,
+    "name": "CIPMOL 500 (O) TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CIPMOL 500 (O) TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "7.30",
+    "composition": [
+      "PARACETAMOL IP 500 MG TABLET"
+    ]
+  },
+  {
+    "id": 910,
+    "name": "CIPMOL 650",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CIPMOL 650 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "11.00",
+    "composition": [
+      "PARACETAMOL IP 650 MG TABLET"
+    ]
+  },
+  {
+    "id": 911,
+    "name": "CIPMOL DROPS 15ML",
+    "brand": "Cipla Vital Care",
+    "category": "Drops",
+    "description": "CIPMOL DROPS 15ML — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15ML",
+    "mrp": "19.70",
+    "composition": [
+      "EACH ML CONTAINS: PARACETAMOL IP 150 MG IN\nA FLAVOURED BASE Q.S.."
+    ]
+  },
+  {
+    "id": 912,
+    "name": "CIPMOL SUSPN 250\nMG",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CIPMOL SUSPN 250\nMG — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ML",
+    "mrp": "17.50",
+    "composition": [
+      "EACH 5 ML CONTAINS: PARACETAMOL IP 250 MG\nIN A FLAVOURED SYRUPY BASE Q.S.."
+    ]
+  },
+  {
+    "id": 913,
+    "name": "CIPMOL SYRUP",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "CIPMOL SYRUP — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ML",
+    "mrp": "16.50",
+    "composition": [
+      "EACH 5 ML CONTAINS: PARACETAMOL IP 125 MG\nIN A FLAVOURED SYRUPY BASE Q.S.."
+    ]
+  },
+  {
+    "id": 914,
+    "name": "CIPMOX CV 625 10'S",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CIPMOX CV 625 10'S — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "71.60",
+    "composition": [
+      "AMOXYCILLIN TRIHYDRATE IP EQUIVALENT TO AMOXYCILLIN 500 MG POTASSIUM CLAVULANATE DILUTED IP EQUIVALENT TO CLAVULANIC ACID 125\nMG"
+    ]
+  },
+  {
+    "id": 915,
+    "name": "CIP-ZOX TABS 10'S",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "CIP-ZOX TABS 10'S — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "24.55",
+    "composition": [
+      "DICLOFENAC SODIUM IP 50 MG PARACETAMOL IP 325 MG CHLORZOXAZONE USP 500 MG EXCIPIENT\nQ.S.."
+    ]
+  },
+  {
+    "id": 916,
+    "name": "COBIX 200",
+    "brand": "Cipla Vital Care",
+    "category": "Capsules",
+    "description": "COBIX 200 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "30.45",
+    "composition": [
+      "EACH HARD GELATIN CAPSULE CONTAINS\nCELECOXIB 200 MG"
+    ]
+  },
+  {
+    "id": 917,
+    "name": "COF - Q D SYP",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "COF - Q D SYP — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ML",
+    "mrp": "23.60",
+    "composition": [
+      "DEXTROMETHORPHAN HYDROBROMIDE IP .10 MG PHENYLEPHRINE HYDROCHLORIDE IP 5 MG. CHLORPHENIRAMINE MALEATE IP 2 MG. IN A FLAVOURED SYRUP BASE Q.S.. COLOUR: SUNSET\nYELLOW FCF"
+    ]
+  },
+  {
+    "id": 918,
+    "name": "COFTON EXPT - 100ML",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "COFTON EXPT - 100ML — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ML",
+    "mrp": "14.50",
+    "composition": [
+      "CHLORPHENIRAMINE MALEATE IP 2.5 MG,\nAMMONIUM CHLORIDE IP 125 MG, SODIUM CITRATE IP 55 MG / 5 ML"
+    ]
+  },
+  {
+    "id": 919,
+    "name": "COF-VYN TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "COF-VYN TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15",
+    "mrp": "8.80",
+    "composition": [
+      "BROMHEXINE HYDROCHLORIDE IP .8.00 MG\nPHENYLEPHRINE HYDROCHLORIDE IP 5.00 MG"
+    ]
+  },
+  {
+    "id": 920,
+    "name": "DANFREE 100ML - 1%",
+    "brand": "Cipla Vital Care",
+    "category": "Shampoo",
+    "description": "DANFREE 100ML - 1% — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ML",
+    "mrp": "72.65",
+    "composition": [
+      "KETOCONAZOLE IP SHAMPOO 1% W/V"
+    ]
+  },
+  {
+    "id": 921,
+    "name": "DANFREE 100ML - 2%",
+    "brand": "Cipla Vital Care",
+    "category": "Creams, Ointments, Gels & Lotions",
+    "description": "DANFREE 100ML - 2% — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ML",
+    "mrp": "85.15",
+    "composition": [
+      "KETOCONAZOLE IP 2% W/V SHAMPOO BASE Q.S.."
+    ]
+  },
+  {
+    "id": 922,
+    "name": "DOMPAR TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "DOMPAR TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "8.85",
+    "composition": [
+      "DOMPERIDONE IP… 10 MG, PARACETAMOL IP…\n325 MG UNCOATED TABLET"
+    ]
+  },
+  {
+    "id": 923,
+    "name": "EMIN TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "EMIN TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "5.60",
+    "composition": [
+      "PROMETHAZINE THEOCLATE IP 25 MG TABLET"
+    ]
+  },
+  {
+    "id": 924,
+    "name": "ES-LOMAC 40 TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "ES-LOMAC 40 TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15",
+    "mrp": "20.60",
+    "composition": [
+      "ESOMEPRAZOLE MAGNESIUM TRIHYDRATE IP\nEQUIVALENT TO ESOMEPRAZOLE 40 MG"
+    ]
+  },
+  {
+    "id": 925,
+    "name": "ETOZOX 60",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "ETOZOX 60 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "28.05",
+    "composition": [
+      "ETORICOXIB 60 MG TABLET ALU-ALU PACK"
+    ]
+  },
+  {
+    "id": 926,
+    "name": "ETOZOX 90",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "ETOZOX 90 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "37.60",
+    "composition": [
+      "ETORICOXIB 90 MG TABLET ALU-ALU PACK"
+    ]
+  },
+  {
+    "id": 927,
+    "name": "ETOZOX- P TABS 15’S",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "ETOZOX- P TABS 15’S — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15",
+    "mrp": "32.00",
+    "composition": [
+      "EACH FILM COATED TABLET CONTAINS: ETORICOXIB IP 60 MG (AS MICRONIZED)\nPARACETAMOL IP 325 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 928,
+    "name": "ETOZOX T TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "ETOZOX T TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "66.50",
+    "composition": [
+      "EACH FILM COATED TABLET CONTAINS: ETORICOXIB IP 60 MG THIOCOLCHICOSIDE IP 4 MG\nEXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 929,
+    "name": "FEBUTEC 40 TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "FEBUTEC 40 TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "20.95",
+    "composition": [
+      "FEBUXOSTAT 40 MG"
+    ]
+  },
+  {
+    "id": 930,
+    "name": "FEBUTEC 80 TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "FEBUTEC 80 TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "36.15",
+    "composition": [
+      "FEBUXOSTAT 80 MG"
+    ]
+  },
+  {
+    "id": 931,
+    "name": "FEXIGRA SUSPENSION 100 ML IP",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "FEXIGRA SUSPENSION 100 ML IP — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ML",
+    "mrp": "40.65",
+    "composition": [
+      "EACH 5 ML (ONE TEASPOONFUL) CONTAINS;\nFEXOFENADINE HYDROCHLORIDE IP 30 MGIN A FLAVOURED SYRUPY BASE"
+    ]
+  },
+  {
+    "id": 932,
+    "name": "FEXIGRA-M TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "FEXIGRA-M TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "46.85",
+    "composition": [
+      "MONTELUKAST SODIUM IP EQUIVALENT TO MONTELUKAST 10 MG FEXOFENADINE\nHYDROCHLORIDE IP 120 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 933,
+    "name": "FORACNE GEL 1 X 20 G",
+    "brand": "Cipla Vital Care",
+    "category": "Creams, Ointments, Gels & Lotions",
+    "description": "FORACNE GEL 1 X 20 G — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20GM",
+    "mrp": "31.60",
+    "composition": [
+      "CLINDAMYCIN PHOSPHATE IP EQUIVALENT TO CLINDAMYCIN 1.0 % W/W NICOTINAMIDE 4.0 %\nW/W ALOE-ALLANTOIN GEL BASE Q.S.."
+    ]
+  },
+  {
+    "id": 934,
+    "name": "FOURDERM (NEW)20 GMS",
+    "brand": "Cipla Vital Care",
+    "category": "Creams, Ointments, Gels & Lotions",
+    "description": "FOURDERM (NEW)20 GMS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "20GM",
+    "mrp": "42.40",
+    "composition": [
+      "CLOBETASOL PROPIONATE BP…0.05 % W/W, NEOMYCIN SULPHATE IP…0.50 % W/W., MICONAZOLE NITRATE IP…2.00 % W/W,\nCHLORHEXIDINE GLUCONATE SOLUTIONIP…0.20"
+    ]
+  },
+  {
+    "id": 935,
+    "name": "FUNGICIP 150",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "FUNGICIP 150 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1",
+    "mrp": "7.00",
+    "composition": [
+      "FLUCONAZOLE IP 150 MG TABLET"
+    ]
+  },
+  {
+    "id": 936,
+    "name": "FUNGICIP 200",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "FUNGICIP 200 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1",
+    "mrp": "6.55",
+    "composition": [
+      "FLUCONAZOLE 200 MG"
+    ]
+  },
+  {
+    "id": 937,
+    "name": "ITRACIP 100 CAPS",
+    "brand": "Cipla Vital Care",
+    "category": "Capsules",
+    "description": "ITRACIP 100 CAPS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "4",
+    "mrp": "28.25",
+    "composition": [
+      "IITRACONAZOLE USP 100 MG (AS PELLETS)"
+    ]
+  },
+  {
+    "id": 938,
+    "name": "ITRACIP 100 CAPS 10'S\n(IP)",
+    "brand": "Cipla Vital Care",
+    "category": "Capsules",
+    "description": "ITRACIP 100 CAPS 10'S\n(IP) — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "70.60",
+    "composition": [
+      "EACH HARD GELATIN CAPSULE CONTAINS:\nIITRACONAZOLE IP 100 MG (AS PELLETS )"
+    ]
+  },
+  {
+    "id": 939,
+    "name": "ITRACIP 200 CAPS 10'S\n(IP)",
+    "brand": "Cipla Vital Care",
+    "category": "Capsules",
+    "description": "ITRACIP 200 CAPS 10'S\n(IP) — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "108.00",
+    "composition": [
+      "IITRACONAZOLE 200 MG"
+    ]
+  },
+  {
+    "id": 940,
+    "name": "L QUIN 250 TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "L QUIN 250 TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "25.90",
+    "composition": [
+      "LEVOFLOXACIN HEMIHYDRATE IP EQ TO\nLEVOFLOXACIN 250 MG"
+    ]
+  },
+  {
+    "id": 941,
+    "name": "L QUIN 500 TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "L QUIN 500 TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "42.30",
+    "composition": [
+      "LEVOFLOXACIN HEMIHYDRATE IP EQ TO\nLEVOFLOXACIN 500 MG"
+    ]
+  },
+  {
+    "id": 942,
+    "name": "L QUIN 750 TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "L QUIN 750 TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "5",
+    "mrp": "33.50",
+    "composition": [
+      "LEVOFLOXACIN HEMIHYDRATE IP EQ TO\nLEVOFLXACIN 750 MG"
+    ]
+  },
+  {
+    "id": 943,
+    "name": "LACTOCIP DS TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "LACTOCIP DS TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15",
+    "mrp": "8.50",
+    "composition": [
+      "LACTIC ACID BACILLUS NLT 120 MILLION SPORES"
+    ]
+  },
+  {
+    "id": 944,
+    "name": "LIVETONE-UD 150 TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "LIVETONE-UD 150 TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "68.40",
+    "composition": [
+      "EACH FILM COATED TABLET CONTAINS: URSODEOXYCHOLIC ACID IP 150 MG EXCIPIENTS\nQ.S.."
+    ]
+  },
+  {
+    "id": 945,
+    "name": "LIVETONE-UD 300 TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "LIVETONE-UD 300 TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "135.70",
+    "composition": [
+      "EACH FILM COATED TABLET CONTAINS\nURSODEOXYCHOLIC ACID IP 300 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 946,
+    "name": "LOMAC 20 BLISTER",
+    "brand": "Cipla Vital Care",
+    "category": "Capsules",
+    "description": "LOMAC 20 BLISTER — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15",
+    "mrp": "16.05",
+    "composition": [
+      "OMEPRAZOLE 20 MG"
+    ]
+  },
+  {
+    "id": 947,
+    "name": "LYCOGARD SOFTGEL\nCAPS",
+    "brand": "Cipla Vital Care",
+    "category": "Capsules",
+    "description": "LYCOGARD SOFTGEL\nCAPS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "15.40",
+    "composition": [
+      "LYCOPENE"
+    ]
+  },
+  {
+    "id": 948,
+    "name": "MICOGEL CREAM",
+    "brand": "Cipla Vital Care",
+    "category": "Creams, Ointments, Gels & Lotions",
+    "description": "MICOGEL CREAM — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15GM",
+    "mrp": "13.30",
+    "composition": [
+      "MICONAZOLE NITRATE IP 2 % W/W PRESERVATIVE:\nCHLOROCRESOL IP 0.1 % W/W IN A CREAM BASE"
+    ]
+  },
+  {
+    "id": 949,
+    "name": "MUCOLINC EXPECTORANT 100ML",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "MUCOLINC EXPECTORANT 100ML — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "100ML",
+    "mrp": "18.35",
+    "composition": [
+      "TERBUTALINE SULPHATE IP .1.25 MG BROMHEXINE HYDROCHLORIDE IP .4 MG GUAIPHENESIN IP 50 MG MENTHOL IP 2.5 MG IN A FLAVOURED SYRUP\nBASE .Q.S.."
+    ]
+  },
+  {
+    "id": 950,
+    "name": "NAPRIPLA 250 TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "NAPRIPLA 250 TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "30.50",
+    "composition": [
+      "EACH UNCOATED TABLET CONTAINS: NAPROXEN\nIP 250 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 951,
+    "name": "NAPRIPLA 500 TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "NAPRIPLA 500 TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "45.70",
+    "composition": [
+      "EACH UNCOATED TABLET CONTAINS: NAPROXEN\nIP 500 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 952,
+    "name": "NESTACORT 6 TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "NESTACORT 6 TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "6",
+    "mrp": "12.00",
+    "composition": [
+      "DEFLAZACORT TABLETS 6 MG"
+    ]
+  },
+  {
+    "id": 953,
+    "name": "NEW OKACET TABLET",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "NEW OKACET TABLET — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "4.80",
+    "composition": [
+      "CETIRIZINE 10 MG ROUND TABLET"
+    ]
+  },
+  {
+    "id": 954,
+    "name": "NICIP (BLUE)",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "NICIP (BLUE) — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "5.90",
+    "composition": [
+      "NIMESULIDE BP 100 MG UNCOATED TABLET"
+    ]
+  },
+  {
+    "id": 955,
+    "name": "NICIP COLD & FLU NF TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "NICIP COLD & FLU NF TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "22.00",
+    "composition": [
+      "PARACETAMOL IP 500 MG PARACETAMOL IP 500\nMG CAFFEINE (ANHYDROUS) IP 30 MG CAFFEINE (ANHYDROUS) IP 30 MG EXCIPIENTS Q .S."
+    ]
+  },
+  {
+    "id": 956,
+    "name": "NICIP P TAB 10'S",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "NICIP P TAB 10'S — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "11.25",
+    "composition": [
+      "NIMESULIDE BP 100 MG, PARACETAMOL IP 325 MG\nTABLET"
+    ]
+  },
+  {
+    "id": 957,
+    "name": "NOCOLD PLUS SYRUP",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "NOCOLD PLUS SYRUP — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ML",
+    "mrp": "17.25",
+    "composition": [
+      "PARACETAMOL 125 MG",
+      "CPM 1 MG",
+      "SODIUM\nCITRATE 60 MG IN A FLAVOURED SYRUP BASE"
+    ]
+  },
+  {
+    "id": 958,
+    "name": "NODARD PLUS TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "NODARD PLUS TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "11.25",
+    "composition": [
+      "NIMESULIDE BP 100 MG, PARACETAMOL IP 325 MG\nTABLET"
+    ]
+  },
+  {
+    "id": 959,
+    "name": "NODARD TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "NODARD TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15",
+    "mrp": "8.95",
+    "composition": [
+      "NIMESULIDE TAB 100 MG",
+      "NIMESULIDE BP 100 MG"
+    ]
+  },
+  {
+    "id": 960,
+    "name": "OFLOX OZ SUSPN 60ML",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "OFLOX OZ SUSPN 60ML — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "60ML",
+    "mrp": "42.00",
+    "composition": [
+      "EACH 5 ML CONTAINS OFLOXACIN 100 MG\nMETRONIDAZOLE BENZOATE EQU TO METRONIDAZOLE 200 MG"
+    ]
+  },
+  {
+    "id": 961,
+    "name": "OFLOX TZ TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "OFLOX TZ TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "27.30",
+    "composition": [
+      "EACH FILM-COATED TABLET CONTAINS\nOFLOXACIN IP 200 MGTINIDAZOLE IP 600 MG"
+    ]
+  },
+  {
+    "id": 962,
+    "name": "OLOX 200 TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "OLOX 200 TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "17.50",
+    "composition": [
+      "OFLOXACIN I.P 200 MG"
+    ]
+  },
+  {
+    "id": 963,
+    "name": "OLOX OZ TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "OLOX OZ TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "34.30",
+    "composition": [
+      "OFLOXACIN 200 MG ORNIDAZOLE 500 MG"
+    ]
+  },
+  {
+    "id": 964,
+    "name": "PIROX 20 CAPS 1 X 10",
+    "brand": "Cipla Vital Care",
+    "category": "Capsules",
+    "description": "PIROX 20 CAPS 1 X 10 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "12.60",
+    "composition": [
+      "PIROXICAM IP 20 MG"
+    ]
+  },
+  {
+    "id": 965,
+    "name": "PIROX DT",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "PIROX DT — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "8.65",
+    "composition": [
+      "PIROXICAM IP 20 MG IN A FLAVOURED BASE"
+    ]
+  },
+  {
+    "id": 966,
+    "name": "PIROX GEL 30GM",
+    "brand": "Cipla Vital Care",
+    "category": "Creams, Ointments, Gels & Lotions",
+    "description": "PIROX GEL 30GM — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "30GM",
+    "mrp": "21.10",
+    "composition": [
+      "PIROXICAM IP 0.5% W/W IN WATER SOLUBLE GEL\nBASE WITH PROPYLENE GLYCOL IP Q.S.."
+    ]
+  },
+  {
+    "id": 967,
+    "name": "PIROX IM 2ML",
+    "brand": "Cipla Vital Care",
+    "category": "Injectables",
+    "description": "PIROX IM 2ML — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "2ML",
+    "mrp": "11.55",
+    "composition": [
+      "PIROXICAM IP .20 MG BENZYL ALCOHOL IP 20 MG ABSOLUTE ALCOHOL CONTENT 12.68% V/V WATER\nFOR INJECTION IP .Q.S.."
+    ]
+  },
+  {
+    "id": 968,
+    "name": "PODOCIP CV TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "PODOCIP CV TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "151.55",
+    "composition": [
+      "CEFPODOXIME PROXETIL IP EQUIVALENT TO CEFPODOXIME 200 MG POTASSIUM CLAVULANATE DILUTED IP EQUIVALENT TO CLAVULANIC ACID 125\nMG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 969,
+    "name": "PRESOLAR CAPSULES",
+    "brand": "Cipla Vital Care",
+    "category": "Capsules",
+    "description": "PRESOLAR CAPSULES — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "20.10",
+    "composition": [
+      "ATENOLOL IP 50 MG NIFEDIPINE IP 20 MG\n(SUSTAINED RELEASE)"
+    ]
+  },
+  {
+    "id": 970,
+    "name": "RABESEC 20",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "RABESEC 20 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "15.45",
+    "composition": [
+      "RABEPRAZOLE 20 MG FILM COATED TABLET"
+    ]
+  },
+  {
+    "id": 971,
+    "name": "RABESEC D",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "RABESEC D — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "16.90",
+    "composition": [
+      "RABEPRAZOLE 20 MG, DOMPERIDON 10 MG\nENTERIC COATED TABLET"
+    ]
+  },
+  {
+    "id": 972,
+    "name": "RABESEC D SR CAP",
+    "brand": "Cipla Vital Care",
+    "category": "Capsules",
+    "description": "RABESEC D SR CAP — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "25.35",
+    "composition": [
+      "RABEPRAZOLE SODIUM IP 20 MG, DOMPERIDONE\nIP 30 MG CAPSULE"
+    ]
+  },
+  {
+    "id": 973,
+    "name": "RABESEC LS CAPSULES",
+    "brand": "Cipla Vital Care",
+    "category": "Capsules",
+    "description": "RABESEC LS CAPSULES — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "50.00",
+    "composition": [
+      "RABEPRAZOLE SODIUM IP 20 MG (AS ENTERIC\nCOATED TABLET) LEVOSULPIRIDE 75 MG (AS SUSTAINED RELEASE TABLET)"
+    ]
+  },
+  {
+    "id": 974,
+    "name": "RABESEC O TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "RABESEC O TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15",
+    "mrp": "32.00",
+    "composition": [
+      "EACH FILM COATED TABLET CONTAINS: RABEPRAZOLE SODIUM IP 20 MG (AS ENTERIC COATED FORM) ONDANSETRON HYDROCHLORIDE\nIPEQ. TO ONDANSETRON 4 MG"
+    ]
+  },
+  {
+    "id": 975,
+    "name": "RID AR KID SYRUP",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "RID AR KID SYRUP — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "30ML",
+    "mrp": "23.80",
+    "composition": [
+      "EACH 5 ML CONTAINS MONTELUKAST SODIUM IP EQUIVALENT TOMONTELUKAST 4 MGLEVOCETIRIZINE DIHYDROCHLORIDE IP 2.5\nMGFLAVOURED SYRUP BASE Q.S.."
+    ]
+  },
+  {
+    "id": 976,
+    "name": "RID AR KID TAB 10'S",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "RID AR KID TAB 10'S — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "15.45",
+    "composition": [
+      "EACH UNCOATED DISPERSIBLE TABLET CONTAINS: MONTELUKAST SODIUM IP EQUIVALENT TO MONTELUKAST 4 MGLEVOCETIRIZINE\nHYDROCHLORIDE IP 2.5 MG"
+    ]
+  },
+  {
+    "id": 977,
+    "name": "RID AR KID TAB 15'S",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "RID AR KID TAB 15'S — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15",
+    "mrp": "23.20",
+    "composition": [
+      "EACH UNCOATED DISPERSIBLE TABLET CONTAINS: MONTELUKAST SODIUM IP EQUIVALENT TO MONTELUKAST 4 MGLEVOCETIRIZINE\nHYDROCHLORIDE IP 2.5 MG"
+    ]
+  },
+  {
+    "id": 978,
+    "name": "RID AR TABLETS 1 X 15'S IP",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "RID AR TABLETS 1 X 15'S IP — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "15",
+    "mrp": "38.90",
+    "composition": [
+      "EACH UNCOATED BILAYERED TABLET CONTAINS MONTELUKAST SODIUM IP EQUIVALENT TOMONTELUKAST 10 MGLEVOCETIRIZINE\nHYDROCHLORIDE IP 5 MG"
+    ]
+  },
+  {
+    "id": 979,
+    "name": "SILAGRA 100 - MONO CARTOON",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "SILAGRA 100 - MONO CARTOON — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "4",
+    "mrp": "21.50",
+    "composition": [
+      "SILDENAFIL CITRATE IP EQUIVALENT TO\nSILDENAFIL 100 MG FILM COATED TABLET - COLOUR PURPLE"
+    ]
+  },
+  {
+    "id": 980,
+    "name": "TRAFLOHALT 500 TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "TRAFLOHALT 500 TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "58.00",
+    "composition": [
+      "TRANEXAMIC ACID IP 500 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 981,
+    "name": "TRAFLOHALT-MF TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "TRAFLOHALT-MF TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "61.00",
+    "composition": [
+      "TRANEXAMIC ACID IP 500 MG MEFENAMIC ACID IP\n250 MG"
+    ]
+  },
+  {
+    "id": 982,
+    "name": "VITOMIN D3 DROPS",
+    "brand": "Cipla Vital Care",
+    "category": "Drops",
+    "description": "VITOMIN D3 DROPS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "30ML",
+    "mrp": "34.40",
+    "composition": [
+      "VITAMIN D3 IP 400 I.U. (CHOLECALCIFEROL) IN A\nFLAVOURED SYRUP BASE…Q.S.."
+    ]
+  },
+  {
+    "id": 983,
+    "name": "VITOMIN D3 NANO SHOT",
+    "brand": "Cipla Vital Care",
+    "category": "Drops",
+    "description": "VITOMIN D3 NANO SHOT — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "5ML",
+    "mrp": "19.25",
+    "composition": [
+      "EACH 5 ML CONTAINS: CHOLECALCIFEROL IP (IN NANO DROPLET FORM) 60000 IU IN FLAVOURED\nBASE Q.S.."
+    ]
+  },
+  {
+    "id": 984,
+    "name": "VITOMIN-D3 60K TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "VITOMIN-D3 60K TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "4",
+    "mrp": "28.90",
+    "composition": [
+      "CHOLECALCIFEROL IP (AS STABILIZED) 60,000 IU\nEXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 985,
+    "name": "VITOMIN-D3 SACHETS",
+    "brand": "Cipla Vital Care",
+    "category": "Powders",
+    "description": "VITOMIN-D3 SACHETS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "1GM",
+    "mrp": "11.05",
+    "composition": [
+      "CHOLECALCIFEROL IP 60,000 IU EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 986,
+    "name": "VOLTANEC PR TABS\n10'",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "VOLTANEC PR TABS\n10' — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "11.30",
+    "composition": [
+      "ACECLOFENAC 100 MG PARACETAMOL 325 MG\nEXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 987,
+    "name": "VOLTANEC SP TAB",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "VOLTANEC SP TAB — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "29.20",
+    "composition": [
+      "ACECLOFENAC 100 MG PARACETAMOL 325 MG SERRATIOPEPTIDASEE 15 MG (AS ENTERIC COATED GRANULES EQ TO 30,000 ENZYME ACTIVITY UNIT\nOF SERRATIOPEPTIDASE)"
+    ]
+  },
+  {
+    "id": 988,
+    "name": "VOMETIL MD TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "VOMETIL MD TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "10.90",
+    "composition": [
+      "PROCHLORPERAZINE MALEATE 5 MG"
+    ]
+  },
+  {
+    "id": 989,
+    "name": "VOMISHUNT MD 8 TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "VOMISHUNT MD 8 TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "13.65",
+    "composition": [
+      "EACH UNCOATED ORALLY DISINTEGRATING\nTABLET CONTAINS: ONDANSETRON IP 8 MG EXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 990,
+    "name": "VOMISHUNT SYRUP*",
+    "brand": "Cipla Vital Care",
+    "category": "Syrups & Liquids",
+    "description": "VOMISHUNT SYRUP* — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "30ML",
+    "mrp": "13.65",
+    "composition": [
+      "ONDANSETRON HYDROCHLORIDE IP EQ. TO\nONDANSETRON 2 MG FLAVOURED SYRUPY BASE Q.S.."
+    ]
+  },
+  {
+    "id": 991,
+    "name": "VOMISHUNT-MD 4 TABS",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "VOMISHUNT-MD 4 TABS — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "6.30",
+    "composition": [
+      "EACH UNCOATED ORALLY DISINTEGRATING TABLET CONTAINS: ONDANSETRON IP 4 MG\nEXCIPIENTS Q.S.."
+    ]
+  },
+  {
+    "id": 992,
+    "name": "VOMISTOP 10 DT 1 X 1",
+    "brand": "Cipla Vital Care",
+    "category": "Tablets",
+    "description": "VOMISTOP 10 DT 1 X 1 — Cipla Vital Care pharmaceutical product.",
+    "image": "https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=70",
+    "pack": "10",
+    "mrp": "6.70",
+    "composition": [
+      "DOMPERIDONE IP 10 MG DISPERSIBLE TABLET"
+    ]
   }
 ]
