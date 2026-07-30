@@ -101,14 +101,15 @@ function isCategoryBanner(row) {
 }
 
 // ── Header-row detection ──────────────────────────────────────────────────────
-// Recognises headers from Prevego, Ajanta (Therapy), and Vitalcare (Material Description) formats
+// Recognises headers from Prevego, Ajanta (Therapy), Vitalcare, and Ranbaxy (SKU Name) formats
 function findHeaderRow(rows) {
   const HEADER_SIGNALS = [
     'product name', 'product', 'medicine name', 'medicine',
     'item name', 'item description',
+    'sku name', 'sku',                           // Ranbaxy
     'material description', 'material desc',   // Vitalcare
     'material code',                            // Vitalcare (often in same row)
-    'sr no.', 'sr no', 'sr.no', 'srno', 'sr. no',
+    'sr no.', 'sr no', 'sr.no', 'srno', 'sr. no', 'sr. no.',
   ];
   for (let i = 0; i < Math.min(rows.length, 25); i++) {
     const rowText = rows[i].map((c) => String(c || '').toLowerCase().trim());
@@ -136,7 +137,7 @@ function findPriceCol(headerRow) {
   const headers = headerRow.map((h) => String(h || '').toLowerCase().trim());
 
   // Priority 1: exact MRP labels
-  const mrpAliases = ['mrp','m.r.p','msp','retail price','max. retail price'];
+  const mrpAliases = ['mrp','m.r.p','msp','retail price','max. retail price','m.r.p. (incl gst)'];
   for (const alias of mrpAliases) {
     const idx = headers.findIndex((h) => h === alias || h.includes(alias));
     if (idx !== -1) return { idx, label: headers[idx] };
@@ -148,7 +149,7 @@ function findPriceCol(headerRow) {
 
   // Priority 3: column contains "price" or "rate" but not "bonus"
   const priceIdx = headers.findIndex(
-    (h) => (h.includes('price') || h.includes('rate')) && !h.includes('bonus')
+    (h) => (h.includes('price') || h.includes('rate') || h.includes('rate')) && !h.includes('bonus')
   );
   if (priceIdx !== -1) return { idx: priceIdx, label: headers[priceIdx] };
 
@@ -161,29 +162,54 @@ function findPriceCol(headerRow) {
   return { idx: -1, label: 'not found' };
 }
 
+// ── Guess Category from details if column is missing ─────────────────────────
+function guessCategory(name, pack, composition) {
+  const text = (name + ' ' + pack + ' ' + (composition || []).join(' ')).toLowerCase();
+  
+  if (/\btabs\b|\btab\b|\btablet/i.test(text)) return 'Tablets';
+  if (/\bcaps\b|\bcap\b|\bcapsule/i.test(text)) return 'Capsules';
+  if (/\bsolution\b|\bsyp\b|\bsyrup\b|\bliquids?\b|\bsuspension\b/i.test(text)) return 'Syrups & Liquids';
+  if (/\bointment\b|\bcream\b|\bgels?\b|\blotion\b/i.test(text)) return 'Creams, Ointments, Gels & Lotions';
+  if (/\binj\b|\binjection\b|\binjectable\b/i.test(text)) return 'Injectables';
+  if (/\bdrops?\b/i.test(text)) return 'Drops';
+  if (/\bsprays?\b/i.test(text)) return 'Sprays';
+  if (/\bsachet/i.test(text)) return 'Sachets';
+  if (/\bpowder/i.test(text)) return 'Powders';
+  if (/\bsoap/i.test(text)) return 'Soaps';
+  
+  // Pack-based fallback guesses
+  if (/\b\d+\s*ml\b/i.test(pack)) return 'Syrups & Liquids';
+  if (/\b\d+\s*gm\b/i.test(pack)) return 'Creams, Ointments, Gels & Lotions';
+
+  return 'General';
+}
+
 // ── Main parser ───────────────────────────────────────────────────────────────
 function parseSheet(rows, companyName, headerRowIdx) {
   const headerRow = rows[headerRowIdx];
 
   // Detect columns
-  const colSr   = findCol(headerRow, ['sr no.','sr no','sr.no','srno','s.no','sno','sr. no']);
+  const colSr   = findCol(headerRow, ['sr no.','sr no','sr.no','srno','s.no','sno','sr. no', 'sr. no.']);
 
-  // Product name — Prevego: "Product Name" | Ajanta: "Product" | Vitalcare: "Material Description"
+  // Product name — Prevego: "Product Name" | Ajanta: "Product" | Vitalcare: "Material Description" | Ranbaxy: "SKU Name"
   const colName = findCol(headerRow, [
+    'sku name', 'sku',                         // Ranbaxy
     'product name', 'product',
     'material description', 'material desc',   // Vitalcare
     'medicine name', 'medicine',
     'item name', 'item description', 'item',
   ]);
 
-  // Composition — listed before generic 'description' to avoid matching 'Material Description'
+  // Composition
   const colComp = findCol(headerRow, [
     'material composition',                    // Vitalcare
+    'molecules', 'molecule',                   // LLSL
     'composition', 'generic name', 'generic',
     'ingredient', 'salt', 'content', 'formula',
   ]);
 
-  const colPack = findCol(headerRow, ['pack size','pack','packing']);
+  // Pack — Ranbaxy: "Unit Pack size"
+  const colPack = findCol(headerRow, ['unit pack size', 'unit pack', 'pack size','pack','packing']);
 
   // Category column — Ajanta: "Therapy" | Vitalcare: "Group name" | others: "Category"
   const colCat  = findCol(headerRow, [
@@ -241,14 +267,6 @@ function parseSheet(rows, companyName, headerRowIdx) {
     const name = String(row[colName] ?? '').trim();
     if (!name || /^product/i.test(name)) continue;
 
-    // Category — from column (Format B) or banner (Format A)
-    const rawCat  = hasTherapyCol ? String(row[colCat] ?? '').trim() : bannerCat;
-    const category = normaliseCategory(rawCat) || 'General';
-
-    // Price
-    const priceRaw = colPrice !== -1 ? String(row[colPrice] ?? '').replace(/[^0-9.]/g, '') : '';
-    const mrp      = priceRaw ? parseFloat(priceRaw).toFixed(2) : '0.00';
-
     // Pack
     const pack = colPack !== -1 ? String(row[colPack] ?? '').trim() : '';
 
@@ -257,6 +275,21 @@ function parseSheet(rows, companyName, headerRowIdx) {
     const composition = compRaw
       ? compRaw.split(/\s*\+\s*/).map((s) => s.trim()).filter(Boolean)
       : [];
+
+    // Category — from column, banner, or smart guesser
+    let category = 'General';
+    if (hasTherapyCol) {
+      category = normaliseCategory(String(row[colCat] ?? '').trim());
+    } else if (bannerCat !== 'General') {
+      category = bannerCat;
+    } else {
+      category = guessCategory(name, pack, composition);
+    }
+
+    // Price
+    const priceRaw = colPrice !== -1 ? String(row[colPrice] ?? '').replace(/[^0-9.]/g, '') : '';
+    const mrp      = priceRaw ? parseFloat(priceRaw).toFixed(2) : '0.00';
+
 
     products.push({
       id: idCounter++,

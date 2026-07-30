@@ -27,6 +27,12 @@ export const brandConfig = {
   'Otsuka':               { slug: 'otsuka',   initial: 'O', badgeClass: 'badge-otsuka',   barClass: 'bar-otsuka'   },
   'Helios':               { slug: 'helios',   initial: 'H', badgeClass: 'badge-helios',   barClass: 'bar-helios'   },
   'J.B. Chemical':        { slug: 'jbchem',   initial: 'J', badgeClass: 'badge-jbchem',   barClass: 'bar-jbchem'   },
+  'Ranbaxy':              { slug: 'ranbaxy',  initial: 'R', badgeClass: 'badge-ranbaxy',  barClass: 'bar-ranbaxy'  },
+  'Ranbaxy Nexgen':       { slug: 'ranbaxy-nexgen', initial: 'R', badgeClass: 'badge-ranbaxy-nexgen', barClass: 'bar-ranbaxy-nexgen' },
+  'Cipla Vital Care':     { slug: 'cipla-vital',    initial: 'C', badgeClass: 'badge-cipla-vital',    barClass: 'bar-cipla-vital'    },
+  'LLSL':                 { slug: 'llsl',           initial: 'L', badgeClass: 'badge-llsl',           barClass: 'bar-llsl'           },
+  'APLIFE':               { slug: 'aplife',         initial: 'A', badgeClass: 'badge-aplife',         barClass: 'bar-aplife'         },
+
 };
 
 export const getBrandConfig = (brandName) =>
