@@ -7,16 +7,26 @@ import agencyData from '../data/agency.json';
 const Catalogues = () => {
   const [search, setSearch] = useState('');
 
-  const filtered = useMemo(() =>
-    cataloguesData.filter(
+  const filtered = useMemo(() => {
+    const list = cataloguesData.filter(
       (c) =>
         c.company.toLowerCase().includes(search.toLowerCase()) ||
         c.division.toLowerCase().includes(search.toLowerCase())
-    ),
-    [search]
-  );
+    );
+    return [...list].sort((a, b) => {
+      const compA = a.company.toLowerCase();
+      const compB = b.company.toLowerCase();
+      if (compA < compB) return -1;
+      if (compA > compB) return 1;
+      const divA = a.division.toLowerCase();
+      const divB = b.division.toLowerCase();
+      if (divA < divB) return -1;
+      if (divA > divB) return 1;
+      return 0;
+    });
+  }, [search]);
 
-  const totalProducts = cataloguesData.reduce((acc, c) => acc + c.productCount, 0);
+  const totalPages = cataloguesData.reduce((acc, c) => acc + (c.pageCount || 0), 0);
   const whatsappNum = agencyData.whatsapp.replace(/\D/g, '');
 
   return (
@@ -41,20 +51,8 @@ const Catalogues = () => {
             </div>
             <div className="cat-hero-stat">
               <div>
-                <div className="cat-hero-stat__num">{totalProducts.toLocaleString()}+</div>
-                <div className="cat-hero-stat__label">Products</div>
-              </div>
-            </div>
-            <div className="cat-hero-stat">
-              <div>
                 <div className="cat-hero-stat__num">PDF</div>
                 <div className="cat-hero-stat__label">Download Ready</div>
-              </div>
-            </div>
-            <div className="cat-hero-stat">
-              <div>
-                <div className="cat-hero-stat__num">FY 25-26</div>
-                <div className="cat-hero-stat__label">Current Year</div>
               </div>
             </div>
           </div>
@@ -142,10 +140,7 @@ const Catalogues = () => {
                     <div className="cat-card-meta">
                       <span className="cat-card-pill">
                         <FileText size={11} />
-                        {cat.productCount} products
-                      </span>
-                      <span className="cat-card-pill cat-card-pill--green">
-                        FY {cat.fy}
+                        {cat.pageCount} pages
                       </span>
                     </div>
                   </div>

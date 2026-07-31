@@ -1,12 +1,222 @@
 [
-  { "id": 1,  "company": "Abbott",             "division": "Biosure Division",          "description": "Abbott Biosure Division complete product booklet — nutritional, paediatric and biosimilar range.", "productCount": 61,  "pdfUrl": "https://drive.google.com/uc?id=1ylTfjSME72sGdAZrMeeZKozwLnup5tIq&export=download", "viewUrl": "https://drive.google.com/file/d/1ylTfjSME72sGdAZrMeeZKozwLnup5tIq/preview", "fy": "2025-26", "colorKey": "abbott"   },
-  { "id": 2,  "company": "Ajanta Pharma",      "division": "Gencare Division — Part 1", "description": "Ajanta Pharma Gencare Division Part 1 — cardiology, ophthalmology and nutraceuticals.", "productCount": 68,  "pdfUrl": "https://drive.google.com/uc?id=1yuv07Bh6y3y1ObhNijhtcatLD-zkJGQp&export=download", "viewUrl": "https://drive.google.com/file/d/1yuv07Bh6y3y1ObhNijhtcatLD-zkJGQp/preview", "fy": "2025-26", "colorKey": "ajanta"   },
-  { "id": 3,  "company": "Ajanta Pharma",      "division": "Gencare Division — Part 2", "description": "Ajanta Pharma Gencare Division Part 2 — dermatology, gynaecology and general medicine.", "productCount": 80,  "pdfUrl": "https://drive.google.com/uc?id=1HS0r_SD2LhQgfREvQGqDXnANjNQypqcf&export=download", "viewUrl": "https://drive.google.com/file/d/1HS0r_SD2LhQgfREvQGqDXnANjNQypqcf/preview", "fy": "2025-26", "colorKey": "ajanta"   },
-  { "id": 4,  "company": "Cipla",              "division": "Vista Trade Brochure",      "description": "Cipla Vista Trade complete product brochure — respiratory, allergy and anti-infective range.", "productCount": 36,  "pdfUrl": "https://drive.google.com/uc?id=1POKQAEzp77L1yuykOnf5pFp9vqalSWxv&export=download", "viewUrl": "https://drive.google.com/file/d/1POKQAEzp77L1yuykOnf5pFp9vqalSWxv/preview", "fy": "2025-26", "colorKey": "cipla"    },
-  { "id": 5,  "company": "CSC Pharmaceuticals","division": "General Medicine",          "description": "CSC Pharmaceuticals Pvt. Ltd. — complete pharmaceutical product catalogue.", "productCount": 68,  "pdfUrl": "https://drive.google.com/uc?id=12J-UXww8y1Q4OglhwOMYEpFpXpfNYt_p&export=download", "viewUrl": "https://drive.google.com/file/d/12J-UXww8y1Q4OglhwOMYEpFpXpfNYt_p/preview", "fy": "2025-26", "colorKey": "intas"    },
-  { "id": 6,  "company": "Dermina",            "division": "Skin Sense — Dermatology",  "description": "Dermina Skin Sense — specialised dermatology and skincare pharmaceutical product catalogue.", "productCount": 18,  "pdfUrl": "https://drive.google.com/uc?id=1eFGu9PH1yH65G6WV0SkqvcNHnQg3_u8U&export=download", "viewUrl": "https://drive.google.com/file/d/1eFGu9PH1yH65G6WV0SkqvcNHnQg3_u8U/preview", "fy": "2025-26", "colorKey": "curetech" },
-  { "id": 7,  "company": "Healing Pharma",     "division": "Insta Care",                "description": "Healing Pharma Insta Care — OTC, wellness and skincare product range catalogue.", "productCount": 88,  "pdfUrl": "https://drive.google.com/uc?id=1WdIP-srlhvMG8x5-D6z0Ds73iEJvFCz-&export=download", "viewUrl": "https://drive.google.com/file/d/1WdIP-srlhvMG8x5-D6z0Ds73iEJvFCz-/preview", "fy": "2025-26", "colorKey": "healing"  },
-  { "id": 8,  "company": "Healing Pharma",     "division": "Pro Care",                  "description": "Healing Pharma Pro Care — advanced healthcare and premium wellness product catalogue.", "productCount": 140, "pdfUrl": "https://drive.google.com/uc?id=1w23Em-M0cZIULFLiq1tLqKhnCMSCT-qW&export=download", "viewUrl": "https://drive.google.com/file/d/1w23Em-M0cZIULFLiq1tLqKhnCMSCT-qW/preview", "fy": "2025-26", "colorKey": "healing"  },
-  { "id": 9,  "company": "Prevego",            "division": "Futuristic Booklet",         "description": "Prevego Futuristic Booklet — complete healthcare and research product range.", "productCount": 671, "pdfUrl": "https://drive.google.com/uc?id=1wpsusZpyDN1oAvZ44k7PYkYY7NIHcQ8P&export=download", "viewUrl": "https://drive.google.com/file/d/1wpsusZpyDN1oAvZ44k7PYkYY7NIHcQ8P/preview", "fy": "2025-26", "colorKey": "prevego"  },
-  { "id": 10, "company": "Prevego",            "division": "Insignia Booklet",           "description": "Prevego Insignia Booklet — premium product division catalogue for specialist segments.", "productCount": 671, "pdfUrl": "https://drive.google.com/uc?id=1piG__pWv927SRkEwlLYAEtxybI1TI9_v&export=download", "viewUrl": "https://drive.google.com/file/d/1piG__pWv927SRkEwlLYAEtxybI1TI9_v/preview", "fy": "2025-26", "colorKey": "prevego"  }
+  {
+    "id": 1,
+    "company": "Abbott",
+    "division": "Biosure Division",
+    "description": "Abbott Biosure Division complete product booklet — nutritional, paediatric and biosimilar range.",
+    "pageCount": 61,
+    "pdfUrl": "https://drive.google.com/uc?id=1ylTfjSME72sGdAZrMeeZKozwLnup5tIq&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1ylTfjSME72sGdAZrMeeZKozwLnup5tIq/preview",
+    "colorKey": "abbott"
+  },
+  {
+    "id": 2,
+    "company": "Ajanta Pharma",
+    "division": "Gencare Division — Part 1",
+    "description": "Ajanta Pharma Gencare Division Part 1 — cardiology, ophthalmology and nutraceuticals.",
+    "pageCount": 68,
+    "pdfUrl": "https://drive.google.com/uc?id=1yuv07Bh6y3y1ObhNijhtcatLD-zkJGQp&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1yuv07Bh6y3y1ObhNijhtcatLD-zkJGQp/preview",
+    "colorKey": "ajanta"
+  },
+  {
+    "id": 3,
+    "company": "Ajanta Pharma",
+    "division": "Gencare Division — Part 2",
+    "description": "Ajanta Pharma Gencare Division Part 2 — dermatology, gynaecology and general medicine.",
+    "pageCount": 80,
+    "pdfUrl": "https://drive.google.com/uc?id=1HS0r_SD2LhQgfREvQGqDXnANjNQypqcf&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1HS0r_SD2LhQgfREvQGqDXnANjNQypqcf/preview",
+    "colorKey": "ajanta"
+  },
+  {
+    "id": 4,
+    "company": "Cipla",
+    "division": "Vista Trade Brochure",
+    "description": "Cipla Vista Trade complete product brochure — respiratory, allergy and anti-infective range.",
+    "pageCount": 36,
+    "pdfUrl": "https://drive.google.com/uc?id=1POKQAEzp77L1yuykOnf5pFp9vqalSWxv&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1POKQAEzp77L1yuykOnf5pFp9vqalSWxv/preview",
+    "colorKey": "cipla"
+  },
+  {
+    "id": 5,
+    "company": "CSC Pharmaceuticals",
+    "division": "General Medicine",
+    "description": "CSC Pharmaceuticals Pvt. Ltd. — complete pharmaceutical product catalogue.",
+    "pageCount": 68,
+    "pdfUrl": "https://drive.google.com/uc?id=12J-UXww8y1Q4OglhwOMYEpFpXpfNYt_p&export=download",
+    "viewUrl": "https://drive.google.com/file/d/12J-UXww8y1Q4OglhwOMYEpFpXpfNYt_p/preview",
+    "colorKey": "intas"
+  },
+  {
+    "id": 6,
+    "company": "Dermina",
+    "division": "Skin Sense — Dermatology",
+    "description": "Dermina Skin Sense — specialised dermatology and skincare pharmaceutical product catalogue.",
+    "pageCount": 18,
+    "pdfUrl": "https://drive.google.com/uc?id=1eFGu9PH1yH65G6WV0SkqvcNHnQg3_u8U&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1eFGu9PH1yH65G6WV0SkqvcNHnQg3_u8U/preview",
+    "colorKey": "curetech"
+  },
+  {
+    "id": 7,
+    "company": "Healing Pharma",
+    "division": "Insta Care",
+    "description": "Healing Pharma Insta Care — OTC, wellness and skincare product range catalogue.",
+    "pageCount": 88,
+    "pdfUrl": "https://drive.google.com/uc?id=1WdIP-srlhvMG8x5-D6z0Ds73iEJvFCz-&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1WdIP-srlhvMG8x5-D6z0Ds73iEJvFCz-/preview",
+    "colorKey": "healing"
+  },
+  {
+    "id": 8,
+    "company": "Healing Pharma",
+    "division": "Pro Care",
+    "description": "Healing Pharma Pro Care — advanced healthcare and premium wellness product catalogue.",
+    "pageCount": 140,
+    "pdfUrl": "https://drive.google.com/uc?id=1w23Em-M0cZIULFLiq1tLqKhnCMSCT-qW&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1w23Em-M0cZIULFLiq1tLqKhnCMSCT-qW/preview",
+    "colorKey": "healing"
+  },
+  {
+    "id": 9,
+    "company": "Prevego",
+    "division": "Futuristic Booklet",
+    "description": "Prevego Futuristic Booklet — complete healthcare and research product range.",
+    "pageCount": 671,
+    "pdfUrl": "https://drive.google.com/uc?id=1wpsusZpyDN1oAvZ44k7PYkYY7NIHcQ8P&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1wpsusZpyDN1oAvZ44k7PYkYY7NIHcQ8P/preview",
+    "colorKey": "prevego"
+  },
+  {
+    "id": 10,
+    "company": "Prevego",
+    "division": "Insignia Booklet",
+    "description": "Prevego Insignia Booklet — premium product division catalogue for specialist segments.",
+    "pageCount": 671,
+    "pdfUrl": "https://drive.google.com/uc?id=1piG__pWv927SRkEwlLYAEtxybI1TI9_v&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1piG__pWv927SRkEwlLYAEtxybI1TI9_v/preview",
+    "colorKey": "prevego"
+  },
+  {
+    "id": 11,
+    "company": "Cipla",
+    "division": "Vista Trade Brochure Lifescience",
+    "description": "Cipla Lifescience division product catalogue and trade brochure.",
+    "pageCount": 36,
+    "pdfUrl": "https://drive.google.com/uc?id=103ZZ32sJ9tE3wkgBMj-5sGUDcgNEELAj&export=download",
+    "viewUrl": "https://drive.google.com/file/d/103ZZ32sJ9tE3wkgBMj-5sGUDcgNEELAj/preview",
+    "colorKey": "cipla"
+  },
+  {
+    "id": 12,
+    "company": "Cipla",
+    "division": "Vista Trade Brochure Healthcare",
+    "description": "Cipla Healthcare division product catalogue and trade brochure.",
+    "pageCount": 36,
+    "pdfUrl": "https://drive.google.com/uc?id=1a5zqyvIMLStJiavLj_fjIe8KlizUaPwm&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1a5zqyvIMLStJiavLj_fjIe8KlizUaPwm/preview",
+    "colorKey": "cipla"
+  },
+  {
+    "id": 13,
+    "company": "Ajanta Pharma",
+    "division": "APLIFE Product Catalogue — Part 1",
+    "description": "Ajanta Pharma APLIFE division complete product list and division reference.",
+    "pageCount": 68,
+    "pdfUrl": "https://drive.google.com/uc?id=1CaTEvmKlMkzWrii6T6_5TXvKIIJOB8kA&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1CaTEvmKlMkzWrii6T6_5TXvKIIJOB8kA/preview",
+    "colorKey": "ajanta"
+  },
+  {
+    "id": 14,
+    "company": "Sun Pharma Ranbaxy",
+    "division": "Ranbaxy Division",
+    "description": "Sun Pharma Ranbaxy division consolidated product catalogue and price list.",
+    "pageCount": 116,
+    "pdfUrl": "https://drive.google.com/uc?id=1DTb-DKQ7mhPPiezQlKvEIIAAAxbggDTZ&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1DTb-DKQ7mhPPiezQlKvEIIAAAxbggDTZ/preview",
+    "colorKey": "ranbaxy"
+  },
+  {
+    "id": 15,
+    "company": "Lupin",
+    "division": "Product Catalogue",
+    "description": "Lupin Pharmaceuticals comprehensive product reference catalogue.",
+    "pageCount": 87,
+    "pdfUrl": "https://drive.google.com/uc?id=1sevNi80NnphTuRf02bo71HI8v38TBrj3&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1sevNi80NnphTuRf02bo71HI8v38TBrj3/preview",
+    "colorKey": "lupin"
+  },
+  {
+    "id": 16,
+    "company": "Abbott",
+    "division": "Biosure Product Catalogue",
+    "description": "Abbott India Biosure division comprehensive product booklet.",
+    "pageCount": 61,
+    "pdfUrl": "https://drive.google.com/uc?id=1TAyyuTUOKs_04toDgwC-W5vWk8Xae6QU&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1TAyyuTUOKs_04toDgwC-W5vWk8Xae6QU/preview",
+    "colorKey": "abbott"
+  },
+  {
+    "id": 17,
+    "company": "Alkem",
+    "division": "Wellness Alkemax — Part 1",
+    "description": "Alkem Wellness Alkemax premium OTC and healthcare formulations reference list.",
+    "pageCount": 145,
+    "pdfUrl": "https://drive.google.com/uc?id=1y_GNT-HpAFW6x86Lb5qCWnIEge9NHRkZ&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1y_GNT-HpAFW6x86Lb5qCWnIEge9NHRkZ/preview",
+    "colorKey": "alkem"
+  },
+  {
+    "id": 18,
+    "company": "Alkem",
+    "division": "Wellness Alkemax — Part 2",
+    "description": "Alkem Wellness Alkemax secondary OTC and healthcare formulations reference list.",
+    "pageCount": 145,
+    "pdfUrl": "https://drive.google.com/uc?id=1a2X_NhdPntzqf_N5xV1BcTlV8HnckUPI&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1a2X_NhdPntzqf_N5xV1BcTlV8HnckUPI/preview",
+    "colorKey": "alkem"
+  },
+  {
+    "id": 19,
+    "company": "Ajanta Pharma",
+    "division": "APLIFE Product Catalogue — Part 2",
+    "description": "Ajanta Pharma APLIFE division secondary product list and reference catalogue.",
+    "pageCount": 80,
+    "pdfUrl": "https://drive.google.com/uc?id=1FgDR690p_caJZvTZIM8wcwWoYFptJtyZ&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1FgDR690p_caJZvTZIM8wcwWoYFptJtyZ/preview",
+    "colorKey": "ajanta"
+  },
+  {
+    "id": 20,
+    "company": "Cipla",
+    "division": "Vista Life Science Division",
+    "description": "Cipla Vista Life Science division product catalogue and reference booklet.",
+    "pageCount": 36,
+    "pdfUrl": "https://drive.google.com/uc?id=1_eTE5oDjLNJ_-VCXca9BTTYBuwQriGpE&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1_eTE5oDjLNJ_-VCXca9BTTYBuwQriGpE/preview",
+    "colorKey": "cipla"
+  },
+  {
+    "id": 21,
+    "company": "Healing Pharma",
+    "division": "InstaCare Products",
+    "description": "Healing Pharma InstaCare products catalogue — specialized wellness and healthcare reference.",
+    "pageCount": 88,
+    "pdfUrl": "https://drive.google.com/uc?id=1-PTMmkG8KG5QcpZmA-Nwruq64V6jy0tD&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1-PTMmkG8KG5QcpZmA-Nwruq64V6jy0tD/preview",
+    "colorKey": "healing"
+  },
+  {
+    "id": 22,
+    "company": "Healing Pharma",
+    "division": "ProCare Products",
+    "description": "Healing Pharma ProCare products catalogue — premium healthcare formulations and reference details.",
+    "pageCount": 140,
+    "pdfUrl": "https://drive.google.com/uc?id=1pEPLbXdA5U-CCCb4WzQsnGwvU3TgSsD_&export=download",
+    "viewUrl": "https://drive.google.com/file/d/1pEPLbXdA5U-CCCb4WzQsnGwvU3TgSsD_/preview",
+    "colorKey": "healing"
+  }
 ]
