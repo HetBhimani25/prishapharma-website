@@ -46,7 +46,7 @@ const Catalogues = () => {
             <div className="cat-hero-stat">
               <div>
                 <div className="cat-hero-stat__num">{cataloguesData.length}</div>
-                <div className="cat-hero-stat__label">Companies</div>
+                <div className="cat-hero-stat__label">Catalogues</div>
               </div>
             </div>
             <div className="cat-hero-stat">
